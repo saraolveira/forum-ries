@@ -10,10 +10,12 @@
   
 }
 
+
 body {
   font-size: 16px;
   overflow-x: hidden;
   background: linear-gradient(120deg, rgba(183,233,114,1) 0%, rgba(0,173,238,1) 75%);
+
 }
 
 #header {
@@ -59,6 +61,7 @@ body {
   color:  #fff;
   position: relative;
   z-index:2;
+  text-align: center;
 }
 
 #fecha, #lugar {
@@ -162,6 +165,16 @@ body {
   position: relative;
 }
 
+.cover {
+  width: 20vw;
+  height: 25vh;
+  height: 25svh;
+  border-radius: 1em;
+  background: linear-gradient(120deg, rgba(183,233,114,1) 0%, rgba(0,173,238,1) 75%);
+  position: absolute;
+  transform-origin: left;
+}
+
 .nome-edicion {
   font-family: 'Varela Round', sans-serif;
   font-size: 2em;
@@ -184,4 +197,98 @@ body {
   bottom: 3vh;
   bottom: 3svh;
   right: 2vw;
+}
+
+@media only screen and (max-width: 1200px) {
+  body {
+    font-size: 14px;
+  }
+
+  .edicion {
+    gap: 2vh;
+    gap: 2svh;
+  }
+
+  .nome-edicion {
+    margin-top: 2vh;
+    margin-top: 2svh;
+  }
+
+  .ano-lugar {
+    bottom: 2vh;
+    bottom: 2svh;
+  }
+
+  #logo {
+    width: 30vw;
+  }
+}
+
+@media only screen and (max-width: 992px) {
+  #ediciones {
+    height: 140vh;
+    height: 140svh;
+  }
+
+  .edicion {
+    width: 37vw;
+    gap: 3vh;
+    gap: 3svh;
+  }
+  .cover {
+    width: 37vw;
+  }
+
+  .nome-edicion {
+    margin-top: 3vh;
+    margin-top: 3svh;
+  }
+
+  .ano-lugar {
+    bottom: 3vh;
+    bottom: 3svh;
+  }
+
+  #logo {
+    width: 30vw;
+  }
+  
+}
+
+@media only screen and (max-width: 768px) {
+  body {
+    font-size: 12px;
+  }
+
+}
+
+@media only screen and (max-width: 600px) {
+  body {
+    font-size: 14px;
+  }
+  #ediciones {
+    height: 220vh;
+    height: 220svh;
+  }
+  .edicion {
+    width: 80vw;
+    gap: 3vh;
+    gap: 3svh;
+  }
+
+  .cover {
+    width:80vw;
+  }
+
+  
+}
+
+@media only screen and (max-width: 400px) {
+  body {
+    font-size: 12px;
+  }
+
+  #logo {
+    width: 35vw;
+  }
 }
