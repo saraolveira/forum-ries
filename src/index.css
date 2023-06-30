@@ -2,12 +2,12 @@
 * {
   margin: 0;
   padding: 0;
-  overflow-x: hidden;
 }
 
 #root {
   margin: 0;
   padding: 0;
+  position: relative;
   overflow-x: hidden;
 }
 
@@ -16,7 +16,6 @@ body {
   font-size: 16px;
   overflow-x: hidden;
   background: linear-gradient(120deg, rgba(183,233,114,1) 0%, rgba(0,173,238,1) 75%);
-
 }
 
 #header {
