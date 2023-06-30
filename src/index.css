@@ -1,0 +1,187 @@
+@import url('https://fonts.cdnfonts.com/css/myriad-pro');
+* {
+  margin: 0;
+  padding: 0;
+}
+
+#root {
+  margin: 0;
+  padding: 0;
+  
+}
+
+body {
+  font-size: 16px;
+  overflow-x: hidden;
+  background: linear-gradient(120deg, rgba(183,233,114,1) 0%, rgba(0,173,238,1) 75%);
+}
+
+#header {
+  width: 94vw;
+  padding: 1vw 3vw;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  z-index: 2;
+  position: absolute;
+  top:0;
+}
+
+#logo {
+  width: 15vw;
+}
+
+#menu-button {
+  color: #fff;
+  transform-origin: right;
+  font-size: 4em;
+  cursor: pointer;
+}
+
+#hero {
+  width: 100vw;
+  height: 100vh;
+  height: 100svh;
+  /* background: linear-gradient(120deg, rgba(183,233,114,1) 0%, rgba(0,173,238,1) 75%); */
+  /* background-size: 400% 400%;
+	animation: gradient 15s ease infinite; */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-family: 'Varela Round', sans-serif;
+}
+
+#titulo {
+  margin-top: -10vh;
+  margin-top: -10svh;
+  font-size: 5em;
+  color:  #fff;
+  position: relative;
+  z-index:2;
+}
+
+#fecha, #lugar {
+  font-size: 3em;
+  color: #fff;
+  display: flex;
+  gap: 0.5em;
+  position: relative;
+  z-index:2;
+}
+
+/* .fa-calendar path, .fa-location-dot path {
+  stroke: rgba(0,173,238,1);
+  stroke-width: 20;
+  stroke-dasharray: 1500;
+  stroke-dashoffset: 0;
+  animation: gradient-line 3s infinite;
+}
+
+@keyframes gradient-line {
+  0% {
+    stroke-dashoffset: 0;
+    stroke: rgba(0,173,238,1);
+  }
+  50% {
+    stroke-dashoffset: 1500;
+    stroke: rgba(183,233,114,1);
+  }
+  100% {
+    stroke-dashoffset: 3000;
+    stroke: rgba(0,173,238,1);
+  }
+} */
+
+
+#icono {
+  position:absolute;
+  width: 80vw;
+  top:100;
+  right:0;
+  transform:translateY(-50%) translateX(50%);
+  animation: rotar 75s ease infinite;
+  opacity: 0.5;
+}
+
+@keyframes rotar {
+	0% {
+    transform:translateY(-50%) translateX(50%) rotate(0deg);
+	}
+	100% {
+    transform:translateY(-50%) translateX(50%) rotate(360deg);
+	}
+}
+
+#ediciones {
+  width: 100vw;
+  height: 100vh;
+  height: 100svh;
+  /* background: linear-gradient(120deg, rgba(183,233,114,1) 0%, rgba(0,173,238,1) 75%);
+  background-size: 400% 400%;
+	animation: gradient 15s ease infinite; */
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  align-content: space-evenly;
+}
+
+@keyframes gradient {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
+}
+
+.edicion {
+  /* background-color: #f5f5f7; */
+  background-color: rgba(245, 245, 247, 0.9);
+  box-shadow: 0 8px 32px 0 rgba(0,173,238,0.3);
+  backdrop-filter: blur( 2em);
+  -webkit-backdrop-filter: blur( 2em );
+  border-radius: 1em;
+  width: 20vw;
+  height: 25vh;
+  height: 25svh;
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  align-items: center;
+  text-align: center;
+  color: #1d1d1f;
+  font-family: 'Myriad Pro', sans-serif;
+  font-size:1.2em;
+  padding: 1.5vw;
+  gap: 2.5vh;
+  gap: 2.5svh;
+  position: relative;
+}
+
+.nome-edicion {
+  font-family: 'Varela Round', sans-serif;
+  font-size: 2em;
+  color: rgba(183,233,114,1);
+  font-weight: 900;
+  margin-top: 3vh;
+  margin-top: 3svh;
+}
+
+.tematica {
+  font-weight: 700;
+}
+
+.ano-lugar {
+  font-style: italic;
+  display: flex;
+  flex-direction: column;
+  text-align: right;
+  position:absolute;
+  bottom: 3vh;
+  bottom: 3svh;
+  right: 2vw;
+}
