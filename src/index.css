@@ -204,7 +204,7 @@ nav {
 
 @media only screen and (min-width: 600px) {
   body {
-    font-size:30px;
+    font-size:22px;
   }
 
   #icono {
@@ -255,6 +255,11 @@ nav {
   #logo {
     width: 17vw;
   }
+  #ediciones {
+    gap:0;
+    height: 50vw;
+  }
+  
   .edicion {
     width: 20vw;
   }
@@ -267,8 +272,20 @@ nav {
 }
 
 @media only screen and (min-width: 1400px) {
+  .edicion {
+    font-size:17px;
+  }
+
+}
+
+@media only screen and (min-width: 1700px) {
   body {
     font-size: 24px;
+  }
+
+  #ediciones {
+    gap:0;
+    height: 50vw;
   }
 
   #logo {
