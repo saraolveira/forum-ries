@@ -2,7 +2,7 @@ import { useState } from 'react'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faBars, faXmark } from '@fortawesome/free-solid-svg-icons'
 
-const Header = () => {
+const Navbar = () => {
 
     const [clicked, setClicked] = useState(false)
     const [icon, setIcon] = useState(faBars)
@@ -13,10 +13,9 @@ const Header = () => {
       } else {
         setIcon(faBars)
       }
-      
     }
 
-    return <nav id="header">
+    return <nav id="navbar">
     <img id="logo" src="/RIES-logo-negativo.png" />
     <div id="links" className={clicked ? 'active' : ''}>
       <a href="">#RIES22</a>
@@ -32,4 +31,4 @@ const Header = () => {
   </nav>
 }
 
-export default Header
+export default Navbar
