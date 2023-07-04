@@ -1,7 +1,7 @@
 import { useEffect, useRef } from 'react'
 import { motion, useInView, useAnimation, stagger } from 'framer-motion'
 
-const Edicion = ({ edicion, tematica, ano, lugar, delay }) => {
+const Edicion = ({ id, edicion, tematica, ano, lugar, delay }) => {
     const ref = useRef(null)
     const isInView = useInView(ref, {once: true})
 
@@ -18,6 +18,7 @@ const Edicion = ({ edicion, tematica, ano, lugar, delay }) => {
 
     return <>
         <motion.div  
+            id={id}
             className="edicion"
             variants={{
                 hidden: {opacity: 0},

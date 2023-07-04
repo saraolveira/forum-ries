@@ -8,6 +8,15 @@
 :root {
   --color1: rgba(183,233,114,1);
   --color2: rgba(0,173,238,1);
+
+  --ries22-1: #0178be;
+  --ries22-2: #adc7ee;
+  --ries21-1: #F650FF;
+  --ries21-2: #8D5FFF;
+  --ries20-1: #00AFEF;
+  --ries20-2: #FFAF8C;
+  --ries19-1: #1aabe3;
+  --ries19-2: #fbbc40;
 }
 
 #root {
@@ -121,6 +130,12 @@ nav {
   padding: 2vw 4vw;
   border-radius: 1em 1em 0 0;
 }
+
+.edicion-hero .logo.sin-img {
+  width: 30vh;
+  border-radius: 1em;
+}
+
 .edicion-hero .imagen {
   width:90vw;
   border: 0.5em solid #fff;
@@ -289,6 +304,26 @@ nav {
   box-shadow:inset 0px 0px 0px 10px #fff;
 }
 
+#ries22, #ries21, #ries20, #ries19 {
+  background-color: rgba(245, 245, 247, 0.9);
+  transition: all .5s ease;
+}
+
+#ries22:hover {
+  background: linear-gradient(120deg, var(--ries22-1) 0%, var(--ries22-2) 75%);
+}
+
+#ries21:hover {
+  background: linear-gradient(120deg, var(--ries21-1) 0%, var(--ries21-2) 75%);
+}
+
+#ries20:hover {
+  background: linear-gradient(120deg, var(--ries20-1) 0%, var(--ries20-2) 75%);
+}
+#ries19:hover {
+  background: linear-gradient(120deg, var(--ries19-1) 0%, var(--ries19-2) 75%);
+}
+
 .edicion:hover .nome-edicion {
   color: #fff;
 }
@@ -371,6 +406,10 @@ nav {
 
   .edicion-hero .imagen {
     width:50vw;
+  }
+
+  .edicion-hero .logo {
+    width: 20vh;
   }
 }
 
