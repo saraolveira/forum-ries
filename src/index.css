@@ -113,7 +113,7 @@ nav {
   justify-content: start;
   align-items: center;
   position: relative;
-  z-index: 3;
+  z-index: 2;
 }
 .edicion-hero .logo {
   width: 15vh;
