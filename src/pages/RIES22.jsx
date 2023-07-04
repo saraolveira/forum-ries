@@ -3,6 +3,9 @@ import EdicionHero from "../components/EdicionHero.jsx"
 import Icono from "../components/Icono.jsx"
 
 const RIES22 = () => {
+    document.documentElement.style.setProperty('--color1', '#0178be')
+    document.documentElement.style.setProperty('--color2', '#adc7ee')
+
     return (
         <>
             <Navbar />
