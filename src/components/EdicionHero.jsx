@@ -1,5 +1,3 @@
-import Edicion from "./Edicion"
-
 const EdicionHero = ({logo, imagen, tematica}) => {
     return <div className="edicion-hero">
         <img className="logo" src={logo} />

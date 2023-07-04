@@ -27,7 +27,6 @@ const Edicion = ({ edicion, tematica, ano, lugar, delay }) => {
             animate={mainControls}
             transition={{ duration: 0.5, delay: delay}}
         >
-            <img src={imagen}/>
             <motion.p 
                 ref={ref} 
                 className="nome-edicion"
