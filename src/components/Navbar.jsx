@@ -1,4 +1,5 @@
 import { useState } from 'react'
+import { Link } from 'react-router-dom'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faBars, faXmark } from '@fortawesome/free-solid-svg-icons'
 
@@ -16,15 +17,16 @@ const Navbar = () => {
     }
 
     return <nav id="navbar">
-    <img id="logo" src="/RIES-logo-negativo.png" />
+      <Link to="/"><img id="logo" src="/RIES-logo-negativo.png" /></Link>
+    
     <div id="links" className={clicked ? 'active' : ''}>
-      <a href="">#RIES22</a>
-      <a href="">#RIES21</a>
-      <a href="">#RIES20</a>
-      <a href="">#RIES19</a>
-      <a href="">#RIES18</a>
-      <a href="">#RIES17</a>
-      <a href="">#RIES16</a>
+      <Link to="/ries22">#RIES22</Link>
+      <Link to="/ries21">#RIES21</Link>
+      <Link to="/ries20">#RIES20</Link>
+      <Link to="/ries19">#RIES19</Link>
+      <Link to="/ries18">#RIES18</Link>
+      <Link to="/ries17">#RIES17</Link>
+      <Link to="/ries16">#RIES16</Link>
       <a href="https://forumries.com/exporpymes-2023/">EXPORPYMES</a>
     </div>
     <FontAwesomeIcon icon={icon} size="2xl" id="menu-button" onClick={handleClick}/>

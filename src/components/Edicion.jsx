@@ -1,7 +1,7 @@
 import { useEffect, useRef } from 'react'
 import { motion, useInView, useAnimation, stagger } from 'framer-motion'
 
-const Edicion = ({edicion, tematica, ano, lugar, delay }) => {
+const Edicion = ({ edicion, tematica, ano, lugar, delay }) => {
     const ref = useRef(null)
     const isInView = useInView(ref, {once: true})
 
@@ -17,8 +17,7 @@ const Edicion = ({edicion, tematica, ano, lugar, delay }) => {
     }, [isInView])
 
     return <>
-        <motion.div 
-            
+        <motion.div  
             className="edicion"
             variants={{
                 hidden: {opacity: 0},
@@ -28,6 +27,7 @@ const Edicion = ({edicion, tematica, ano, lugar, delay }) => {
             animate={mainControls}
             transition={{ duration: 0.5, delay: delay}}
         >
+            <img src={imagen}/>
             <motion.p 
                 ref={ref} 
                 className="nome-edicion"

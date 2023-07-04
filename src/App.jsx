@@ -1,17 +1,19 @@
-import Navbar from './components/Navbar.jsx'
-import Hero from './components/Hero.jsx'
-import Icono from './components/Icono.jsx';
-import Ediciones from './components/Ediciones.jsx';
-import '@fontsource/varela-round';
+import { BrowserRouter, Routes, Route } from 'react-router-dom'
+import Home from './pages/Home.jsx'
+import RIES22 from './pages/RIES22.jsx'
+import '@fontsource/varela-round'
 
 function App() {
 
   return (
     <>
-      <Navbar />
-      <Hero />
-      <Icono />
-      <Ediciones />
+      <BrowserRouter>
+        <Routes>
+          <Route index element={<Home />} />
+          <Route path="/home" element={<Home />} />
+          <Route path="/ries22" element={<RIES22 />} />
+        </Routes>
+      </BrowserRouter>
     </>
   )
 }
