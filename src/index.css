@@ -112,6 +112,8 @@ nav {
   flex-direction: column;
   justify-content: start;
   align-items: center;
+  position: relative;
+  z-index: 3;
 }
 .edicion-hero .logo {
   width: 15vh;
@@ -211,6 +213,10 @@ nav {
   padding-bottom: 5vh;
 }
 
+#ediciones a {
+  text-decoration: none;
+}
+
 .edicion {
   background-color: rgba(245, 245, 247, 0.9);
   box-shadow: 0 8px 32px 0 rgba(0,173,238,0.3);
@@ -231,7 +237,14 @@ nav {
   gap: 2.5vh;
   gap: 2.5svh;
   position: relative;
+  -webkit-box-shadow:inset 0px 0px 0px 10px rgba(255, 255, 255, 0);
+  -moz-box-shadow:inset 0px 0px 0px 10px rgba(255, 255, 255, 0);
+  box-shadow:inset 0px 0px 0px 10px rgba(255, 255, 255, 0);
+  transition: all .5s ease;
+  cursor: pointer
 }
+
+
 
 .cover {
   width: 80vw;
@@ -250,6 +263,7 @@ nav {
   font-weight: 900;
   margin-top: 3vh;
   margin-top: 3svh;
+  transition: all .5s ease;
 }
 
 .tematica {
@@ -265,6 +279,18 @@ nav {
   bottom: 3vh;
   bottom: 3svh;
   right: 3vw;
+}
+
+.edicion:hover {
+  background: linear-gradient(120deg, var(--color1) 0%, var(--color2) 75%);
+  color: #fff;
+  -webkit-box-shadow:inset 0px 0px 0px 10px #fff;
+  -moz-box-shadow:inset 0px 0px 0px 10px #fff;
+  box-shadow:inset 0px 0px 0px 10px #fff;
+}
+
+.edicion:hover .nome-edicion {
+  color: #fff;
 }
 
 @media only screen and (min-width: 600px) {

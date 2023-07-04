@@ -14,7 +14,7 @@ const RIES22 = () => {
                 imagen="/ries22.png"
                 tematica="Salud de Vanguardia: innovación asistencial y modelos de cuidados"
             />
-            {/* <Icono /> */}
+            <Icono />
         </>
     )
 }

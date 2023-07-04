@@ -1,15 +1,16 @@
 import Edicion from "./Edicion.jsx"
+import { Link } from "react-router-dom"
 
 const Ediciones = () => {
 
     return <div id="ediciones">
-        <Edicion 
+         <Link to="/ries22"><Edicion 
             edicion="VII Fórum RIES 2022"
             tematica="Salud de Vanguardia: innovación asistencial y modelos de cuidados"
             ano="2022"
             lugar="Santiago de Compostela"
             delay={0.25}
-        />
+        /></Link>
         <Edicion 
             edicion="VI Fórum RIES 2021"
             tematica="La revolución digital en la atención sanitaria y los cuidados"
