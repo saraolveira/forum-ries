@@ -157,22 +157,26 @@ nav {
   flex-wrap: wrap;
   justify-content: center;
   gap: 3vh;
-  padding-bottom: 3vh;
+  padding: 7vh 0;
 }
 
 .edicion-links a {
   font-family: 'Varela Round', sans-serif;
   text-transform: uppercase;
+  text-decoration: none;
   width: 40vw;
   text-align: center;
-  height: 5vh;
+  height: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
   border-radius: 2em;
   background-color: #fff;
   color: var(--color1);
-  line-height: 5vh;
   font-weight: 700;
   cursor: pointer;
   transition: all .2s ease;
+  padding: 1vh 0;
 }
 
 .edicion-links a:hover {

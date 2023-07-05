@@ -14,6 +14,10 @@ const RIES17 = () => {
                 logo="/RIES-logo.png"
                 imagen="/RIES-logo.png"
                 tematica="Living Labs. Presentación de LabSaúde"
+                links={<>
+                    <a href='https://forumries.com/docs/RIES2017_memoria.pdf' target='_blank'>Memoria #RIES17</a>
+                    <a href='https://forumries.com/galeria-ediciones-anteriores/' target='_blank'>Galeria</a>
+                </>}  
             />
             <Icono />
             <Footer />

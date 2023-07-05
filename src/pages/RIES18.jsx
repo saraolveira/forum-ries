@@ -14,6 +14,16 @@ const RIES18 = () => {
                 logo="/ries18-logo.png"
                 imagen="/ries18.jpg"
                 tematica="Ciudades inteligentes, saludables y amigables"
+                links={<>
+                    <a href='https://forumries.com/noticias-forum-ries18/' target='_blank'>Noticias</a>
+                    <a href='https://forumries.com/clipping-de-prensa/' target='_blank'>Clipping de prensa</a>
+                    <a href='https://forumries.com/videos/' target='_blank'>Videos</a>
+                    <a href='https://forumries.com/docs/III-Forum-RIES18-Memoria.pdf' target='_blank'>Memoria #RIES18</a>
+                    <a href='https://forumries.com/docs/RIES2018_programa.pdf' target='_blank'>Programa</a>
+                    <a href='https://forumries.com/ponentes-ries-18/' target='_blank'>Ponentes</a>
+                    <a href='https://forumries.com/pechakutcha-y-workshops/#pechakucha' target='_blank'>PechaKutcha</a>
+                    <a href='https://forumries.com/pechakutcha-y-workshops/#workshops' target='_blank'>Democenter Workshops</a>
+                </>}  
             />
             <Icono />
             <Footer />

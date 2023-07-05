@@ -14,6 +14,10 @@ const RIES16 = () => {
                 logo="/RIES-logo.png"
                 imagen="/RIES-logo.png"
                 tematica="Retos Internacionales del Ecosistema Salud. Soluciones Locales"
+                links={<>
+                    <a href='https://forumries.com/docs/RIES2016_memoria.pdf' target='_blank'>Memoria #RIES16</a>
+                    <a href='https://forumries.com/galeria-ediciones-anteriores/#ries2016' target='_blank'>Galeria</a>
+                </>}  
             />
             <Icono />
             <Footer />
