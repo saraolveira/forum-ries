@@ -1,6 +1,7 @@
 import Navbar from "../components/Navbar.jsx"
 import EdicionHero from "../components/EdicionHero.jsx"
 import Icono from "../components/Icono.jsx"
+import Footer from "../components/Footer.jsx"
 
 const RIES19 = () => {
     document.documentElement.style.setProperty('--color1', '#1aabe3')
@@ -15,6 +16,7 @@ const RIES19 = () => {
                 tematica="Silver Economy: por un envejecimiento activo y saludable"
             />
             <Icono />
+            <Footer />
         </>
     )
 }

@@ -12,54 +12,54 @@ const Ediciones = () => {
             lugar="Santiago de Compostela"
             delay={0.25}
         /></Link>
-        <Edicion 
+        <Link to="/ries21"><Edicion 
             id="ries21"
             edicion="VI Fórum RIES 2021"
             tematica="La revolución digital en la atención sanitaria y los cuidados"
             ano="2021"
             lugar="Mondariz, Pontevedra"
             delay={0.35}
-        />
-        <Edicion 
+        /></Link>
+        <Link to="/ries20"><Edicion 
             id="ries20"
             edicion="V Fórum RIES 2020"
             tematica="Silver Economy: alimentación y calidad de vida"
             ano="2020"
             lugar="Palas de Rei, Lugo"
             delay={0.45}
-        />
-        <Edicion 
+        /></Link>
+        <Link to="/ries19"><Edicion 
             id="ries19"
             edicion="IV Fórum RIES 2019"
             tematica="Silver Economy: por un envejecimiento activo y saludable"
             ano="2019"
             lugar="A Coruña"
             delay={0.55}
-        />
-        <Edicion 
+        /></Link>
+        <Link to="/ries18"><Edicion 
             id="ries18"
             edicion="III Fórum RIES 2018"
             tematica="Ciudades inteligentes, saludables y amigables"
             ano="2018"
             lugar="Pontevedra"
             delay={0.25}
-        />
-        <Edicion 
+        /></Link>
+        <Link to="/ries17"><Edicion 
             id="ries17"
             edicion="II Fórum RIES 2017"
             tematica="Living Labs. Presentación de LabSaúde"
             ano="2017"
             lugar="Ourense"
             delay={0.35}
-        />
-        <Edicion 
+        /></Link>
+        <Link to="/ries16"><Edicion 
             id="ries18"
             edicion="I Fórum RIES 2016"
             tematica="Retos Internacionales del Ecosistema Salud. Soluciones Locales"
             ano="2016"
             lugar="Santiago de Compostela"
             delay={0.45}
-        />
+        /></Link>
     </div>
 }
 

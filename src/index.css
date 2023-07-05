@@ -328,6 +328,49 @@ nav {
   color: #fff;
 }
 
+#premios {
+  width: 100vw;
+  height: 100vh;
+  height: 100svh;
+  font-family: 'Varela Round', sans-serif;
+  color: #fff;
+}
+
+#premios h2 {
+  font-size: 2em;
+  margin-left: 5vw;
+}
+
+#premios div {
+  width: 100vw;
+  height: 50vh !important;
+  height: 50svh !important;
+  overflow: auto  !important;
+}
+
+#footer {
+  width: 100vw;
+  height: 5vh;
+  background-color: var(--color1);
+  text-align: center;
+  font-family: 'Myriad Pro', sans-serif;
+  color: #1d1d1f;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  z-index: 2;
+}
+
+#footer a {
+  text-decoration: none;
+  color: #1d1d1f;
+}
+
+#footer a:hover {
+  color: var(--color2)
+}
+
 @media only screen and (min-width: 600px) {
   body {
     font-size:22px;
@@ -363,6 +406,12 @@ nav {
   .edicion-links a {
     width: 30vw;
   }
+
+  #premios div {
+    width: 50vw !important;
+    height: 80vh !important;
+    height: 80svh !important;
+  }
 }
 
 @media only screen and (min-width: 992px) {
@@ -381,6 +430,10 @@ nav {
   }
   #icono {
     width: 100vw;
+  }
+
+  #footer {
+    font-size: 20px;
   }
 }
 

@@ -28,6 +28,7 @@ const Navbar = () => {
       <Link to="/ries17">#RIES17</Link>
       <Link to="/ries16">#RIES16</Link>
       <a href="https://forumries.com/exporpymes-2023/">EXPORPYMES</a>
+      <a href="https://clustersaude.com">Cluster Saúde de Galicia, CSG</a>
     </div>
     <FontAwesomeIcon icon={icon} size="2xl" id="menu-button" onClick={handleClick}/>
   </nav>

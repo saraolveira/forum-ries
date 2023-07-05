@@ -1,6 +1,7 @@
 import Navbar from "../components/Navbar.jsx"
 import EdicionHero from "../components/EdicionHero.jsx"
 import Icono from "../components/Icono.jsx"
+import Footer from "../components/Footer.jsx"
 
 const RIES18 = () => {
     document.documentElement.style.setProperty('--color1', 'rgba(183,233,114,1)')
@@ -15,6 +16,7 @@ const RIES18 = () => {
                 tematica="Ciudades inteligentes, saludables y amigables"
             />
             <Icono />
+            <Footer />
         </>
     )
 }

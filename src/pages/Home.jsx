@@ -2,6 +2,8 @@ import Navbar from "../components/Navbar.jsx"
 import Hero from "../components/Hero.jsx"
 import Icono from "../components/Icono.jsx"
 import Ediciones from "../components/Ediciones.jsx"
+import Footer from "../components/Footer.jsx"
+import Premios from "../components/Premios.jsx"
 
 
 const Home = () => {
@@ -14,6 +16,8 @@ const Home = () => {
             <Hero />
             <Icono />
             <Ediciones />
+            <Premios />
+            <Footer />
         </>
     )
 }

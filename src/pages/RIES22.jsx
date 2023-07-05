@@ -1,6 +1,7 @@
 import Navbar from "../components/Navbar.jsx"
 import EdicionHero from "../components/EdicionHero.jsx"
 import Icono from "../components/Icono.jsx"
+import Footer from "../components/Footer.jsx"
 
 const RIES22 = () => {
     document.documentElement.style.setProperty('--color1', '#0178be')
@@ -15,6 +16,7 @@ const RIES22 = () => {
                 tematica="Salud de Vanguardia: innovación asistencial y modelos de cuidados"
             />
             <Icono />
+            <Footer />
         </>
     )
 }

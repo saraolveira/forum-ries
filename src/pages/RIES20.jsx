@@ -1,6 +1,7 @@
 import Navbar from "../components/Navbar.jsx"
 import EdicionHero from "../components/EdicionHero.jsx"
 import Icono from "../components/Icono.jsx"
+import Footer from "../components/Footer.jsx"
 
 const RIES20 = () => {
     document.documentElement.style.setProperty('--color1', '#00AFEF')
@@ -15,6 +16,7 @@ const RIES20 = () => {
                 tematica="Silver Economy: alimentación y calidad de vida"
             />
             <Icono />
+            <Footer />
         </>
     )
 }
