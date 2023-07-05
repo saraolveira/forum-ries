@@ -13,7 +13,7 @@ const Premios = () => {
             <directionalLight castShadow position={ [ 1, 2, 3 ] } intensity={ 1.5 } shadow-normalBias={0.04}/>
             <ambientLight intensity={ 0.5 } />
 
-            <Float rotationIntensity={ 2 }>      
+            <Float rotationIntensity={ 2 }>   
                 <primitive 
                     object={premio.scene} 
                     scale={1.2}
