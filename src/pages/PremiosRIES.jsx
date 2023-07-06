@@ -10,7 +10,8 @@ const PremiosRIES = () => {
             <Premio3D id="modelo"/>
             <div id="premios-section">
                 <h2>Premios #RIES22</h2>
-                <Premios22 />
+                <div id="premios-22"><Premios22 /></div>
+                
 
                 <h2>Premios #RIES21</h2>
             </div>

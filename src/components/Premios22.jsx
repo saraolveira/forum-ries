@@ -1,7 +1,7 @@
 import Premio from "./Premio"
 
 const Premios22 = () => {
-    return (<div id="premios-22">
+    return (<>
         <Premio 
             premio="Innovación CSG"
             proyecto="Clusteres Tereapéuticos Moleculares para el tratamiento del cáncer: eliminar el miedo al diagnóstico"
@@ -43,7 +43,7 @@ const Premios22 = () => {
             web="https://hifasdaterra.com/"
         />
 
-    </div>)
+    </>)
 }
 
 export default Premios22

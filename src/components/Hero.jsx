@@ -13,7 +13,7 @@ const Hero = () => {
             <FontAwesomeIcon icon={faLocationDot} />
             <p>Vigo, Galicia</p>
         </div>
-        <a href="mailto:forumries@clustersaude.com" id="cta">Reserva tu plaza</a>
+        <a href="mailto:forumries@clustersaude.com" className="cta">Reserva tu plaza</a>
         <div id="descripcion">
             <p>#RIES es el fórum internacional de referencia a nivel nacional e internacional para abordar los retos y oportunidades del ecosistema de la salud. Liderado por el CSG (Cluster Saúde de Galicia), se ha gestado como foro de encuentro entre los principales agentes de los sectores sanitario y socio sanitario del ámbito público y privado a nivel nacional e internacional, en colaboración con nuestros partners estratégicos de la #ComunidadCSG</p>
         </div>

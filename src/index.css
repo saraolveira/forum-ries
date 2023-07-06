@@ -129,7 +129,7 @@ nav {
   text-align: center;
 }
 
-#cta {
+.cta {
     font-family: 'Varela Round', sans-serif;
     text-transform: uppercase;
     text-decoration: none;
@@ -151,7 +151,7 @@ nav {
 
 }
 
-#cta:hover {
+.cta:hover {
     background-color: transparent;
     border: 3px solid #fff;
     color: #fff
@@ -371,8 +371,8 @@ nav {
 
 #premios {
   width: 100vw;
-  height: 100vh;
-  height: 100svh;
+  min-height: 100vh;
+  min-height: 100svh;
   font-family: 'Varela Round', sans-serif;
   color: #fff;
 }
@@ -384,11 +384,61 @@ nav {
   color: #fff;
 }
 
-#premios div {
+#premios > div:first-of-type {
   width: 100vw;
   height: 50vh !important;
   height: 50svh !important;
-  overflow: auto  !important;
+}
+
+#slider-premios {
+  width:100vw;
+  height: 44vh;
+  height: 44svh;
+}
+
+#cta-premios {
+  width: 80vw;
+  margin-bottom: 5vh;
+  margin-bottom: 5svh;
+  margin-left: 5vw;
+}
+
+.swiper {
+  width: 100vw;
+}
+
+.swiper-slide {
+  width: 80vw;
+  height: 30vh;
+  height: 30svh;
+  background-color: rgba(245, 245, 247, 0.9);
+  box-shadow: 0 8px 32px 0 rgba(0,173,238,0.3);
+  backdrop-filter: blur( 2em);
+  -webkit-backdrop-filter: blur( 2em );
+  border-radius: 1em;
+  font-family: 'Myriad Pro', sans-serif;
+  padding: 3vh 1.5vw;
+}
+
+.premio-slide {
+  margin-top: 2vh;
+  margin-top: 2svh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  color: #1d1d1f;
+  gap: 3vh;
+  gap: 3svh;
+}
+
+.logo-premio {
+  width: 30vw;
+  position: absolute;
+  bottom: 2vh;
+  bottom: 2svh;
+  right: 5vw;
 }
 
 #premios-page {
@@ -502,6 +552,17 @@ nav {
     width: 150vw;
   }
 
+  
+  .swiper-slide {
+    width: 60vw;
+  }
+
+  .logo-premio {
+    width: 20vw;
+    right: 2vh;
+    right: 2svh;
+  }
+
 }
 
 @media only screen and (min-width: 768px) {
@@ -529,10 +590,49 @@ nav {
     width: 30vw;
   }
 
-  #premios div {
+  #premios {
+    position: relative;
+  }
+
+  #premios > div:first-of-type  {
     width: 50vw !important;
     height: 80vh !important;
     height: 80svh !important;
+  }
+
+  #cta-premios {
+    width: 40vw;
+    position: absolute;
+    bottom: 20vh;
+    bottom: 20svh;
+    right: 8vw;
+  }
+
+  #slider-premios {
+    width: 50vw;
+    height: 80vh;
+    height: 80svh;
+    position: absolute;
+    top: 10vh;
+    left: 45vw;
+  }
+
+  .swiper {
+    width: 53vw;
+    position: absolute;
+    top: 10vh;
+    top: 10svh;
+    right: 0;
+  }
+  
+  .swiper-slide {
+    width: 35vw;
+    height: 35vh;
+    height: 35svh;
+  }
+
+  .logo-premio {
+    width: 13vw;
   }
 
   #premios-page {
@@ -548,6 +648,8 @@ nav {
     top: 15vh !important;
     top: 15svh !important;
   }
+
+
 
   #premios-section {
     width: 65vw;
@@ -596,6 +698,18 @@ nav {
     width: 50vw;
     margin-top: 10vh;
   }
+
+
+  .swiper {
+    width: 53vw;
+  }
+  
+  .swiper-slide {
+    width: 32vw;
+    height: 32vh;
+    height: 32svh;
+  }
+
 }
 
 @media only screen and (min-width: 1200px) {
@@ -635,6 +749,14 @@ nav {
     width: 25vw;
     height: 50vh;
     height: 50svh;
+  }
+
+  .swiper-slide {
+    width: 30.5vw;
+  }
+
+  .logo-premio {
+    width: 10vw;
   }
   
 }
@@ -681,6 +803,21 @@ nav {
   
   .entidad {
     font-size: 1.1em;
+  }
+
+  .swiper {
+    width: 53vw;
+  }
+  .swiper-slide {
+    width: 27.5vw;
+  }
+
+  .logo-premio {
+    width: 9vw;
+    bottom: 4vh;
+    bottom: 4svh;
+    right: 4vh;
+    right: 4svh;
   }
 }
 
