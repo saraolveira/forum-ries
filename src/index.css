@@ -111,6 +111,78 @@ nav {
   gap:1svh;
 }
 
+#titulo {
+  font-size: 3.7em;
+  color:  #fff;
+  position: relative;
+  z-index:2;
+  text-align: center;
+}
+
+#fecha, #lugar {
+  font-size: 2em;
+  color: #fff;
+  display: flex;
+  gap: 0.5em;
+  position: relative;
+  z-index:2;
+  text-align: center;
+}
+
+#cta {
+    font-family: 'Varela Round', sans-serif;
+    text-transform: uppercase;
+    text-decoration: none;
+    width: auto;
+    text-align: center;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 2em;
+    background-color: #fff;
+    color: var(--color1);
+    font-weight: 700;
+    cursor: pointer;
+    transition: all .2s ease;
+    padding: 1vh 4vw;
+    margin-top: 3vh;
+    border: 3px solid #fff;
+
+}
+
+#cta:hover {
+    background-color: transparent;
+    border: 3px solid #fff;
+    color: #fff
+}
+
+#descripcion {
+  margin-top: 3vh;
+  color: #fff;
+  text-align: justify;
+  width: 80vw;
+}
+
+#icono {
+  position:absolute;
+  width: 170vw;
+  top:100;
+  right:0;
+  transform:translateY(-50%) translateX(50%);
+  animation: rotar 75s ease infinite;
+  opacity: 0.5;
+}
+
+@keyframes rotar {
+	0% {
+    transform:translateY(-50%) translateX(50%) rotate(0deg);
+	}
+	100% {
+    transform:translateY(-50%) translateX(50%) rotate(360deg);
+	}
+}
+
 .edicion-hero {
   width:100vw;
   min-height: 100vh;
@@ -177,49 +249,15 @@ nav {
   cursor: pointer;
   transition: all .2s ease;
   padding: 1vh 0;
+  border: 3px solid #fff;
 }
 
 .edicion-links a:hover {
-  background-color: var(--color2);
-}
-
-#titulo {
-  margin-top: -10vh;
-  margin-top: -10svh;
-  font-size: 3.7em;
-  color:  #fff;
-  position: relative;
-  z-index:2;
-  text-align: center;
-}
-
-#fecha, #lugar {
-  font-size: 2em;
+  background-color: transparent;
   color: #fff;
-  display: flex;
-  gap: 0.5em;
-  position: relative;
-  z-index:2;
 }
 
-#icono {
-  position:absolute;
-  width: 170vw;
-  top:100;
-  right:0;
-  transform:translateY(-50%) translateX(50%);
-  animation: rotar 75s ease infinite;
-  opacity: 0.5;
-}
 
-@keyframes rotar {
-	0% {
-    transform:translateY(-50%) translateX(50%) rotate(0deg);
-	}
-	100% {
-    transform:translateY(-50%) translateX(50%) rotate(360deg);
-	}
-}
 
 #ediciones {
   width:100vw;
@@ -354,30 +392,32 @@ nav {
 
 #footer {
   width: 100vw;
-  height: 5vh;
-  background-color: var(--color1);
+  height: 20vh;
   text-align: center;
   font-family: 'Myriad Pro', sans-serif;
-  color: #1d1d1f;
+  color: #fff;
   display: flex;
   justify-content: center;
   align-items: center;
   position: relative;
   z-index: 2;
+  border-top: 3px solid #fff;
+  width: 80vw;
+  margin-left: 10vw;
 }
 
 #footer a {
   text-decoration: none;
-  color: #1d1d1f;
+  color: var(--color1);
 }
 
 #footer a:hover {
-  color: var(--color2)
+  color: #fff;
 }
 
 @media only screen and (min-width: 600px) {
   body {
-    font-size:22px;
+    font-size:16px;
   }
 
   #icono {
@@ -388,7 +428,7 @@ nav {
 
 @media only screen and (min-width: 768px) {
   body {
-    font-size:22px;
+    font-size:18px;
   }
 
   .edicion {
@@ -438,6 +478,11 @@ nav {
 
   #footer {
     font-size: 20px;
+  }
+
+  #descripcion p {
+    width: 50vw;
+    margin-top: 10vh;
   }
 }
 
