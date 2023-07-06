@@ -18,7 +18,7 @@ function App() {
         <Routes>
           <Route index element={<Home />} />
           <Route path="/home" element={<Home />} />
-          <Route path="/premios-ries" element={<PremiosRIES />} />
+          <Route path="/premios" element={<PremiosRIES />} />
           <Route path="/ries22" element={<RIES22 />} />
           <Route path="/ries21" element={<RIES21 />} />
           <Route path="/ries20" element={<RIES20 />} />

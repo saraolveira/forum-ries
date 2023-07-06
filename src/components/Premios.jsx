@@ -6,7 +6,7 @@ const Premios = () => {
         <h2>Premios RIES</h2>
         <Premio3D />
         <SliderPremios />
-        <a href="/premios-ries" id="cta-premios" className="cta">Descubre todos los premiados</a>
+        <a href="/premios" id="cta-premios" className="cta">Descubre todos los premiados</a>
     </div>)
 }
 
