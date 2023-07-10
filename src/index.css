@@ -44,8 +44,20 @@ nav {
   top:0;
 }
 
+#logos {
+  display: flex;
+  align-items: center;
+  gap: 3vw;
+}
+
 #logo {
   width: 35vw;
+  position: relative;
+  z-index: 2;
+}
+
+#logo-csg {
+  width: 13vw;
   position: relative;
   z-index: 2;
 }
@@ -61,8 +73,8 @@ nav {
 
 #links {
   position: absolute;
-  top: -2000px;
-  right: -3000px;
+  top: -200vw;
+  right: -300vw;
   background-color: var(--color1);
   transition: all .5s ease;
   display: flex;
@@ -79,8 +91,12 @@ nav {
 #links a {
   text-decoration: none;
   color: #fff;
-  font-size: 2.3em;
+  font-size: 1.7em;
   transition: all .2s ease;
+}
+
+#main a {
+  font-size: 2.2em;
 }
 
 #links a:hover {
@@ -93,7 +109,7 @@ nav {
   height: 100svh;
   position: absolute;
   top: 0;
-  right: 0;
+  right: -12vw;
   border-radius: 0 0 0 80%;
   background-color: var(--color1);
 }
@@ -569,6 +585,18 @@ nav {
   body {
     font-size:18px;
   }
+  
+  #links.active {
+    right: -7vw;
+    padding-top: 18vh;
+  }
+
+  #links.active #main{
+    position: absolute;
+    top: 18vh;
+    right: 55vw;
+  }
+
 
   .edicion {
     width: 37vw;
@@ -676,9 +704,45 @@ nav {
   #logo {
     width: 20vw;
   }
+
+  #logo-csg {
+    width: 7vw;
+  }
   #menu-button {
     font-size: 2.8em;
   }
+
+  #main {
+    position: absolute;
+    top: 200.7vw;
+    right: 310vw;
+    width: 60vw;
+    height: 10vh;
+    height: 10svh;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    transition: all .2s ease;
+  }
+
+  #main a {
+    font-size: 1.3em;
+  }
+
+  #links.active #main{
+    position: absolute;
+    top: 18vh;
+    right: 53vw;
+  }
+
+  #links.active a {
+    font-size: 2.2em;
+  }
+
+  #links.active #main a{
+    font-size: 2.2em;
+  }
+
   .edicion {
     width: 27vw;
     font-size: 15px;
@@ -714,8 +778,16 @@ nav {
 
 @media only screen and (min-width: 1200px) {
 
+  #logos {
+    gap: 2vw;
+  }
+
   #logo {
     width: 17vw;
+  }
+
+  #logo-csg {
+    width: 6vw;
   }
   #ediciones {
     gap:0;
@@ -781,6 +853,11 @@ nav {
   #logo {
     width: 15vw;
   }
+
+  #logo-csg {
+    width: 5vw;
+  }
+
   .edicion {
     width: 20vw;
     font-size: 20px;

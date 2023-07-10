@@ -17,9 +17,16 @@ const Navbar = () => {
     }
 
     return <nav id="navbar">
-      <Link to="/"><img id="logo" src="/RIES-logo-negativo.png" /></Link>
+      <div id="logos">
+        <Link to="/"><img id="logo" src="/RIES-logo-negativo.png" /></Link>
+        <Link to="http://clustersaude.com/"><img id="logo-csg" src="/csg-negativo.png" /></Link>
+      </div>
+
     
     <div id="links" className={clicked ? 'active' : ''}>
+      <div id="main">
+        <Link to="/premios">Premios RIES</Link>
+      </div>
       <Link to="/ries22">#RIES22</Link>
       <Link to="/ries21">#RIES21</Link>
       <Link to="/ries20">#RIES20</Link>
@@ -28,7 +35,7 @@ const Navbar = () => {
       <Link to="/ries17">#RIES17</Link>
       <Link to="/ries16">#RIES16</Link>
       <a href="https://forumries.com/exporpymes-2023/">EXPORPYMES</a>
-      <a href="https://clustersaude.com">Cluster Saúde de Galicia, CSG</a>
+      <a href="https://clustersaude.com">CSG</a>
     </div>
     <FontAwesomeIcon icon={icon} size="2xl" id="menu-button" onClick={handleClick}/>
   </nav>

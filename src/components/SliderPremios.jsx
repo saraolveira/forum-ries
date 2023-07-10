@@ -121,7 +121,17 @@ const SliderPremios = () => {
             </SwiperSlide>
             <SwiperSlide>
                 <PremioSlide
+                    premio="Revelación"
+                    proyecto="SignaMed"
+                    entidad="Universidad de Vigo"
+                    web="https://signamed.uvigo.es/"
+                    img="/ries21-logo.png"
+                ></PremioSlide>
+            </SwiperSlide>
+            <SwiperSlide>
+                <PremioSlide
                     premio="Resiliencia"
+                    proyecto="Sonidos de la memoria"
                     entidad="AFAGA Alzheimer"
                     web="https://afaga.com/"
                     img="/ries21-logo.png"
