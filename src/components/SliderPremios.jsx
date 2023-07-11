@@ -1,5 +1,6 @@
 import {Swiper, SwiperSlide} from 'swiper/react'
 import { EffectCoverflow, Pagination, Autoplay } from 'swiper/modules'
+import { useTranslation } from 'react-i18next'
 import 'swiper/css'
 import 'swiper/css/effect-coverflow'
 import 'swiper/css/pagination'
@@ -7,6 +8,7 @@ import PremioSlide from './PremioSlide.jsx'
 
 
 const SliderPremios = () => {
+    const { t } = useTranslation()
 
     return (<div id="slider-premios">
       <Swiper
@@ -30,7 +32,7 @@ const SliderPremios = () => {
             {/* 22 */}
             <SwiperSlide>
                 <PremioSlide
-                    premio="Innovación CSG"
+                    premio={t('premios.innovacion')}
                     proyecto="Clusteres Tereapéuticos Moleculares para el tratamiento del cáncer: eliminar el miedo al diagnóstico"
                     entidad="Arjuna Therapeutics"
                     web="https://arjunatherapeutics.com/"
@@ -39,7 +41,7 @@ const SliderPremios = () => {
             </SwiperSlide>
             <SwiperSlide>
                 <PremioSlide
-                    premio="Impacto en las personas"
+                    premio={t('premios.impacto')}
                     proyecto="Estratexias para hábitats saudables"
                     entidad="Estudio MMASA"
                     web="https://www.mmasa.net/"
@@ -48,7 +50,7 @@ const SliderPremios = () => {
             </SwiperSlide>
             <SwiperSlide>
                 <PremioSlide
-                    premio="Conocimiento"
+                    premio={t('premios.conocimiento')}
                     proyecto="Neuro-TIC"
                     entidad="Grupo VARPA – UDC"
                     web="http://www.varpa.es/"
@@ -57,7 +59,7 @@ const SliderPremios = () => {
             </SwiperSlide>
             <SwiperSlide>
                 <PremioSlide
-                    premio="Comunidad CSG"
+                    premio={t('premios.comunidad')}
                     proyecto="Cátedra de edadismo"
                     entidad="ATENDO/AFAGA"
                     web="http://edadismo.org/"
@@ -66,7 +68,7 @@ const SliderPremios = () => {
             </SwiperSlide>
             <SwiperSlide>
                 <PremioSlide
-                    premio="Revelación"
+                    premio={t('premios.revelacion')}
                     proyecto="Fisioterapia virtual inmersiva en personas mayores para la mejora de capacidades físicas y funcionales"
                     entidad="Universidade de Vigo"
                     web="https://www.uvigo.gal/"
@@ -75,7 +77,7 @@ const SliderPremios = () => {
             </SwiperSlide>
             <SwiperSlide>
                 <PremioSlide
-                    premio="Resiliencia"
+                    premio={t('premios.resiliencia')}
                     proyecto="Entregado por BIOREPOS a:"
                     entidad="Hifas da Terra"
                     web="https://hifasdaterra.com/"
@@ -85,7 +87,7 @@ const SliderPremios = () => {
             {/* 21 */}
             <SwiperSlide>
                 <PremioSlide
-                    premio="Innovación CSG"
+                    premio={t('premios.innovacion')}
                     proyecto="NETA"
                     entidad="Balidea"
                     web="https://www.balidea.com/"
@@ -94,7 +96,7 @@ const SliderPremios = () => {
             </SwiperSlide>
             <SwiperSlide>
                 <PremioSlide
-                    premio="Impacto en las personas"
+                    premio={t('premios.impacto')}
                     proyecto="ENREDANDO"
                     entidad="Cruz Vermella"
                     web="https://cruzvermella.gal/"
@@ -103,7 +105,7 @@ const SliderPremios = () => {
             </SwiperSlide>
             <SwiperSlide>
                 <PremioSlide
-                    premio="Conocimiento"
+                    premio={t('premios.conocimiento')}
                     proyecto="SMARTCARDIA"
                     entidad="Balidea"
                     web="https://www.balidea.com/"
@@ -112,7 +114,7 @@ const SliderPremios = () => {
             </SwiperSlide>
             <SwiperSlide>
                 <PremioSlide
-                    premio="Comunidad CSG"
+                    premio={t('premios.comunidad')}
                     proyecto="Plexus Tech"
                     entidad="Plexus Tech"
                     web="https://www.plexus.es/"
@@ -121,7 +123,7 @@ const SliderPremios = () => {
             </SwiperSlide>
             <SwiperSlide>
                 <PremioSlide
-                    premio="Revelación"
+                    premio={t('premios.revelacion')}
                     proyecto="SignaMed"
                     entidad="Universidad de Vigo"
                     web="https://signamed.uvigo.es/"
@@ -130,7 +132,7 @@ const SliderPremios = () => {
             </SwiperSlide>
             <SwiperSlide>
                 <PremioSlide
-                    premio="Resiliencia"
+                    premio={t('premios.resiliencia')}
                     proyecto="Sonidos de la memoria"
                     entidad="AFAGA Alzheimer"
                     web="https://afaga.com/"

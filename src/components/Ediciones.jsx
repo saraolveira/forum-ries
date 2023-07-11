@@ -1,61 +1,64 @@
 import Edicion from "./Edicion.jsx"
 import { Link } from "react-router-dom"
+import { useTranslation } from 'react-i18next'
 
 const Ediciones = () => {
+
+    const { t } = useTranslation()
 
     return <div id="ediciones">
          <Link to="/ries22"><Edicion 
             id="ries22"
-            edicion="VII Fórum RIES 2022"
-            tematica="Salud de Vanguardia: innovación asistencial y modelos de cuidados"
+            edicion={t('ediciones.twentytwo')}
+            tematica={t('tematicas.twentytwo')}
             ano="2022"
             lugar="Santiago de Compostela"
             delay={0.25}
         /></Link>
         <Link to="/ries21"><Edicion 
             id="ries21"
-            edicion="VI Fórum RIES 2021"
-            tematica="La revolución digital en la atención sanitaria y los cuidados"
+            edicion={t('ediciones.twentyone')}
+            tematica={t('tematicas.twentyone')}
             ano="2021"
             lugar="Mondariz, Pontevedra"
             delay={0.35}
         /></Link>
         <Link to="/ries20"><Edicion 
             id="ries20"
-            edicion="V Fórum RIES 2020"
-            tematica="Silver Economy: alimentación y calidad de vida"
+            edicion={t('ediciones.twenty')}
+            tematica={t('tematicas.twenty')}
             ano="2020"
             lugar="Palas de Rei, Lugo"
             delay={0.45}
         /></Link>
         <Link to="/ries19"><Edicion 
             id="ries19"
-            edicion="IV Fórum RIES 2019"
-            tematica="Silver Economy: por un envejecimiento activo y saludable"
+            edicion={t('ediciones.nineteen')}
+            tematica={t('tematicas.nineteen')}
             ano="2019"
             lugar="A Coruña"
             delay={0.55}
         /></Link>
         <Link to="/ries18"><Edicion 
             id="ries18"
-            edicion="III Fórum RIES 2018"
-            tematica="Ciudades inteligentes, saludables y amigables"
+            edicion={t('ediciones.eighteen')}
+            tematica={t('tematicas.eighteen')}
             ano="2018"
             lugar="Pontevedra"
             delay={0.25}
         /></Link>
         <Link to="/ries17"><Edicion 
             id="ries17"
-            edicion="II Fórum RIES 2017"
-            tematica="Living Labs. Presentación de LabSaúde"
+            edicion={t('ediciones.seventeen')}
+            tematica={t('tematicas.seventeen')}
             ano="2017"
             lugar="Ourense"
             delay={0.35}
         /></Link>
         <Link to="/ries16"><Edicion 
             id="ries18"
-            edicion="I Fórum RIES 2016"
-            tematica="Retos Internacionales del Ecosistema Salud. Soluciones Locales"
+            edicion={t('ediciones.sixteen')}
+            tematica={t('tematicas.sixteen')}
             ano="2016"
             lugar="Santiago de Compostela"
             delay={0.45}

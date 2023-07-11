@@ -2,6 +2,12 @@ import { useState } from 'react'
 import { Link } from 'react-router-dom'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faBars, faXmark } from '@fortawesome/free-solid-svg-icons'
+import { useTranslation } from 'react-i18next'
+
+const lngs = {
+  en: { nativeName: 'English' },
+  es: { nativeName: 'Español' }
+}
 
 const Navbar = () => {
 
@@ -16,6 +22,8 @@ const Navbar = () => {
       }
     }
 
+    const { t, i18n } = useTranslation()
+
     return <nav id="navbar">
       <div id="logos">
         <Link to="/"><img id="logo" src="/RIES-logo-negativo.png" /></Link>
@@ -25,7 +33,12 @@ const Navbar = () => {
     
     <div id="links" className={clicked ? 'active' : ''}>
       <div id="main">
-        <Link to="/premios">Premios RIES</Link>
+        <Link to="/premios">{t('menu.awards')}</Link>
+        {Object.keys(lngs).map((lng) => (
+            <button key={lng} style={{ fontWeight: i18n.resolvedLanguage === lng ? 'bold' : 'normal' }} type="submit" onClick={() => i18n.changeLanguage(lng)}>
+              {lngs[lng].nativeName}
+            </button>
+        ))}
       </div>
       <Link to="/ries22">#RIES22</Link>
       <Link to="/ries21">#RIES21</Link>

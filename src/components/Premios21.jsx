@@ -1,42 +1,45 @@
 import Premio from "./Premio"
+import { useTranslation } from 'react-i18next'
 
 const Premios21 = () => {
+    const { t } = useTranslation()
+
     return (<>
         <Premio 
-            premio="Innovación CSG"
+            premio={t('premios.innovacion')}
             proyecto="NETA"
             entidad="Balidea"
             web="https://www.balidea.com/"
         />
         <Premio 
-            premio="Impacto en las personas"
+            premio={t('premios.impacto')}
             proyecto="ENREDANDO"
             entidad="Cruz Vermella"
             web="https://cruzvermella.gal/"
             video="https://www.youtube.com/watch?v=uxpeRNd9pgg"
         />
         <Premio 
-            premio="Conocimiento"
+            premio={t('premios.conocimiento')}
             proyecto="SMARTCARDIA"
             entidad="Balidea"
             web="https://www.balidea.com/"
         />
         <Premio 
-            premio="Comunidad CSG"
+            premio={t('premios.comunidad')}
             proyecto="Plexus Tech"
             entidad="Plexus Tech"
             web="https://www.plexus.es/"
             video="https://www.youtube.com/watch?v=twY6uUO54jw"
         />
         <Premio 
-            premio="Revelación"
+            premio={t('premios.revelacion')}
             proyecto="SignaMed"
             entidad="Universidad de Vigo"
             web="https://signamed.uvigo.es/"
             video="https://www.youtube.com/watch?v=MOn9dO7Ae9M"
         />
         <Premio 
-            premio="Resiliencia"
+            premio={t('premios.resiliencia')}
             proyecto="Sonidos de la memoria"
             entidad="AFAGA Alzheimer"
             web="https://afaga.com/"
