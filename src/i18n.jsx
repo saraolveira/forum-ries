@@ -38,14 +38,14 @@ i18n
                     hero: {
                         date: '8-9 de noviembre',
                         cta: 'Reserva tu plaza',
-                        description: '#RIES es el fórum internacional de referencia a nivel nacional e internacional para abordar los retos y oportunidades del ecosistema de la salud. Liderado por el CSG (Cluster Saúde de Galicia), se ha gestado como foro de encuentro entre los principales agentes de los sectores sanitario y socio sanitario del ámbito público y privado a nivel nacional e internacional, en colaboración con nuestros partners estratégicos de la #ComunidadCSG'
+                        description: '#RIES es el fórum internacional de referencia a nivel nacional e internacional para abordar los retos y oportunidades del ecosistema de la salud. Liderado por el Cluster Saúde de Galicia, CSG, se ha gestado como foro de encuentro entre los principales agentes de los sectores sanitario y socio sanitario del ámbito público y privado a nivel nacional e internacional, en colaboración con nuestros partners estratégicos de la #ComunidadCSG'
                     },
                     premios: {
                         awards: 'Premios RIES',
                         twentytwo: 'Premios #RIES22',
                         twentyone: 'Premios #RIES21',
                         cta: 'Descubre todos los premiados',
-                        innovacion: 'Innovacion CSG',
+                        innovacion: 'Innovación CSG',
                         impacto: 'Impacto en las personas',
                         conocimiento: 'Conocimiento',
                         comunidad: 'Comunidad CSG',
@@ -98,7 +98,7 @@ i18n
                     hero: {
                         date: 'November 8th-9th',
                         cta: 'Book your place',
-                        description: '#RIES is the international reference forum at a national and international level to address the challenges and opportunities of the health ecosystem. Led by the CSG (Cluster Saúde de Galicia), it has been created as a meeting forum between the main agents of the public and private health and socio-health sectors at a European level in collaboration with our strategic partners of the #CSG_Community'
+                        description: '#RIES is the international reference forum at a national and international level to address the challenges and opportunities of the health ecosystem. Led by the Galician Health Cluster, CSG, it has been created as a meeting forum between the main agents of the public and private health and socio-health sectors at a European level in collaboration with our strategic partners of the #CSG_Community'
                     },
                     premios: {
                         awards: 'RIES Awards',
@@ -128,6 +128,66 @@ i18n
                         committee: 'Committee',
                         greeting: "President's Greeting",
                         letter: 'Letter from the #RIES22 President'
+                    }
+                }
+            },
+            gl: {
+                translation: {
+                    menu: {
+                        awards: 'Premios RIES'
+                    },
+                    ediciones: {
+                        twentythree: 'VIII Fórum RIES 2023',
+                        twentytwo: 'VII Fórum RIES 2022',
+                        twentyone: 'VI Fórum RIES 2021',
+                        twenty: 'V Fórum RIES 2020',
+                        nineteen: 'IV Fórum RIES 2019',
+                        eighteen: 'III Fórum RIES 2018',
+                        seventeen: 'II Fórum RIES 2017',
+                        sixteen: 'I Fórum RIES 2016',
+                    },
+                    tematicas: {
+                        twentytwo: 'Saúde de Vangarda: innovación asistencial e modelos de coidados',
+                        twentyone: 'A revolución dixital na atención sanitaria e nos coidados',
+                        twenty: 'Silver Economy: alimentación e calidade de vida',
+                        nineteen: 'Silver Economy: por un envellecemento activo e saudable',
+                        eighteen: 'Cidades intelixentes, saudables e amigables',
+                        seventeen: 'Living Labs. Presentación de LabSaúde',
+                        sixteen: 'Retos Internacionais do Ecosistema Saúde. Solucións Locais',
+                    },
+                    hero: {
+                        date: '8-9 de novembro',
+                        cta: 'Reserva a túa plaza',
+                        description: '#RIES é o fórum internacional de referencia a nivel nacional e internacional para abordar os retos e oportunidades do ecosistema da saúde. Liderado polo Cluster Saúde de Galicia, CSG, xestouse como foro de encontro entre os principais axentes dos sectores sanitario e sociosanitario do ámbito público e privado a nivel nacional e internacional, en colaboración cos nosos partners estratéxicos da #ComunidadeCSG'
+                    },
+                    premios: {
+                        awards: 'Premios RIES',
+                        twentytwo: 'Premios #RIES22',
+                        twentyone: 'Premios #RIES21',
+                        cta: 'Descubre todos os premiados',
+                        innovacion: 'Innovación CSG',
+                        impacto: 'Impacto nas persoas',
+                        conocimiento: 'Coñecemento',
+                        comunidad: 'Comunidade CSG',
+                        revelacion: 'Revelación',
+                        resiliencia: 'Resiliencia'
+                    },
+                    links: {
+                        report: 'Memoria',
+                        gallery: 'Galería',
+                        news: 'Noticias',
+                        press:  'Clipping de prensa',
+                        videos: 'Vídeos',
+                        program: 'Programa',
+                        speakers: 'Relatores',
+                        introduction: 'Introdución',
+                        presentation: 'Presentación',
+                        presentations: 'Presentacións',
+                        neuroatlantic: 'Proxecto neuroATLANTIC',
+                        ahfes: 'Proxecto AHFES',
+                        committee: 'Comité',
+                        greeting: 'Saludo presidenta',
+                        letter: 'Carta do Presidente #RIES22'
                     }
                 }
             }

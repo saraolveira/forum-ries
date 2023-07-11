@@ -6,7 +6,8 @@ import { useTranslation } from 'react-i18next'
 
 const lngs = {
   en: { nativeName: 'EN' },
-  es: { nativeName: 'ES' }
+  es: { nativeName: 'ES' },
+  gl: { nativeName: 'GL' },
 }
 
 const Navbar = () => {
