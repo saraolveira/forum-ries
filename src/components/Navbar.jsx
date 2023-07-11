@@ -5,8 +5,8 @@ import { faBars, faXmark } from '@fortawesome/free-solid-svg-icons'
 import { useTranslation } from 'react-i18next'
 
 const lngs = {
-  en: { nativeName: 'English' },
-  es: { nativeName: 'Español' }
+  en: { nativeName: 'EN' },
+  es: { nativeName: 'ES' }
 }
 
 const Navbar = () => {
@@ -34,11 +34,13 @@ const Navbar = () => {
     <div id="links" className={clicked ? 'active' : ''}>
       <div id="main">
         <Link to="/premios">{t('menu.awards')}</Link>
-        {Object.keys(lngs).map((lng) => (
-            <button key={lng} style={{ fontWeight: i18n.resolvedLanguage === lng ? 'bold' : 'normal' }} type="submit" onClick={() => i18n.changeLanguage(lng)}>
-              {lngs[lng].nativeName}
-            </button>
-        ))}
+        <div id="language-selector">
+          {Object.keys(lngs).map((lng) => (
+              <button key={lng} style={{ fontWeight: i18n.resolvedLanguage === lng ? 'bold' : 'normal' }} type="submit" onClick={() => i18n.changeLanguage(lng)}>
+                {lngs[lng].nativeName}
+              </button>
+          ))}
+        </div>
       </div>
       <Link to="/ries22">#RIES22</Link>
       <Link to="/ries21">#RIES21</Link>
