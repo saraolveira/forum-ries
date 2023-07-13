@@ -1,4 +1,6 @@
-import { BrowserRouter, Routes, Route } from 'react-router-dom'
+import { useEffect } from 'react'
+import { Routes, Route, useLocation } from 'react-router-dom'
+import ReactGA from "react-ga4"
 import Home from './pages/Home.jsx'
 import PremiosRIES from './pages/PremiosRIES.jsx'
 import RIES22 from './pages/RIES22.jsx'
@@ -10,11 +12,24 @@ import RIES17 from './pages/RIES17.jsx'
 import RIES16 from './pages/RIES16.jsx'
 import '@fontsource/varela-round'
 
-function App() {
+const App = () => {
+
+  const location = useLocation()
+
+  useEffect(() => {
+    ReactGA.initialize("G-V7J6BCMDV0") 
+  }, [])
+
+  useEffect(() => {
+    ReactGA.send(
+      { hitType: "pageview", page: location.pathname, title: document.title }
+    )
+  }, [location])
+  
+
 
   return (
     <>
-      <BrowserRouter>
         <Routes>
           <Route index element={<Home />} />
           <Route path="/home" element={<Home />} />
@@ -27,7 +42,6 @@ function App() {
           <Route path="/ries17" element={<RIES17 />} />
           <Route path="/ries16" element={<RIES16 />} />
         </Routes>
-      </BrowserRouter>
     </>
   )
 }

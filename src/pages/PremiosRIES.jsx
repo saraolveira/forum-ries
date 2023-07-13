@@ -6,6 +6,8 @@ import Premios21 from '../components/Premios21.jsx'
 import { useTranslation } from 'react-i18next'
 
 const PremiosRIES = () => {
+
+    document.title = "Premios RIES"
     const { t } = useTranslation()
 
     return (<>

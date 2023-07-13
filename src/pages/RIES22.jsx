@@ -7,6 +7,7 @@ import Footer from "../components/Footer.jsx"
 const RIES22 = () => {
     document.documentElement.style.setProperty('--color1', '#0178be')
     document.documentElement.style.setProperty('--color2', '#adc7ee')
+    document.title = "#RIES22"
 
     const { t } = useTranslation()
 
