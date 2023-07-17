@@ -571,6 +571,7 @@ button:hover {
   font-family: 'Myriad Pro', sans-serif;
   color: #fff;
   display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
   position: relative;
