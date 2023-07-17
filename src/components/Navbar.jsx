@@ -3,6 +3,7 @@ import { Link } from 'react-router-dom'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faBars, faXmark } from '@fortawesome/free-solid-svg-icons'
 import { useTranslation } from 'react-i18next'
+import RRSS from './RRSS'
 
 const lngs = {
   en: { nativeName: 'EN' },
@@ -52,6 +53,7 @@ const Navbar = () => {
       <Link to="/ries16">#RIES16</Link>
       <a href="https://forumries.com/exporpymes-2023/">EXPORPYMES</a>
       <a href="https://clustersaude.com">CSG</a>
+      <RRSS />
     </div>
     <FontAwesomeIcon icon={icon} size="2xl" id="menu-button" onClick={handleClick}/>
   </nav>

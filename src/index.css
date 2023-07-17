@@ -566,7 +566,7 @@ button:hover {
 
 #footer {
   width: 100vw;
-  height: 20vh;
+  height: 25vh;
   text-align: center;
   font-family: 'Myriad Pro', sans-serif;
   color: #fff;
@@ -588,6 +588,14 @@ button:hover {
 
 #footer a:hover {
   color: #fff;
+}
+
+#rrss {
+  display: flex;
+  padding: 2vh 0;
+  padding: 2svh 0;
+  gap: 1vw;
+  font-size: 1.3em;
 }
 
 @media only screen and (min-width: 600px) {
