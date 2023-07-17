@@ -1,6 +1,7 @@
 import Premio3D from "./Premio3D"
 import SliderPremios from "./SliderPremios"
 import { useTranslation } from 'react-i18next'
+import { Link } from "react-router-dom"
 
 const Premios = () => {
 
@@ -10,7 +11,7 @@ const Premios = () => {
         <h2>{t('premios.awards')}</h2>
         <Premio3D />
         <SliderPremios />
-        <a href="/premios" id="cta-premios" className="cta">{t('premios.cta')}</a>
+        <Link to="/premios" id="cta-premios" className="cta">{t('premios.cta')}</Link>
     </div>)
 }
 
