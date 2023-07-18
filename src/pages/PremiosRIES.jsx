@@ -18,7 +18,6 @@ const PremiosRIES = () => {
                 <h2>{t('premios.twentytwo')}</h2>
                 <div id="premios-22"><Premios22 /></div>
                 
-
                 <h2>{t('premios.twentyone')}</h2>
                 <div id="premios-21"><Premios21 /></div>
             </div>

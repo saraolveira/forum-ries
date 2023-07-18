@@ -110,6 +110,20 @@ button:hover {
   gap: 1vh;
 }
 
+#desplegable {
+  display: none;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-end;
+  gap: 1vh;
+}
+
+#desplegable.open {
+  display: flex;
+}
+
+
+
 #links a {
   text-decoration: none;
   color: #fff;
@@ -833,6 +847,9 @@ button:hover {
 }
 
 @media only screen and (min-width: 1200px) {
+  body {
+    font-size:18px;
+  }
 
   #logos {
     gap: 2vw;
@@ -858,6 +875,10 @@ button:hover {
   }
   #icono {
     width: 80vw;
+  }
+
+  .nome-edicion {
+    font-size: 1.5em;
   }
 
   .edicion-hero .imagen {
@@ -890,9 +911,19 @@ button:hover {
 }
 
 @media only screen and (min-width: 1400px) {
+  body {
+    font-size:18px;
+  }
+
+  .nome-edicion {
+    font-size: 1.75em;
+  }
+
   .edicion {
     font-size:17px;
   }
+
+
 
 }
 

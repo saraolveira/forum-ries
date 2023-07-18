@@ -1,7 +1,7 @@
-import Premio3D from "./Premio3D"
-import SliderPremios from "./SliderPremios"
 import { useTranslation } from 'react-i18next'
 import { Link } from "react-router-dom"
+import Premio3D from "./Premio3D.jsx"
+import SliderPremios from "./SliderPremios.jsx"
 
 const Premios = () => {
 
