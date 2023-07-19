@@ -10,6 +10,7 @@ const Premios21 = () => {
             proyecto="NETA"
             entidad="Balidea"
             web="https://www.balidea.com/"
+            video="https://youtu.be/PArGM-YAu3Y"
         />
         <Premio 
             premio={t('premios.impacto')}
@@ -23,6 +24,7 @@ const Premios21 = () => {
             proyecto="SMARTCARDIA"
             entidad="Balidea"
             web="https://www.balidea.com/"
+            video="https://www.youtube.com/watch?v=xVBqIXy6Njg"
         />
         <Premio 
             premio={t('premios.comunidad')}
