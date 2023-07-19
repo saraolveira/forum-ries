@@ -34,7 +34,10 @@ body {
 }
 
 nav {
-  width: 94vw;
+  width: 100vw;
+  height: 14vh;
+  height: 14svh;
+  box-sizing: border-box;
   padding: 1vw 3vw;
   display: flex;
   justify-content: space-between;
@@ -158,10 +161,40 @@ button:hover {
   background-color: var(--color1);
 }
 
+.page {
+  width: 100vw;
+  min-height: 86vh;
+  min-height: 86svh;
+  margin-top: 14vh;
+  margin-top: 14svh;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 5vw 0;
+  gap: 3vh;
+  gap: 3svh;
+}
+
+.page img {
+  max-width: 70vw;
+}
+
+.page p {
+  width: 70vw;
+  font-family: 'Myriad Pro', sans-serif;
+  color: #fff;
+  font-weight: 300;
+  text-align: justify;
+}
+
 #hero {
   width:100vw;
-  height: 100vh;
-  height: 100svh;
+  height: 86vh;
+  height: 86svh;
+  margin-top: 14vh;
+  margin-top: 14svh;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -244,10 +277,10 @@ button:hover {
 
 .edicion-hero {
   width:100vw;
-  min-height: 100vh;
-  min-height: 100svh;
-  margin-top: 10vh;
-  margin-top: 10svh;
+  min-height: 86vh;
+  min-height: 86svh;
+  margin-top: 14vh;
+  margin-top: 14svh;
   display: flex;
   flex-direction: column;
   justify-content: start;
@@ -503,8 +536,8 @@ button:hover {
 
 #premios-page {
   width: 100vw;
-  margin-top: 10vh;
-  margin-top: 10svh;
+  margin-top: 14vh;
+  margin-top: 14svh;
 }
 
 #premios-page > div:first-of-type {

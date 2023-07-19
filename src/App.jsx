@@ -10,6 +10,8 @@ import RIES19 from './pages/RIES19.jsx'
 import RIES18 from './pages/RIES18.jsx'
 import RIES17 from './pages/RIES17.jsx'
 import RIES16 from './pages/RIES16.jsx'
+import CSG from './pages/CSG.jsx'
+import EXPORPYMES from './pages/EXPORPYMES.jsx'
 import '@fontsource/varela-round'
 
 const App = () => {
@@ -41,6 +43,8 @@ const App = () => {
           <Route path="/ries18" element={<RIES18 />} />
           <Route path="/ries17" element={<RIES17 />} />
           <Route path="/ries16" element={<RIES16 />} />
+          <Route path="/csg" element={<CSG />} />
+          <Route path="/exporpymes" element={<EXPORPYMES />} />
         </Routes>
     </>
   )

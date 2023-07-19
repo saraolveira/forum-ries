@@ -55,7 +55,7 @@ const Navbar = () => {
           ))}
         </div>
       </div>
-      <a href="#" onClick={handleDesplegar}>Ediciones RIES <FontAwesomeIcon icon={arrow} /></a>
+      <a href="#" onClick={handleDesplegar}>{t('menu.editions')} <FontAwesomeIcon icon={arrow} /></a>
       <div id="desplegable" className={desplegar ? 'open' : ''}>
         <Link to="/ries22">#RIES22</Link>
         <Link to="/ries21">#RIES21</Link>
@@ -65,8 +65,8 @@ const Navbar = () => {
         <Link to="/ries17">#RIES17</Link>
         <Link to="/ries16">#RIES16</Link>
       </div>
-      <a href="https://forumries.com/exporpymes-2023/">EXPORPYMES</a>
-      <a href="https://clustersaude.com">CSG</a>
+      <Link to="/exporpymes">EXPORPYMES</Link>
+      <Link to="/csg">CSG</Link>
       <RRSS />
     </div>
     <FontAwesomeIcon icon={icon} size="2xl" id="menu-button" onClick={handleClick}/>
