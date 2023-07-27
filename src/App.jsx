@@ -3,6 +3,7 @@ import { Routes, Route, useLocation } from 'react-router-dom'
 import ReactGA from "react-ga4"
 import Home from './pages/Home.jsx'
 import PremiosRIES from './pages/PremiosRIES.jsx'
+import RIES23 from './pages/RIES23.jsx'
 import RIES22 from './pages/RIES22.jsx'
 import RIES21 from './pages/RIES21.jsx'
 import RIES20 from './pages/RIES20.jsx'
@@ -45,6 +46,7 @@ const App = () => {
           <Route path="/ries16" element={<RIES16 />} />
           <Route path="/csg" element={<CSG />} />
           <Route path="/exporpymes" element={<EXPORPYMES />} />
+          <Route path="/ries23" element={<RIES23 />} />
         </Routes>
     </>
   )

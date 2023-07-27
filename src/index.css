@@ -202,6 +202,66 @@ button:hover {
   font-family: 'Varela Round', sans-serif;
   gap:1vh;
   gap:1svh;
+  box-sizing: border-box;
+}
+
+#hero23 {
+  width:100vw;
+  height: 86vh;
+  height: 86svh;
+  margin-top: 14vh;
+  margin-top: 14svh;
+  background-color: #ececec;
+  box-sizing: border-box;
+  padding: 5vh 4vh;
+  padding: 5svh 4svh;
+  font-family:  'Varela Round', sans-serif;
+  font-weight: 600;
+  color: #0e1e2f;
+}
+
+#datos {
+  display: flex;
+  flex-direction: column;
+  gap: 2vh;
+  gap: 2svh;
+}
+
+#icono-23 {
+  width: 25vw;
+}
+
+#logo-23 {
+  width: 70vw;
+}
+
+#datos-imagen {
+  margin-left: 2px;
+  font-size: 1em;
+}
+
+#tematicas {
+  display: flex;
+  gap: 1vw;
+}
+
+.tema {
+  text-transform: uppercase;
+  font-weight: 400;
+  font-size: 0.85em;
+  box-sizing: border-box;
+  padding: 1vw;
+  border-radius: 10em;
+  transition: all .2s ease;
+}
+
+.tema:hover {
+  color: #fff;
+  background-color: #C48B27;
+}
+
+.border {
+  border-right: 1px solid;
 }
 
 #titulo {
@@ -359,7 +419,7 @@ button:hover {
   align-content: space-evenly;
   gap: 3vh;
   gap: 3svh;
-  padding-bottom: 5vh;
+  padding: 5vh 0;
 }
 
 #ediciones a {
@@ -654,6 +714,19 @@ button:hover {
     width: 150vw;
   }
 
+  #hero23 {
+    padding: 5vh 5vw;
+    padding: 5svh 5vw;
+  }
+
+  #icono-23 {
+    width: 12vw;
+  }
+
+  #logo-23 {
+    width:34vw;
+  }
+
   
   .swiper-slide {
     width: 60vw;
@@ -683,6 +756,13 @@ button:hover {
     right: 55vw;
   }
 
+  #icono-23 {
+    width: 10vw;
+  }
+
+  #logo-23 {
+    width:30vw;
+  }
 
   .edicion {
     width: 37vw;
@@ -846,6 +926,14 @@ button:hover {
     font-size: 2.2em;
   }
 
+  #icono-23 {
+    width: 8vw;
+  }
+
+  #logo-23 {
+    width:24vw;
+  }
+
   .edicion {
     width: 27vw;
     font-size: 15px;
@@ -908,6 +996,14 @@ button:hover {
   }
   #icono {
     width: 80vw;
+  }
+
+  #icono-23 {
+    width: 7vw;
+  }
+
+  #logo-23 {
+    width:20vw;
   }
 
   .nome-edicion {
