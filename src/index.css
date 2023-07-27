@@ -72,7 +72,17 @@ nav {
   cursor: pointer;
   position: relative;
   z-index: 2;
+  transition: all .2s ease;
 }
+
+#menu-button:hover {
+  color: var(--color1);
+}
+
+.active + #menu-button:hover {
+  color: var(--color2);
+}
+
 
 button {
   font-family: 'Varela Round', sans-serif;
@@ -218,6 +228,7 @@ button:hover {
   font-family:  'Varela Round', sans-serif;
   font-weight: 600;
   color: #0e1e2f;
+  position: relative;
 }
 
 #datos {
@@ -225,7 +236,52 @@ button:hover {
   flex-direction: column;
   gap: 2vh;
   gap: 2svh;
+  position: relative;
+  z-index: 3;
 }
+
+#circulos {
+  position: absolute;
+  top:0;
+  right: -20vw;
+  z-index: 1;
+  height: 86vh;
+  height: 86vh;
+}
+
+
+#circulos-wrap {
+  transform-origin: top right;
+  transform: scale(0.5); 
+}
+
+#circulo-svg {
+  position: absolute;
+  top: 0;
+  right: 0;  
+
+}
+
+#circulo-img {
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+
+/* #circulo4 {
+  transform-box: fill-box;
+  transform-origin: 50% 50%;
+  animation: rotarsvg 75s ease infinite;
+}
+
+@keyframes rotarsvg {
+	0% {
+    transform: rotate(0deg);
+	}
+	100% {
+    transform:rotate(360deg);
+	}
+} */
 
 #icono-23 {
   width: 25vw;
@@ -727,6 +783,18 @@ button:hover {
     width:34vw;
   }
 
+  #circulos {
+    top:3vh;
+    top:3svh;
+    right: 0;
+  }
+  
+  
+  #circulos-wrap {
+    transform: scale(0.75); 
+  }
+  
+  
   
   .swiper-slide {
     width: 60vw;
@@ -762,6 +830,10 @@ button:hover {
 
   #logo-23 {
     width:30vw;
+  }
+
+  #circulos-wrap {
+    transform: scale(0.8); 
   }
 
   .edicion {
@@ -934,6 +1006,17 @@ button:hover {
     width:24vw;
   }
 
+  #circulos {
+    bottom: 0;
+    right: 0;
+  }
+  
+  
+  #circulos-wrap {
+    transform: scale(1.07); 
+  }
+  
+
   .edicion {
     width: 27vw;
     font-size: 15px;
@@ -1006,6 +1089,10 @@ button:hover {
     width:20vw;
   }
 
+  #circulos-wrap {
+    transform: scale(1.13); 
+  }
+
   .nome-edicion {
     font-size: 1.5em;
   }
@@ -1052,6 +1139,10 @@ button:hover {
     font-size:17px;
   }
 
+  #circulos-wrap {
+    transform: scale(1.23); 
+  }
+
 
 
 }
@@ -1072,6 +1163,14 @@ button:hover {
 
   #logo-csg {
     width: 5vw;
+  }
+
+  #circulos {
+    right:0.9vw;
+  }
+
+  #circulos-wrap {
+    transform: scale(1.45); 
   }
 
   .edicion {
