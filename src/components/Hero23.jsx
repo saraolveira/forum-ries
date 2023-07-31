@@ -1,5 +1,42 @@
+import { useState } from 'react'
 import Circulos from "./Circulos.jsx"
+
 const Hero23 = () => {
+    const [fondo, setFondo] = useState(null)
+
+    const handleLongevidad = () => {
+        if (fondo === 'Longevidad') {
+            setFondo(null)
+        } else {
+            setFondo('Longevidad')
+        }
+    }
+
+    const handleBiotech = () => {
+        if (fondo === 'Biotech') {
+            setFondo(null)
+        } else {
+            setFondo('Biotech')
+        }
+    }
+
+    const handleOnehealth = () => {
+        if (fondo === 'Onehealth') {
+            setFondo(null)
+        } else {
+            setFondo('Onehealth')
+        }
+    }
+
+    const handleIA = () => {
+        if (fondo === 'IA') {
+            setFondo(null)
+        } else {
+            setFondo('IA')
+        }
+    }
+
+
     return (<div id="hero23">
         <div id="datos">
             <svg id="icono-23" viewBox="0 0 78 78" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -18,13 +55,13 @@ const Hero23 = () => {
                 <p className="datos-imagen">Vigo</p>
             </div>
             <div id="tematicas">
-                <p className="tema">Longevidad</p>
+                <p className="tema" onClick={handleLongevidad}>Longevidad</p>
                 <span className="border"></span>
-                <p className="tema">Biotech</p>
+                <p className="tema" onClick={handleBiotech}>Biotech</p>
                 <span className="border"></span>
-                <p className="tema">Onehealth</p>
+                <p className="tema" onClick={handleOnehealth}>Onehealth</p>
                 <span className="border"></span>
-                <p className="tema">IA</p>
+                <p className="tema" onClick={handleIA}>IA</p>
             </div>
         </div>
 
