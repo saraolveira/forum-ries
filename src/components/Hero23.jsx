@@ -69,6 +69,8 @@ const Hero23 = () => {
             </div>
         </div>
 
+        <a href="mailto:forumries@clustersaude.com" id="registro" className="cta">{t('hero.cta')}</a>
+
         <div id="circulos">
             <div id="circulos-wrap">
                 <div id="circulo-main" className={fondo === 'inicio' ? 'circulo circulos hidden show' : 'circulo circulos hidden hide'}>

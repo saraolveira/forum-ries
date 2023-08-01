@@ -9,6 +9,10 @@
   --color1: rgba(183,233,114,1);
   --color2: rgba(0,173,238,1);
 
+  --original1: rgba(183,233,114,1);
+  --original2: rgba(0,173,238,1);
+
+
   --ries22-1: #0178be;
   --ries22-2: #adc7ee;
   --ries21-1: #F650FF;
@@ -217,8 +221,8 @@ button:hover {
 
 #hero23 {
   width:100vw;
-  height: 86vh;
-  height: 86svh;
+  min-height: 86vh;
+  min-height: 86svh;
   margin-top: 14vh;
   margin-top: 14svh;
   background-color: #ececec;
@@ -232,8 +236,8 @@ button:hover {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  gap: 4vh;
-  gap: 4svh;
+  gap: 3vh;
+  gap: 3svh;
 }
 
 #datos {
@@ -333,16 +337,16 @@ button:hover {
 } */
 
 #icono-23 {
-  width: 25vw;
+  width: 20vw;
 }
 
 #logo-23 {
-  width: 70vw;
+  width: 60vw;
 }
 
 #datos-imagen {
   margin-left: 2px;
-  font-size: 1em;
+  font-size: 0.8em;
 }
 
 #tematicas {
@@ -353,7 +357,7 @@ button:hover {
 .tema {
   text-transform: uppercase;
   font-weight: 400;
-  font-size: 0.85em;
+  font-size: 0.8em;
   box-sizing: border-box;
   padding: 0.4em;
   border-radius: 10em;
@@ -397,11 +401,13 @@ button:hover {
   align-items: center;
   flex-wrap: wrap;
   gap: 1vw;
+  margin-bottom: 3vh;
+  margin-bottom: 3svh;
 }
 
 #colab-logos img {
-  max-height: 9vh;
-  max-height: 9svh;
+  max-height: 7vh;
+  max-height: 7svh;
   object-fit: contain;
   padding-right: 5vw;
   padding-bottom: 1vh;
@@ -446,13 +452,31 @@ button:hover {
     padding: 1vh 4vw;
     margin-top: 3vh;
     border: 3px solid #fff;
-
 }
 
 .cta:hover {
     background-color: transparent;
     border: 3px solid #fff;
     color: #fff
+}
+
+#registro {
+  position: fixed;
+  box-sizing: border-box;
+  width: 90vw;
+  z-index: 5;
+  bottom: 2vh; 
+  bottom: 2svh; 
+  margin: 0;
+  left: 5vw;
+  background-color: transparent;
+
+}
+
+#registro:hover {
+  background-color: var(--color2);
+  border-color: var(--color2);
+  color: var(--color1);
 }
 
 #descripcion {
@@ -636,7 +660,7 @@ button:hover {
 }
 
 .edicion:hover {
-  background: linear-gradient(120deg, var(--color1) 0%, var(--color2) 75%);
+  background: linear-gradient(120deg, var(--original1) 0%, var(--original2) 75%);
   color: #fff;
   -webkit-box-shadow:inset 0px 0px 0px 10px #fff;
   -moz-box-shadow:inset 0px 0px 0px 10px #fff;
@@ -883,6 +907,10 @@ button:hover {
     transform: scale(0.75); 
   }
   
+  #colab-logos img {
+    max-height: 9vh;
+    max-height: 9svh; 
+  }
   
   
   .swiper-slide {
@@ -1100,7 +1128,8 @@ button:hover {
   }
 
   #circulos {
-    bottom: 0;
+    /* bottom: 0; */
+    top: 0;
     right: 0;
   }
   
@@ -1124,6 +1153,12 @@ button:hover {
 
   #colab-logos img {
     padding-right: 2vw;
+  }
+
+
+  #registro {
+    width: 30vw;
+    left: 67vw;
   }
 
   .edicion {
