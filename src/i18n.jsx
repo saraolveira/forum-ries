@@ -87,6 +87,14 @@ i18n
                             g23url: 'https://clustersaude.com/el-cluster-saude-de-galicia-csg-apuesta-por-la-promocion-de-la-internacionalizacion-de-las-empresas-gallegas/',
                             r22: 'Revive EXPORPYMES 2022',
                         }
+                    },
+                    hero23: {
+                        date: '8 y 9 de noviembre de 2023',
+                        longevity: 'Longevidad',
+                        ia: 'IA',
+                        logo: "/logo-azul.png",
+                        organiza: "Organiza",
+                        colabora: "Colabora:"
                     }
                 }
             },
@@ -167,6 +175,14 @@ i18n
                             g23url: 'https://clustersaude.com/en/the-galician-health-cluster-csg-commits-to-promoting-the-internazionalitation-of-galician-companies/',
                             r22: 'Relive EXPORPYMES 2022',
                         }
+                    },
+                    hero23: {
+                        date: 'November 8th-9th 2023',
+                        longevity: 'Longevity',
+                        ia: 'AI',
+                        logo: "/logo-azul-en.png",
+                        organiza: "Organized by:",
+                        colabora: "Collaborators:"
                     }
                 }
             },
@@ -246,6 +262,14 @@ i18n
                             g23url: 'https://clustersaude.com/gl/o-cluster-saude-de-galicia-csg-aposta-pola-promocion-da-internacionalizacion-das-empresas-galegas/',
                             r22: 'Revive EXPORPYMES 2022',
                         }
+                    },
+                    hero23: {
+                        date: '8 e 9 de novembro de 2023',
+                        longevity: 'Lonxevidade',
+                        ia: 'IA',
+                        logo: "/logo-azul-gl.png",
+                        organiza: "Organiza",
+                        colabora: "Colabora:"
                     }
                 }
             }

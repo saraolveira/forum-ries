@@ -229,6 +229,11 @@ button:hover {
   font-weight: 600;
   color: #0e1e2f;
   position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  gap: 4vh;
+  gap: 4svh;
 }
 
 #datos {
@@ -254,6 +259,50 @@ button:hover {
   transform-origin: top right;
   transform: scale(0.5); 
 }
+
+.circulos {
+  position:absolute;
+  top: 0;
+  right: 0;
+}
+
+.circulo {
+  transform: rotate(0deg);
+  transform-origin: top right;
+}
+
+.hidden {
+  transform:rotate(-190deg);
+}
+
+.hide {
+  animation: hide-circulo 3s ease forwards;
+}
+
+.show {
+  animation: show-circulo 2s ease forwards;
+}
+
+
+@keyframes hide-circulo {
+  0% {
+    transform: rotate(0deg);
+	}
+	100% {
+    transform:rotate(-190deg);
+	}
+}
+
+@keyframes show-circulo {
+  0% {
+    transform: rotate(-190deg);
+	}
+	100% {
+    transform:rotate(-360deg);
+	}
+}
+
+
 
 #circulo-svg {
   position: absolute;
@@ -306,7 +355,7 @@ button:hover {
   font-weight: 400;
   font-size: 0.85em;
   box-sizing: border-box;
-  padding: 1vw;
+  padding: 0.4em;
   border-radius: 10em;
   transition: all .2s ease;
   cursor: pointer;
@@ -320,6 +369,45 @@ button:hover {
 .border {
   border-right: 1px solid;
 }
+
+#colab {
+  width: 90vw;
+  font-weight: 300;
+  font-size: 0.9em;
+  display: flex;
+  justify-content: space-between;
+}
+
+#organizador {
+  width: 20vw;
+
+}
+
+#colaboradores {
+  width: 57vw;
+}
+
+#colab img {
+  width: 23vw;
+}
+
+#colab-logos {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 1vw;
+}
+
+#colab-logos img {
+  max-height: 9vh;
+  max-height: 9svh;
+  object-fit: contain;
+  padding-right: 5vw;
+  padding-bottom: 1vh;
+  padding-bottom: 1svh;
+}
+
 
 #titulo {
   font-size: 3.7em;
@@ -837,6 +925,10 @@ button:hover {
     transform: scale(0.8); 
   }
 
+  #colab img {
+    width: 15vw;
+  }
+
   .edicion {
     width: 37vw;
     font-size: 16px;
@@ -1017,6 +1109,22 @@ button:hover {
     transform: scale(1.07); 
   }
   
+  #colab img {
+    width: 14vw;
+  }
+  
+  #colaboradores {
+    width: 70vw;
+  }
+
+  #colab-logos {
+    margin-top: 3.5vh;
+    margin-top: 3.5svh;
+  }
+
+  #colab-logos img {
+    padding-right: 2vw;
+  }
 
   .edicion {
     width: 27vw;
@@ -1067,6 +1175,29 @@ button:hover {
   #logo-csg {
     width: 6vw;
   }
+
+  #colab img {
+    width: 12vw;
+  }
+
+  #organizador {
+    width: 10vw;
+  }
+
+  #colaboradores {
+    width: 73vw;
+  }
+
+  #colab-logos {
+    margin-top: 3vh;
+    margin-top: 3svh;
+  }
+
+  #colab-logos img {
+    padding-right: 0.5vw;
+  }
+  
+
   #ediciones {
     gap:0;
     height: 50vw;
@@ -1144,6 +1275,10 @@ button:hover {
     transform: scale(1.23); 
   }
 
+  #colab img {
+    width: 10vw;
+  }
+
 
 
 }
@@ -1172,6 +1307,19 @@ button:hover {
 
   #circulos-wrap {
     transform: scale(1.45); 
+  }
+
+  #colab img {
+    width: 6vw;
+  }
+
+  #colab-logos {
+    margin-top: 0;
+  }
+
+  #colab-logos img {
+    max-height: 10vh;
+    max-height: 10svh;
   }
 
   .edicion {

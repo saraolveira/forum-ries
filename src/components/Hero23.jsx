@@ -1,12 +1,16 @@
 import { useState } from 'react'
 import Circulos from "./Circulos.jsx"
+import { useTranslation } from 'react-i18next'
 
 const Hero23 = () => {
-    const [fondo, setFondo] = useState(null)
+    const { t } = useTranslation()
+    
+    const [fondo, setFondo] = useState('inicio')
+    
 
     const handleLongevidad = () => {
         if (fondo === 'Longevidad') {
-            setFondo(null)
+            setFondo('inicio')
         } else {
             setFondo('Longevidad')
         }
@@ -14,7 +18,7 @@ const Hero23 = () => {
 
     const handleBiotech = () => {
         if (fondo === 'Biotech') {
-            setFondo(null)
+            setFondo('inicio')
         } else {
             setFondo('Biotech')
         }
@@ -22,7 +26,7 @@ const Hero23 = () => {
 
     const handleOnehealth = () => {
         if (fondo === 'Onehealth') {
-            setFondo(null)
+            setFondo('inicio')
         } else {
             setFondo('Onehealth')
         }
@@ -30,7 +34,7 @@ const Hero23 = () => {
 
     const handleIA = () => {
         if (fondo === 'IA') {
-            setFondo(null)
+            setFondo('inicio')
         } else {
             setFondo('IA')
         }
@@ -49,31 +53,50 @@ const Hero23 = () => {
                 </clipPath>
                 </defs>
             </svg>
-            <img src="/logo-azul.png" id="logo-23" alt="RIES23" />
+            <img src={t('hero23.logo')} id="logo-23" alt="RIES23" />
             <div id="datos-imagen">
-                <p className="datos-imagen">8 y 9 de noviembre de 2023</p>
+                <p className="datos-imagen">{t('hero23.date')}</p>
                 <p className="datos-imagen">Vigo</p>
             </div>
             <div id="tematicas">
-                <p className="tema" onClick={handleLongevidad}>Longevidad</p>
+                <p className="tema" onClick={handleLongevidad}>{t('hero23.longevity')}</p>
                 <span className="border"></span>
                 <p className="tema" onClick={handleBiotech}>Biotech</p>
                 <span className="border"></span>
                 <p className="tema" onClick={handleOnehealth}>Onehealth</p>
                 <span className="border"></span>
-                <p className="tema" onClick={handleIA}>IA</p>
+                <p className="tema" onClick={handleIA}>{t('hero23.ia')}</p>
             </div>
         </div>
 
         <div id="circulos">
             <div id="circulos-wrap">
-                <Circulos />
-                <img src="/ries-circulo.png" id="circulo-img" />
+                <div id="circulo-main" className={fondo === 'inicio' ? 'circulo circulos hidden show' : 'circulo circulos hidden hide'}>
+                    <Circulos />
+                    <img src="/ries-circulo.png" id="circulo-img" />
+                </div>
+                <img id="circulo-longevidad" className={fondo === "Longevidad" ? 'circulo circulos hidden show' :  'circulo circulos hidden hide'}  src="circulo-longevidad.png" />
+                <img id="circulo-biotech" className={fondo === "Biotech" ? 'circulo circulos hidden show' :'circulo circulos hidden hide'} src="circulo-biotech.png" />
+                <img id="circulo-onehealth" className={fondo === "Onehealth" ? 'circulo circulos hidden show' :'circulo circulos hidden hide'}  src="circulo-onehealth.png" />
+                <img id="circulo-ia" className={fondo === "IA" ? 'circulo circulos hidden show' :'circulo circulos hidden hide'}  src="circulo-ia.png" />
+
             </div>
         </div>
 
         <div id="colab">
-
+            <div id="organizador">
+                <p>{t('hero23.organiza')}</p>
+                <img src="/csg-positivo.png" alt="logo CSG" />
+            </div>
+            <div id="colaboradores">
+                <p>{t('hero23.colabora')}</p>
+                <div id="colab-logos">
+                    <img src="/colab/xunta.png" alt="logo Xunta" />  
+                    <img src="/colab/echalliance.png" alt="logo ECHAlliance" />  
+                    <img src="/colab/cc-coruna.png" alt="logo Camara de Comercio de A Coruña" />  
+                    <img src="/colab/cse.png" alt="logo #ClustersSaludEspaña" />  
+                </div>
+            </div>
         </div>
     </div>)
 }
