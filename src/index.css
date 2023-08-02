@@ -31,7 +31,6 @@
   overflow-y: hidden;
 }
 
-
 body {
   font-size: 16px;
   background: linear-gradient(120deg, var(--color1) 0%, var(--color2) 75%);
