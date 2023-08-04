@@ -388,6 +388,8 @@ button:hover {
 
 #colaboradores {
   width: 57vw;
+  z-index: 4;
+  position: relative;
 }
 
 #colab img {
@@ -1138,7 +1140,7 @@ button:hover {
   }
   
   #colab img {
-    width: 14vw;
+    width: 8vw;
   }
   
   #colaboradores {
@@ -1210,9 +1212,6 @@ button:hover {
     width: 6vw;
   }
 
-  #colab img {
-    width: 12vw;
-  }
 
   #organizador {
     width: 10vw;
@@ -1222,12 +1221,17 @@ button:hover {
     width: 73vw;
   }
 
+  #colab img {
+    width: 8vw;
+  }
+
   #colab-logos {
-    margin-top: 3vh;
-    margin-top: 3svh;
+    margin-top: 0;
   }
 
   #colab-logos img {
+    max-height: 10vh;
+    max-height: 10svh;
     padding-right: 0.5vw;
   }
   
@@ -1307,10 +1311,6 @@ button:hover {
 
   #circulos-wrap {
     transform: scale(1.23); 
-  }
-
-  #colab img {
-    width: 10vw;
   }
 
 
