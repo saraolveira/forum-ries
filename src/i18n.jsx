@@ -38,7 +38,8 @@ i18n
                     },
                     hero: {
                         date: '8-9 de noviembre',
-                        cta: 'Reserva tu plaza',
+                        cta: 'Regístrate',
+                        register: 'https://registro.forumries.com/',
                         description: '#RIES es el fórum internacional de referencia a nivel nacional e internacional para abordar los retos y oportunidades del ecosistema de la salud. Liderado por el Cluster Saúde de Galicia, CSG, se ha gestado como foro de encuentro entre los principales agentes de los sectores sanitario y sociosanitario del ámbito público y privado a nivel nacional e internacional, en colaboración con nuestros partners estratégicos de la #ComunidadCSG'
                     },
                     premios: {
@@ -95,6 +96,11 @@ i18n
                         logo: "/logo-azul.png",
                         organiza: "Organiza",
                         colabora: "Colabora:"
+                    },
+                    logos: {
+                        csgNeg: '/csg-negativo.png',
+                        csgPos: '/csg-positivo.png',
+                        ries: '/RIES-logo-negativo.png'
                     }
                 }
             },
@@ -125,7 +131,8 @@ i18n
                     },
                     hero: {
                         date: 'November 8th-9th',
-                        cta: 'Book your place',
+                        cta: 'Register',
+                        register: 'https://registro.forumries.com/en/',
                         description: '#RIES is the international reference forum at a national and international level to address the challenges and opportunities of the health ecosystem. Led by the Galician Health Cluster, CSG, it has been created as a meeting forum between the main agents of the public and private health and socio-health sectors at a European level in collaboration with our strategic partners of the #CSG_Community'
                     },
                     premios: {
@@ -183,6 +190,11 @@ i18n
                         logo: "/logo-azul-en.png",
                         organiza: "Organized by:",
                         colabora: "Collaborators:"
+                    },
+                    logos: {
+                        csgNeg: '/csg-negative.png',
+                        csgPos: '/csg-positive.png',
+                        ries: '/RIES-logo-negative.png'
                     }
                 }
             },
@@ -213,7 +225,8 @@ i18n
                     },
                     hero: {
                         date: '8-9 de novembro',
-                        cta: 'Reserva a túa plaza',
+                        cta: 'Rexístrate',
+                        register: 'https://registro.forumries.com/',
                         description: '#RIES é o fórum internacional de referencia a nivel nacional e internacional para abordar os retos e oportunidades do ecosistema da saúde. Liderado polo Cluster Saúde de Galicia, CSG, xestouse como foro de encontro entre os principais axentes dos sectores sanitario e sociosanitario do ámbito público e privado a nivel nacional e internacional, en colaboración cos nosos partners estratéxicos da #ComunidadeCSG'
                     },
                     premios: {
@@ -270,6 +283,11 @@ i18n
                         logo: "/logo-azul-gl.png",
                         organiza: "Organiza",
                         colabora: "Colabora:"
+                    },
+                    logos: {
+                        csgNeg: '/csg-negativo.png',
+                        csgPos: '/csg-positivo.png',
+                        ries: '/RIES-logo-negativo.png'
                     }
                 }
             }

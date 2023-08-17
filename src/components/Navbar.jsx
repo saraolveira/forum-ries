@@ -39,8 +39,8 @@ const Navbar = () => {
 
     return <nav id="navbar">
       <div id="logos">
-        <Link to="/"><img id="logo" src="/RIES-logo-negativo.png" /></Link>
-        <Link to="http://clustersaude.com/"><img id="logo-csg" src="/csg-negativo.png" /></Link>
+        <Link to="/"><img id="logo" src={t('logos.ries')} /></Link>
+        <Link to="http://clustersaude.com/"><img id="logo-csg" src={t('logos.csgNeg')} /></Link>
       </div>
 
     

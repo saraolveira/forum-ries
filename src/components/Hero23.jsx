@@ -69,7 +69,7 @@ const Hero23 = () => {
             </div>
         </div>
 
-        <a href="mailto:forumries@clustersaude.com" id="registro" className="cta">{t('hero.cta')}</a>
+        <a href={t('hero.register')} target='_blank' id="registro" className="cta">{t('hero.cta')}</a>
 
         <div id="circulos">
             <div id="circulos-wrap">
@@ -88,7 +88,7 @@ const Hero23 = () => {
         <div id="colab">
             <div id="organizador">
                 <p>{t('hero23.organiza')}</p>
-                <img src="/csg-positivo.png" alt="logo CSG" />
+                <img src={t('logos.csgPos')} alt="logo CSG" />
             </div>
             <div id="colaboradores">
                 <p>{t('hero23.colabora')}</p>
