@@ -46,6 +46,7 @@ const Navbar = () => {
     
     <div id="links" className={clicked ? 'active' : ''}>
       <div id="main">
+        <Link to="/patrocinios">{t('menu.sponsors')}</Link>
         <Link to="/premios">{t('menu.awards')}</Link>
         <div id="language-selector">
           {Object.keys(lngs).map((lng) => (

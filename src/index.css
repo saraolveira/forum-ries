@@ -202,6 +202,20 @@ button:hover {
   text-align: justify;
 }
 
+#tipos-patrocinio {
+  padding:2vh 2vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 2vh;
+  gap: 2svh;
+}
+
+#tipos-patrocinio svg {
+  padding-right: 2vw;
+}
+
 #hero {
   width:100vw;
   height: 86vh;
@@ -554,7 +568,14 @@ button:hover {
   padding: 7vh 0;
 }
 
-.edicion-links a {
+.patrocinio-links {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 3vh;
+}
+
+.edicion-links a, .patrocinio-links a {
   font-family: 'Varela Round', sans-serif;
   text-transform: uppercase;
   text-decoration: none;
@@ -574,7 +595,11 @@ button:hover {
   border: 3px solid #fff;
 }
 
-.edicion-links a:hover {
+.patrocinio-links a {
+  padding: 1vh 1vh;
+}
+
+.edicion-links a:hover, .patrocinio-links a:hover {
   background-color: transparent;
   color: #fff;
 }
@@ -700,7 +725,7 @@ button:hover {
   color: #fff;
 }
 
-#premios h2, #premios-section h2 {
+#premios h2, #premios-section h2, .page h2 {
   font-size: 2em;
   margin-left: 5vw;
   font-family: 'Varela Round', sans-serif;
@@ -974,7 +999,7 @@ button:hover {
     width:70vw;
   }
 
-  .edicion-links a {
+  .edicion-links a, .patrocinio-links a {
     width: 30vw;
   }
 
@@ -1092,7 +1117,7 @@ button:hover {
     justify-content: flex-end;
     align-items: center;
     transition: all .2s ease;
-    gap: 1vw;
+    gap: 2vw;
   }
 
   #main a {

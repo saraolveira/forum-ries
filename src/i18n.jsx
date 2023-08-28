@@ -15,7 +15,8 @@ i18n
                 translation: {
                     menu: {
                         awards: 'Premios RIES',
-                        editions: 'Ediciones RIES'
+                        editions: 'Ediciones RIES',
+                        sponsors: 'Patrocinios'
                     },
                     ediciones: {
                         twentythree: 'VIII Fórum RIES 2023',
@@ -101,6 +102,31 @@ i18n
                         csgNeg: '/csg-negativo.png',
                         csgPos: '/csg-positivo.png',
                         ries: '/RIES-logo-negativo.png'
+                    },
+                    patrocinios: {
+                        title: 'Tipos de patrocinios y colaboraciones',
+                        granito: 'A continuación, te enumeramos varios formatos de patrocinio o colaboraciones (que podéis consultar en detalle en el dossier), pero escribenos si se te ocurre cualquier otra forma de “poner tu granito de arena”. ¡Nuestros mejores embajadores sois vosotros!',
+                        linkName: 'Dossier de patrocinadores',
+                        link: 'https://registro.forumries.com/wp-content/uploads/2023/08/RIES23_Patrocinadores-1.pdf',
+                        support: '¡Hazte patrocinador!',
+                        form: 'https://registro.forumries.com/patrocinadores',
+                        type1: 'DIAMANTE (1 patrocinio posible | 8000€ + IVA)',
+                        type2: 'PLATINUM (8 patrocinios posibles | 3500€ + IVA)',
+                        type3: 'DINAMIZADOR ÁGORA (6 patrocinios posibles | 2500€ + IVA)',
+                        type4: 'PONENTE ÁGORA (18 patrocinios posibles, 3 max/ágora 500€ + IVA)',
+                        type5: 'MODERADOR MESA REDONDA (2 patrocinios posibles | 1500€ + IVA)',
+                        type6: 'PONENTES MESA REDONDA (8 patrocinios posibles, 4 max/mesa redonda 11000€ + IVA)',
+                        type7: 'PROYECTO (4 patrocinios posibles | 1500€ + IVA)',
+                        type8: 'GOLD (10 patrocinios posibles 11000€ + IVA)',
+                        type9: 'SILVER (20 patrocinios posibles 1500€ + IVA)',
+                        type10: 'Socio colaborador (# ilimitado de patrocinios posibles | 250€ + IVA). ',
+                        type11: 'Colaboración con Coffee-break -1 (2 patrocinios posibles | 1200€ + IVA) ',
+                        type12: 'Colaboración con almuerzo de trabajo (2 patrocinios posibles | 1200€ + IVA}',
+                        type13: 'Colaboración con visita cultural (1 patrocinio posible | 2000€ + IVA) ',
+                        type14: 'Colaboración con Lanyard (2 patrocinios posibles | 1200€ + IVA)',
+                        type15: 'Colaboración con alguna sección de #RIES23 de la jornada del 9 de noviembre (4 patrocinios posibles | 250€ + IVA)',
+                        type16: 'Roll-up en Coffee-breaks (# ilimitado de patrocinios posibles | 350€ + IVA) ',
+                        type17: 'Folletos en mesa (# ilimitado de patrocinios posibles | 150€ + IVA) ',
                     }
                 }
             },
@@ -108,7 +134,8 @@ i18n
                 translation: {
                     menu: {
                         awards: 'RIES Awards',
-                        editions: 'RIES Editions'
+                        editions: 'RIES Editions',
+                        sponsors: 'Sponsors'
                     },
                     ediciones: {
                         twentythree: 'VIII RIES Forum 2023',
@@ -195,14 +222,41 @@ i18n
                         csgNeg: '/csg-negative.png',
                         csgPos: '/csg-positive.png',
                         ries: '/RIES-logo-negative.png'
+                    },
+                    patrocinios: {
+                        title: 'Sponsorship & partnership possibilities',
+                        granito: "Following, we list severa! sponsorship or collaboration formats (you can consult all details in the dossier), but don't hesitate to contact us if you can think of any other way to 'do your bit'. Our best ambassadors are you!",
+                        linkName: 'Sponsorships Dossier',
+                        link: 'https://registro.forumries.com/wp-content/uploads/2023/08/RIES23_Sponsorships-1.pdf',
+                        support: 'Become a sponsor!',
+                        form: 'https://registro.forumries.com/patrocinadores',
+                        type1: 'DIAMOND (1 possible sponsorship | 8000€ + VAT)',
+                        type2: 'PLATINUM (8 possible sponsorships | 3500€ + VAT)',
+                        type3: 'AGORA LEADER (6 possible sponsorships | 2500€ + VAT)',
+                        type4: 'AGORA SPEAKER (18 possible sponsorships, 3 max/ágora 500€ + VAT)',
+                        type5: 'ROUND TABLE MODERATOR (2 possible sponsorships | 1500€ + VAT)',
+                        type6: 'ROUND TABLE SPEAKER (8 possible sponsorships, 4 max/mesa redonda 11000€ + VAT)',
+                        type7: 'PROJECT PRESENTATION (4 possible sponsorships | 1500€ + VAT)',
+                        type8: 'GOLD (10 possible sponsorships 11000€ + VAT)',
+                        type9: 'SILVER (20 possible sponsorships 1500€ + VAT)',
+                        type10: '#RIES23 Partnership (# ilimitado de possible sponsorships | 250€ + VAT). ',
+                        type11: 'Partnership with Coffee-break -1 (2 possible sponsorships | 1200€ + VAT) ',
+                        type12: 'Partnership with working lunch (2 possible sponsorships | 1200€ + VAT}',
+                        type13: 'Partnership with cultural visit (1 possible sponsorship | 2000€ + VAT) ',
+                        type14: 'Partnership with Lanyard (2 possible sponsorships | 1200€ + VAT)',
+                        type15: 'Partnership with a section of #RIES23 on November 9th(4 possible sponsorships | 250€ + VAT)',
+                        type16: 'Roll-up in Coffee-breaks (# ilimitado de possible sponsorships | 350€ + VAT) ',
+                        type17: 'Brochures at the table (# ilimitado de possible sponsorships | 150€ + VAT) ',
                     }
+
                 }
             },
             gl: {
                 translation: {
                     menu: {
                         awards: 'Premios RIES',
-                        editions: 'Edicións RIES'
+                        editions: 'Edicións RIES',
+                        sponsors: 'Patrocinios'
                     },
                     ediciones: {
                         twentythree: 'VIII Fórum RIES 2023',
@@ -288,6 +342,31 @@ i18n
                         csgNeg: '/csg-negativo.png',
                         csgPos: '/csg-positivo.png',
                         ries: '/RIES-logo-negativo.png'
+                    },
+                    patrocinios: {
+                        title: 'Tipos de patrocinios e colaboracións',
+                        granito: 'A continuación, enumeramos varios formatos de patrocinio ou colaboracións (que podedes consultar en detalle no dossier), pero escribenos si se che ocurre calquera outra maneira de “poñer o teu gran de area". ¡Os nosos mellores embaixadores sodes vos!',
+                        linkName: 'Dossier de patrocinadores',
+                        link: 'https://registro.forumries.com/wp-content/uploads/2023/08/RIES23_Patrocinadores-1.pdf',
+                        support: 'Faite patrocinador!',
+                        form: 'https://registro.forumries.com/patrocinadores',
+                        type1: 'DIAMANTE (1 patrocinio posible | 8000€ + IVA)',
+                        type2: 'PLATINUM (8 patrocinios posibles | 3500€ + IVA)',
+                        type3: 'DINAMIZADOR ÁGORA (6 patrocinios posibles | 2500€ + IVA)',
+                        type4: 'PONENTE ÁGORA (18 patrocinios posibles, 3 max/ágora 500€ + IVA)',
+                        type5: 'MODERADOR MESA REDONDA (2 patrocinios posibles | 1500€ + IVA)',
+                        type6: 'PONENTES MESA REDONDA (8 patrocinios posibles, 4 max/mesa redonda 11000€ + IVA)',
+                        type7: 'PROXECTO (4 patrocinios posibles | 1500€ + IVA)',
+                        type8: 'GOLD (10 patrocinios posibles 11000€ + IVA)',
+                        type9: 'SILVER (20 patrocinios posibles 1500€ + IVA)',
+                        type10: 'Socio colaborador (# ilimitado de patrocinios posibles | 250€ + IVA). ',
+                        type11: 'Colaboración con Coffee-break -1 (2 patrocinios posibles | 1200€ + IVA) ',
+                        type12: 'Colaboración con almorzo de traballo (2 patrocinios posibles | 1200€ + IVA}',
+                        type13: 'Colaboración con visita cultural (1 patrocinio posible | 2000€ + IVA) ',
+                        type14: 'Colaboración con Lanyard (2 patrocinios posibles | 1200€ + IVA)',
+                        type15: 'Colaboración con algunha sección de #RIES23 na xornada do 9 de novembro (4 patrocinios posibles | 250€ + IVA)',
+                        type16: 'Roll-up en Coffee-breaks (# ilimitado de patrocinios posibles | 350€ + IVA) ',
+                        type17: 'Folletos en mesa (# ilimitado de patrocinios posibles | 150€ + IVA) ',
                     }
                 }
             }
