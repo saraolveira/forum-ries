@@ -19,13 +19,13 @@ const RIES22 = () => {
                 imagen="/ries22.png"
                 tematica={t('tematicas.twentytwo')}
                 links={<>
-                    <a href='https://forumries.com/introduccion-22/' target='_blank'>{t('links.introduction')}</a>
-                    <a href='https://forumries.com/presentacion-22/' target='_blank'>{t('links.greeting')}</a>
-                    <a href='https://forumries.com/carta-presidente/' target='_blank'>{t('links.letter')}</a>
-                    <a href='https://forumries.com/programa-22/' target='_blank'>{t('links.program')}</a>
-                    <a href='https://forumries.com/ponentes-22/' target='_blank'>{t('links.speakers')}</a>
-                    <a href='https://forumries.com/wp-content/uploads/2022/10/Dossier-RIES22-1.pdf' target='_blank'>Dossier #RIES22</a>
-                    <a href='https://forumries.com/premiados-ries22/' target='_blank'>{t('premios.twentytwo')}</a>
+                    <a href='https://forumries.com/blog/introduccion-22/' target='_blank'>{t('links.introduction')}</a>
+                    <a href='https://forumries.com/blog/presentacion-22/' target='_blank'>{t('links.greeting')}</a>
+                    <a href='https://forumries.com/blog/carta-presidente/' target='_blank'>{t('links.letter')}</a>
+                    <a href='https://forumries.com/blog/programa-22/' target='_blank'>{t('links.program')}</a>
+                    <a href='https://forumries.com/blog/ponentes-22/' target='_blank'>{t('links.speakers')}</a>
+                    <a href='https://forumries.com/blog/wp-content/uploads/2022/10/Dossier-RIES22-1.pdf' target='_blank'>Dossier #RIES22</a>
+                    <a href='https://forumries.com/blog/premiados-ries22/' target='_blank'>{t('premios.twentytwo')}</a>
                 </>}                
             />
             <Icono />

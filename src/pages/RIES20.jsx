@@ -19,11 +19,11 @@ const RIES20 = () => {
                 imagen="/ries20.jpg"
                 tematica={t('tematicas.twenty')}
                 links={<>
-                    <a href='https://forumries.com/introduccion-2/' target='_blank'>{t('links.introduction')}</a>
-                    <a href='https://forumries.com/programa-2/' target='_blank'>{t('links.program')}</a>
-                    <a href='https://forumries.com/ponentes-2/' target='_blank'>{t('links.speakers')}</a>
-                    <a href='https://forumries.com/wp-content/uploads/2020/11/Dossier-RIES20-Castellano-Imprimir_compressed.pdf' target='_blank'>Dossier #RIES20</a>
-                    <a href='https://forumries.com/proyecto-ahfes/' target='_blank'>{t('links.ahfes')}</a>
+                    <a href='https://forumries.com/blog/introduccion-2/' target='_blank'>{t('links.introduction')}</a>
+                    <a href='https://forumries.com/blog/programa-2/' target='_blank'>{t('links.program')}</a>
+                    <a href='https://forumries.com/blog/ponentes-2/' target='_blank'>{t('links.speakers')}</a>
+                    <a href='https://forumries.com/blog/wp-content/uploads/2020/11/Dossier-RIES20-Castellano-Imprimir_compressed.pdf' target='_blank'>Dossier #RIES20</a>
+                    <a href='https://forumries.com/blog/proyecto-ahfes/' target='_blank'>{t('links.ahfes')}</a>
                 </>}  
             />
             <Icono />

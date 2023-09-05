@@ -20,8 +20,8 @@ const RIES16 = () => {
                 imagen="/RIES-logo.png"
                 tematica={t('tematicas.sixteen')}
                 links={<>
-                    <a href='https://forumries.com/docs/RIES2016_memoria.pdf' target='_blank'>{t('links.report')} #RIES16</a>
-                    <a href='https://forumries.com/galeria-ediciones-anteriores/#ries2016' target='_blank'>{t('links.gallery')}</a>
+                    <a href='https://forumries.com/blog/docs/RIES2016_memoria.pdf' target='_blank'>{t('links.report')} #RIES16</a>
+                    <a href='https://forumries.com/blog/galeria-ediciones-anteriores/#ries2016' target='_blank'>{t('links.gallery')}</a>
                 </>}  
             />
             <Icono />

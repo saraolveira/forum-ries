@@ -1,6 +1,7 @@
 import { useState } from 'react'
 import Circulos from "./Circulos.jsx"
 import { useTranslation } from 'react-i18next'
+import { Link } from 'react-router-dom'
 
 const Hero23 = () => {
     const { t } = useTranslation()
@@ -69,8 +70,11 @@ const Hero23 = () => {
             </div>
         </div>
 
-        <a href={t('hero.register')} target='_blank' id="registro" className="cta">{t('hero.cta')}</a>
-
+        <div id="fixed">
+            <a href={t('hero.register')} target='_blank' id="registro" className="cta">{t('hero.cta')}</a>
+            <Link to="/patrocinios"  id="patrocinio" className="cta">{t('patrocinios.cta')}</Link>
+        </div>
+       
         <div id="circulos">
             <div id="circulos-wrap">
                 <div id="circulo-main" className={fondo === 'inicio' ? 'circulo circulos hidden show' : 'circulo circulos hidden hide'}>

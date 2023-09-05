@@ -147,6 +147,18 @@ button:hover {
   transition: all .2s ease;
 }
 
+.text a {
+  text-decoration: none;
+  color: var(--color1);
+  transition: all .2s ease;
+}
+
+.text a:hover {
+  color: var(--color2)
+}
+
+
+
 #main {
   display: flex;
   flex-direction: column;
@@ -174,7 +186,7 @@ button:hover {
   background-color: var(--color1);
 }
 
-.page {
+.page  {
   width: 100vw;
   min-height: 86vh;
   min-height: 86svh;
@@ -194,12 +206,16 @@ button:hover {
   max-width: 70vw;
 }
 
-.page p {
+.page p, .text p {
   width: 70vw;
   font-family: 'Myriad Pro', sans-serif;
   color: #fff;
   font-weight: 300;
   text-align: justify;
+}
+
+#introduccion p {
+  width: 100%;
 }
 
 #tipos-patrocinio {
@@ -429,6 +445,49 @@ button:hover {
   padding-bottom: 1svh;
 }
 
+#cta-patrocinador {
+  width: 100vw;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 2vw 0;
+}
+
+.section {
+  width: 100vw;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 5vw 0;
+  gap: 3vh;
+  gap: 3svh;
+  color: #fff;
+  font-family: 'Varela Round', sans-serif;
+}
+
+.section svg {
+  padding-right: 1vw;
+}
+
+.mailchimp-form {
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 2vh;
+  font-family:  'Myriad Pro', sans-serif;
+  color:  #fff;
+}
+
+.mailchimp-form input {
+  padding: 2vh;
+  width: 40vw;
+  font-size: 0.9em;
+}
 
 #titulo {
   font-size: 3.7em;
@@ -475,7 +534,12 @@ button:hover {
     color: #fff
 }
 
-#registro {
+.mailchimp-form .cta {
+  padding: 0.5vh 3vw;
+  font-size: 1.4em;
+}
+
+#fixed {
   position: fixed;
   box-sizing: border-box;
   width: 90vw;
@@ -484,11 +548,16 @@ button:hover {
   bottom: 2svh; 
   margin: 0;
   left: 5vw;
-  background-color: transparent;
-
 }
 
-#registro:hover {
+#registro, #patrocinio {
+  margin: 1vh;
+  margin: 1svh;
+  background-color: transparent;
+  background-color: #ececec;
+}
+
+#registro:hover, #patrocinio:hover{
   background-color: var(--color2);
   border-color: var(--color2);
   color: var(--color1);
@@ -725,9 +794,21 @@ button:hover {
   color: #fff;
 }
 
-#premios h2, #premios-section h2, .page h2 {
+#premios h2, #premios-section h2 {
   font-size: 2em;
   margin-left: 5vw;
+  font-family: 'Varela Round', sans-serif;
+  color: #fff;
+}
+
+.page h2, .text h2 {
+  font-size: 2em;
+  font-family: 'Varela Round', sans-serif;
+  color: #fff;
+}
+
+h3 {
+  font-size: 1.8em;
   font-family: 'Varela Round', sans-serif;
   color: #fff;
 }
@@ -865,6 +946,51 @@ button:hover {
 .entidad:hover {
   color: var(--color1)
 }
+
+#basic {
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  box-sizing: border-box;
+  padding: 5vh 5vw;
+  gap: 3vh;
+}
+
+#introduccion {
+  width: 90vw;
+}
+
+#intro {
+  width: 90vw;
+}
+
+#bullets {
+  margin-top: 5vh;
+  margin-top: 5svh;
+  font-size: 0.9em;
+}
+
+#bullets img{
+  width: 4vh;
+  width: 4svh;
+}
+
+.bullet {
+  display: flex;
+  justify-content: flex-start;
+  gap: 2vh;
+  gap: 2svh;
+  align-items: center;
+  margin-top: 2vh;
+  margin-top: 2svh;
+}
+
+#teaser div {
+  width: 90vw !important;
+  height: 50.63vw !important;
+}
+
 
 #footer {
   width: 100vw;
@@ -1182,9 +1308,9 @@ button:hover {
   }
 
 
-  #registro {
-    width: 30vw;
-    left: 67vw;
+  #fixed {
+    width: 35vw;
+    left: 64vw;
   }
 
   .edicion {
@@ -1217,6 +1343,29 @@ button:hover {
     height: 32vh;
     height: 32svh;
   }
+
+  #basic {
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-start;
+    box-sizing: border-box;
+    padding: 5vw 5vw;
+    gap: 5vw;
+  }
+  
+  #introduccion {
+    width: 40vw;
+  }
+
+  #introduccion p {
+    width: 40vw;
+  }
+
+  #teaser div {
+    width: 40vw !important;
+    height: 22.50vw !important;
+  }
+  
 
 }
 

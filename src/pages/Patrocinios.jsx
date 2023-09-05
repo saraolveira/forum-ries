@@ -18,7 +18,7 @@ const Patrocinios = () => {
             <p>{t('patrocinios.granito')}</p>
             <div className='patrocinio-links'>
                 <a href={t('patrocinios.link')} target="_blank">{t('patrocinios.linkName')}</a>
-                <a href={t('patrocinios.form')} target="_blank">{t('patrocinios.support')}</a>
+                <a href={t('patrocinios.form')} target="_blank">{t('patrocinios.cta')}</a>
                 {/* <a href="https://registro.forumries.com/wp-content/uploads/2023/08/RIES23_Patrocinadores-1.pdf" target="_blank">Dossier de patrocinadores</a>
                 <a href="https://registro.forumries.com/wp-content/uploads/2023/08/RIES23_Sponsorships-1.pdf" target="_blank">Sponsorships Dossier</a> */}
             </div>

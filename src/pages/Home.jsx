@@ -1,10 +1,16 @@
 import Navbar from "../components/Navbar.jsx"
 import Hero from "../components/Hero.jsx"
 import Icono from "../components/Icono.jsx"
-import Hero23 from "../components/Hero23.jsx"
 import Ediciones from "../components/Ediciones.jsx"
 import Footer from "../components/Footer.jsx"
 import Premios from "../components/Premios.jsx"
+
+// 23
+import Hero23 from "../components/Hero23.jsx"
+import HaztePatrocinador from "../components/HaztePatrocinador.jsx"
+import Basic from "../components/Basic.jsx"
+import Info from "../components/Info.jsx"
+import MailChimpForm from "../components/MailChimpForm.jsx"
 
 
 const Home = () => {
@@ -18,7 +24,11 @@ const Home = () => {
         <>
             <Navbar />
             <Hero23 />
+            <Basic />
             {/* <Icono /> */}
+            {/* <HaztePatrocinador /> */}
+            <Info />
+            <MailChimpForm />
             <Ediciones />
             <Premios />
             <Footer />

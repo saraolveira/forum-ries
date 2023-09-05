@@ -96,7 +96,12 @@ i18n
                         ia: 'IA',
                         logo: "/logo-azul.png",
                         organiza: "Organiza",
-                        colabora: "Colabora:"
+                        colabora: "Colabora:",
+                        i1: "8 y 9 de noviembre de 2023",
+                        i2: "Hotel Attica21 4****s Business & Wellness, Vigo. Formato presencial",
+                        i3: "Evento de relevancia internacional",
+                        i4: "Cena de gala y entrega de premios #RIES23 y buenas prácticas #SEN",
+                        i5: "Networking, sinergias y casos de éxito",
                     },
                     logos: {
                         csgNeg: '/csg-negativo.png',
@@ -115,9 +120,9 @@ i18n
                         type3: 'DINAMIZADOR ÁGORA (6 patrocinios posibles | 2500€ + IVA)',
                         type4: 'PONENTE ÁGORA (18 patrocinios posibles, 3 max/ágora 500€ + IVA)',
                         type5: 'MODERADOR MESA REDONDA (2 patrocinios posibles | 1500€ + IVA)',
-                        type6: 'PONENTES MESA REDONDA (8 patrocinios posibles, 4 max/mesa redonda 11000€ + IVA)',
+                        type6: 'PONENTES MESA REDONDA (8 patrocinios posibles, 4 max/mesa redonda | 1000€ + IVA)',
                         type7: 'PROYECTO (4 patrocinios posibles | 1500€ + IVA)',
-                        type8: 'GOLD (10 patrocinios posibles 11000€ + IVA)',
+                        type8: 'GOLD (10 patrocinios posibles | 1000€ + IVA)',
                         type9: 'SILVER (20 patrocinios posibles 1500€ + IVA)',
                         type10: 'Socio colaborador (# ilimitado de patrocinios posibles | 250€ + IVA). ',
                         type11: 'Colaboración con Coffee-break -1 (2 patrocinios posibles | 1200€ + IVA) ',
@@ -127,6 +132,21 @@ i18n
                         type15: 'Colaboración con alguna sección de #RIES23 de la jornada del 9 de noviembre (4 patrocinios posibles | 250€ + IVA)',
                         type16: 'Roll-up en Coffee-breaks (# ilimitado de patrocinios posibles | 350€ + IVA) ',
                         type17: 'Folletos en mesa (# ilimitado de patrocinios posibles | 150€ + IVA) ',
+                        cta: '¡Patrocina!'
+                    },
+                    info: {
+                        booking: 'Reserva de habitaciones para #RIES23', 
+                        valid: 'válido hasta el 8 de septiembre',
+                        hab1: 'Habitación Attica21 doble, de uso individual en régimen de alojamiento y desayuno buffet - 90€/noche',
+                        hab2: 'Habitación Attica21 doble, en régimen de alojamiento y desayuno buffet - 103€/noche',
+                        reserva: 'Para reservar escribid al correo',
+                        reserva2: "o llamad al teléfono +34 986 46 21 21 e indicar que sois asistentes del 'Congreso #RIES23'",
+                    },
+                    mailchimp: {
+                        subscribe: 'Suscríbete a la newsletter de #RIES23',
+                        name: 'Nombre',
+                        send: 'Enviar',
+                        sending: 'Enviando',
                     }
                 }
             },
@@ -216,7 +236,12 @@ i18n
                         ia: 'AI',
                         logo: "/logo-azul-en.png",
                         organiza: "Organized by:",
-                        colabora: "Collaborators:"
+                        colabora: "Collaborators:",
+                        i1: "November 8th and 9th 2023",
+                        i2: "Hotel Attica21 4****s Business & Wellness, Vigo. In-person format",
+                        i3: "International relevance event",
+                        i4: "Gala dinner with #RIES23 and #SEN good practices Award Ceremony",
+                        i5: "Networking, synergies and success stories",
                     },
                     logos: {
                         csgNeg: '/csg-negative.png',
@@ -225,19 +250,19 @@ i18n
                     },
                     patrocinios: {
                         title: 'Sponsorship & partnership possibilities',
-                        granito: "Following, we list severa! sponsorship or collaboration formats (you can consult all details in the dossier), but don't hesitate to contact us if you can think of any other way to 'do your bit'. Our best ambassadors are you!",
+                        granito: "Following, we list several sponsorship or collaboration formats (you can consult all details in the dossier), but don't hesitate to contact us if you can think of any other way to 'do your bit'. Our best ambassadors are you!",
                         linkName: 'Sponsorships Dossier',
                         link: 'https://registro.forumries.com/wp-content/uploads/2023/08/RIES23_Sponsorships-1.pdf',
                         support: 'Become a sponsor!',
-                        form: 'https://registro.forumries.com/patrocinadores',
+                        form: 'https://registro.forumries.com/en/sponsorships/',
                         type1: 'DIAMOND (1 possible sponsorship | 8000€ + VAT)',
                         type2: 'PLATINUM (8 possible sponsorships | 3500€ + VAT)',
                         type3: 'AGORA LEADER (6 possible sponsorships | 2500€ + VAT)',
                         type4: 'AGORA SPEAKER (18 possible sponsorships, 3 max/ágora 500€ + VAT)',
                         type5: 'ROUND TABLE MODERATOR (2 possible sponsorships | 1500€ + VAT)',
-                        type6: 'ROUND TABLE SPEAKER (8 possible sponsorships, 4 max/mesa redonda 11000€ + VAT)',
+                        type6: 'ROUND TABLE SPEAKER (8 possible sponsorships, 4 max/mesa redonda | 1000€ + VAT)',
                         type7: 'PROJECT PRESENTATION (4 possible sponsorships | 1500€ + VAT)',
-                        type8: 'GOLD (10 possible sponsorships 11000€ + VAT)',
+                        type8: 'GOLD (10 possible sponsorships | 1000€ + VAT)',
                         type9: 'SILVER (20 possible sponsorships 1500€ + VAT)',
                         type10: '#RIES23 Partnership (# ilimitado de possible sponsorships | 250€ + VAT). ',
                         type11: 'Partnership with Coffee-break -1 (2 possible sponsorships | 1200€ + VAT) ',
@@ -247,8 +272,22 @@ i18n
                         type15: 'Partnership with a section of #RIES23 on November 9th(4 possible sponsorships | 250€ + VAT)',
                         type16: 'Roll-up in Coffee-breaks (# ilimitado de possible sponsorships | 350€ + VAT) ',
                         type17: 'Brochures at the table (# ilimitado de possible sponsorships | 150€ + VAT) ',
+                        cta: 'Become a sponsor!'
+                    },
+                    info: {
+                        booking: 'Hotel Booking for #RIES23', 
+                        valid: 'valid until September 8th',
+                        hab1: 'Attica21 Double Room, for individual use on a bed and breakfast basis. - 90€/night',
+                        hab2: 'Attica21 Double Room, on a bed and breakfast basis - 103€/night',
+                        reserva: 'To make a reservation write to the mail',
+                        reserva2: "or call the phone number +34 986 46 21 21 indicating you're attending 'Congreso #RIES23'",
+                    },
+                    mailchimp: {
+                        subscribe: 'Suscribe to the #RIES23 Newsletter',
+                        name: 'Name',
+                        send: 'Send',
+                        sending: 'Sending',
                     }
-
                 }
             },
             gl: {
@@ -336,7 +375,12 @@ i18n
                         ia: 'IA',
                         logo: "/logo-azul-gl.png",
                         organiza: "Organiza",
-                        colabora: "Colabora:"
+                        colabora: "Colabora:",
+                        i1: "8 e 9 de novembro de 2023",
+                        i2: "Hotel Attica21 4****s Business & Wellness, Vigo. Formato presencial",
+                        i3: "Evento de relevancia internacional",
+                        i4: "Cena de gala e entrega de premios #RIES23 e boas prácticas #SEN",
+                        i5: "Networking, sinerxías e casos de éxito",
                     },
                     logos: {
                         csgNeg: '/csg-negativo.png',
@@ -355,9 +399,9 @@ i18n
                         type3: 'DINAMIZADOR ÁGORA (6 patrocinios posibles | 2500€ + IVA)',
                         type4: 'PONENTE ÁGORA (18 patrocinios posibles, 3 max/ágora 500€ + IVA)',
                         type5: 'MODERADOR MESA REDONDA (2 patrocinios posibles | 1500€ + IVA)',
-                        type6: 'PONENTES MESA REDONDA (8 patrocinios posibles, 4 max/mesa redonda 11000€ + IVA)',
+                        type6: 'PONENTES MESA REDONDA (8 patrocinios posibles, 4 max/mesa redonda | 1000€ + IVA)',
                         type7: 'PROXECTO (4 patrocinios posibles | 1500€ + IVA)',
-                        type8: 'GOLD (10 patrocinios posibles 11000€ + IVA)',
+                        type8: 'GOLD (10 patrocinios posibles | 1000€ + IVA)',
                         type9: 'SILVER (20 patrocinios posibles 1500€ + IVA)',
                         type10: 'Socio colaborador (# ilimitado de patrocinios posibles | 250€ + IVA). ',
                         type11: 'Colaboración con Coffee-break -1 (2 patrocinios posibles | 1200€ + IVA) ',
@@ -367,6 +411,21 @@ i18n
                         type15: 'Colaboración con algunha sección de #RIES23 na xornada do 9 de novembro (4 patrocinios posibles | 250€ + IVA)',
                         type16: 'Roll-up en Coffee-breaks (# ilimitado de patrocinios posibles | 350€ + IVA) ',
                         type17: 'Folletos en mesa (# ilimitado de patrocinios posibles | 150€ + IVA) ',
+                        cta: 'Patrocina!'
+                    },
+                    info: {
+                        booking: 'Reserva de habitacións para #RIES23', 
+                        valid: 'válido ata o 8 de setembro',
+                        hab1: 'Habitación Attica21 doble, de uso individual en réxime de aloxamento e almorzo buffet - 90€/noite',
+                        hab2: 'Habitación Attica21 doble, en réxime de aaloxamento e almorzo buffet - 103€/noite',
+                        reserva: 'Para reservar escribido o correo',
+                        reserva2: "ou chamade o teléfono +34 986 46 21 21 indicando que sodes asistentes do 'Congreso #RIES23'",
+                    },
+                    mailchimp: {
+                        subscribe: 'Suscríbete á newsletter de #RIES23',
+                        name: 'Nome',
+                        send: 'Enviar',
+                        sending: 'Enviando',
                     }
                 }
             }
