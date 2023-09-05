@@ -102,6 +102,8 @@ i18n
                         i3: "Evento de relevancia internacional",
                         i4: "Cena de gala y entrega de premios #RIES23 y buenas prácticas #SEN",
                         i5: "Networking, sinergias y casos de éxito",
+                        program: "Programa",
+                        link: "https://forumries.com/RIES23_Programa.pdf",
                     },
                     logos: {
                         csgNeg: '/csg-negativo.png',
@@ -135,7 +137,7 @@ i18n
                         cta: '¡Patrocina!'
                     },
                     info: {
-                        booking: 'Reserva de habitaciones para #RIES23', 
+                        booking: 'Reserva de habitaciones para #RIES23 en el Hotel Attica21 en Vigo', 
                         valid: 'válido hasta el 8 de septiembre',
                         hab1: 'Habitación Attica21 doble, de uso individual en régimen de alojamiento y desayuno buffet - 90€/noche',
                         hab2: 'Habitación Attica21 doble, en régimen de alojamiento y desayuno buffet - 103€/noche',
@@ -242,6 +244,8 @@ i18n
                         i3: "International relevance event",
                         i4: "Gala dinner with #RIES23 and #SEN good practices Award Ceremony",
                         i5: "Networking, synergies and success stories",
+                        program: "Program",
+                        link: "https://forumries.com/RIES23_Program.pdf",
                     },
                     logos: {
                         csgNeg: '/csg-negative.png',
@@ -275,7 +279,7 @@ i18n
                         cta: 'Become a sponsor!'
                     },
                     info: {
-                        booking: 'Hotel Booking for #RIES23', 
+                        booking: 'Booking for #RIES23 in the Attica21 Hotel in Vigo', 
                         valid: 'valid until September 8th',
                         hab1: 'Attica21 Double Room, for individual use on a bed and breakfast basis. - 90€/night',
                         hab2: 'Attica21 Double Room, on a bed and breakfast basis - 103€/night',
@@ -381,6 +385,8 @@ i18n
                         i3: "Evento de relevancia internacional",
                         i4: "Cena de gala e entrega de premios #RIES23 e boas prácticas #SEN",
                         i5: "Networking, sinerxías e casos de éxito",
+                        program: "Programa",
+                        link: "https://forumries.com/RIES23_Programa.pdf",
                     },
                     logos: {
                         csgNeg: '/csg-negativo.png',
@@ -414,7 +420,7 @@ i18n
                         cta: 'Patrocina!'
                     },
                     info: {
-                        booking: 'Reserva de habitacións para #RIES23', 
+                        booking: 'Reserva de habitacións para #RIES23 no Hotel Attica21 en Vigo', 
                         valid: 'válido ata o 8 de setembro',
                         hab1: 'Habitación Attica21 doble, de uso individual en réxime de aloxamento e almorzo buffet - 90€/noite',
                         hab2: 'Habitación Attica21 doble, en réxime de aaloxamento e almorzo buffet - 103€/noite',

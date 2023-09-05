@@ -462,7 +462,7 @@ button:hover {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  padding: 5vw 0;
+  padding: 4vw 0;
   gap: 3vh;
   gap: 3svh;
   color: #fff;
@@ -550,14 +550,14 @@ button:hover {
   left: 5vw;
 }
 
-#registro, #patrocinio {
+#registro, #patrocinio, #programacta {
   margin: 1vh;
   margin: 1svh;
   background-color: transparent;
   background-color: #ececec;
 }
 
-#registro:hover, #patrocinio:hover{
+#registro:hover, #patrocinio:hover, #programacta:hover {
   background-color: var(--color2);
   border-color: var(--color2);
   color: var(--color1);
