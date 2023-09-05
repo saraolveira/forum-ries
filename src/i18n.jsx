@@ -137,8 +137,8 @@ i18n
                         cta: '¡Patrocina!'
                     },
                     info: {
-                        booking: 'Reserva de habitaciones para #RIES23 en el Hotel Attica21 en Vigo', 
-                        valid: 'válido hasta el 8 de septiembre',
+                        booking: 'Reserva una habitación en el hotel de #RIES23', 
+                        valid: 'a precio especial hasta el 8 de septiembre',
                         hab1: 'Habitación Attica21 doble, de uso individual en régimen de alojamiento y desayuno buffet - 90€/noche',
                         hab2: 'Habitación Attica21 doble, en régimen de alojamiento y desayuno buffet - 103€/noche',
                         reserva: 'Para reservar escribid al correo',
@@ -279,8 +279,8 @@ i18n
                         cta: 'Become a sponsor!'
                     },
                     info: {
-                        booking: 'Booking for #RIES23 in the Attica21 Hotel in Vigo', 
-                        valid: 'valid until September 8th',
+                        booking: 'Book a room at the #RIES23 hotel', 
+                        valid: 'at a special rate until September 8th',
                         hab1: 'Attica21 Double Room, for individual use on a bed and breakfast basis. - 90€/night',
                         hab2: 'Attica21 Double Room, on a bed and breakfast basis - 103€/night',
                         reserva: 'To make a reservation write to the mail',
@@ -420,8 +420,8 @@ i18n
                         cta: 'Patrocina!'
                     },
                     info: {
-                        booking: 'Reserva de habitacións para #RIES23 no Hotel Attica21 en Vigo', 
-                        valid: 'válido ata o 8 de setembro',
+                        booking: 'Reserva unha habitación no hotel de #RIES23', 
+                        valid: 'a precio especial ata o 8 de setembro',
                         hab1: 'Habitación Attica21 doble, de uso individual en réxime de aloxamento e almorzo buffet - 90€/noite',
                         hab2: 'Habitación Attica21 doble, en réxime de aaloxamento e almorzo buffet - 103€/noite',
                         reserva: 'Para reservar escribido o correo',
