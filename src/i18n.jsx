@@ -104,6 +104,8 @@ i18n
                         i5: "Networking, sinergias y casos de éxito",
                         program: "Programa",
                         link: "https://forumries.com/RIES23_Programa.pdf",
+                        description2: "En esta octava edición, que se celebrará en la ciudad de Vigo, la temática del VIII Fórum RIES 2023 (#RIES23)  'Ecosistemas innovadores de salud'  engloba uno de nuestros propósitos principales:  ser una plataforma profesional de colaboración público-privada entre los diferentes agentes del sector que potencie los proyectos innovadores colaborativos dentro de nuestro ecosistema de innovación en salud. #RIES23 se centra en resaltar el papel imprescindible que juegan los ecosistemas de innovación en salud y sus protagonistas, valor core de nuestra #ComunidadCSG. En esta octava edición del Fórum RIES aspiramos a dar voz, escuchar y conocer a todos los miembros de los ecosistemas innovadores mientras profundizamos en cuatro temáticas de interés: Longevidad, Biotech, OneHealth e Inteligencia Artificial.",
+
                     },
                     logos: {
                         csgNeg: '/csg-negativo.png',
@@ -246,6 +248,7 @@ i18n
                         i5: "Networking, synergies and success stories",
                         program: "Program",
                         link: "https://forumries.com/RIES23_Program.pdf",
+                        description2: "In this eighth edition, that will be held in the city of Vigo, the theme of the VIII RIES 2023 Forum (#RIES23) 'Innovative care ecosystems' encompasses one of our main purposes: to be a professional platform for public-private collaboration between the different agents of the sector that promote innovative collaborative projects within our ecosystem of innovation in health and care. #RIES23 focuses on highlighting the essential role played by health and care innovation ecosystems and their  key opinion leaders, a core value of our #CSG_Community. In this eighth edition of the RIES Forum, we aspire to give voice, listen and get to know all the members of innovative ecosystems while deepening our knowledge around four main topics of interest: Longevity, Biotech, OneHealth and Artificial Intelligence.",
                     },
                     logos: {
                         csgNeg: '/csg-negative.png',
@@ -387,6 +390,7 @@ i18n
                         i5: "Networking, sinerxías e casos de éxito",
                         program: "Programa",
                         link: "https://forumries.com/RIES23_Programa.pdf",
+                        description2: "Nesta oitava edición, que se celebrará na cidade de Vigo, a temática do VIII Fórum RIES 2023 (#RIES23)  'Ecosistemas innovadores de saúde'  engloba un dos nosos propósitos principais:  ser unha plataforma profesional de colaboración público-privada entre os diferentes axentes do sector que potencie os proxectos innovadores colaborativos dentro do noso ecosistema de innovación en saúde. #RIES23 céntrase en resaltar o papel imprescindible que xogan os ecosistemas de innovación en saúde e os seus protagonistas, valor core da nosa #ComunidadCSG. Nesta oitava edición do Fórum RIES aspiramos a dar voz, escoitar e conocer a todos os membros dps ecosistemas innovadores mentres profundizamos en catro temáticas de interés: Lonxevidade, Biotech, OneHealth e Intelixencia Artificial.",
                     },
                     logos: {
                         csgNeg: '/csg-negativo.png',

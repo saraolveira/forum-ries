@@ -15,6 +15,7 @@ import CSG from './pages/CSG.jsx'
 import EXPORPYMES from './pages/EXPORPYMES.jsx'
 import Patrocinios from './pages/Patrocinios.jsx'
 import ComiteOrganizador from './pages/ComiteOrganizador.jsx'
+import ProgramaPage from './pages/Programa.jsx'
 import '@fontsource/varela-round'
 
 const App = () => {
@@ -41,6 +42,7 @@ const App = () => {
           <Route path="/premios" element={<PremiosRIES />} />
           <Route path="/patrocinios" element={<Patrocinios />} />
           <Route path="/comite" element={<ComiteOrganizador />} />
+          <Route path="/programa" element={<ProgramaPage />} />
           <Route path="/ries22" element={<RIES22 />} />
           <Route path="/ries21" element={<RIES21 />} />
           <Route path="/ries20" element={<RIES20 />} />

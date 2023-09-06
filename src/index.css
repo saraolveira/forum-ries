@@ -1064,6 +1064,58 @@ h3 {
   color: var(--color2)
 }
 
+#programa {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  box-sizing: border-box;
+  padding: 5vh 5vw;
+  gap: 5vh;
+  font-family: 'Varela Round', sans-serif;
+  color: var(--color2);
+  padding-bottom: 10vw;
+}
+
+#programa-page {
+    margin-top: 14vh;
+    margin-top: 14svh;
+}
+
+.columna-programa {
+  width: 90vw;
+  background-color: #ececec;
+  border-radius: 1.5em;
+  padding: 1em 2em;
+  box-sizing: border-box;
+}
+
+.dia-programa {
+  font-size: 2em;
+  color: var(--color1)
+}
+
+.tabla-programa {
+  border-collapse: collapse;
+  width: 100%;
+  font-size: 0.9em;
+  margin-top: 1.5em;
+}
+
+.tabla-programa td {
+  border-top: 1px solid var(--color1);
+  border-bottom: 1px solid var(--color1);
+  padding: 8px;
+}
+
+.tabla-programa tr:hover .icono-programa{
+  transform: rotate(90deg);
+}
+
+.icono-programa {
+  width: 1.3em;
+  transition: all 0.3s ease;
+}
+
 #footer {
   width: 100vw;
   height: 25vh;
@@ -1306,6 +1358,10 @@ h3 {
   .miembro-comite {
     width: 40vw;
   }
+
+  #programa {
+    flex-direction: row;
+  }
 }
 
 @media only screen and (min-width: 992px) {
@@ -1406,8 +1462,8 @@ h3 {
 
 
   #fixed {
-    width: 20vw;
-    left: 78vw;
+    width: 25vw;
+    left: 73vw;
   }
 
   .edicion {

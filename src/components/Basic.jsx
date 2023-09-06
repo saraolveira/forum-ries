@@ -8,7 +8,8 @@ const Basic = () => {
     return (
         <div id="basic" className="section text">
             <div id="introduccion">
-                <p>{t('hero.description')}</p>
+                <p>{t('hero.description')}</p><br />
+                <p>{t('hero23.description2')}</p><br />
                 <div id="bullets">
                     <div className="bullet">
                         <img src="/icono1.png" />

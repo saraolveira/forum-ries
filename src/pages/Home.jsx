@@ -9,6 +9,7 @@ import Premios from "../components/Premios.jsx"
 import Hero23 from "../components/Hero23.jsx"
 import Basic from "../components/Basic.jsx"
 import Info from "../components/Info.jsx"
+import Programa from "../components/Programa.jsx"
 import Comite from "../components/Comite.jsx"
 import MailChimpForm from "../components/MailChimpForm.jsx"
 
@@ -27,6 +28,7 @@ const Home = () => {
             <Basic />
             {/* <Icono /> */}
             <Info />
+            <Programa />
             <Comite />
             <MailChimpForm />
             <Ediciones />
