@@ -7,9 +7,9 @@ import Premios from "../components/Premios.jsx"
 
 // 23
 import Hero23 from "../components/Hero23.jsx"
-import HaztePatrocinador from "../components/HaztePatrocinador.jsx"
 import Basic from "../components/Basic.jsx"
 import Info from "../components/Info.jsx"
+import Comite from "../components/Comite.jsx"
 import MailChimpForm from "../components/MailChimpForm.jsx"
 
 
@@ -26,8 +26,8 @@ const Home = () => {
             <Hero23 />
             <Basic />
             {/* <Icono /> */}
-            {/* <HaztePatrocinador /> */}
             <Info />
+            <Comite />
             <MailChimpForm />
             <Ediciones />
             <Premios />

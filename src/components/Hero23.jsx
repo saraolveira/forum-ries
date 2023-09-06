@@ -73,7 +73,7 @@ const Hero23 = () => {
         <div id="fixed">
             <a href={t('hero.register')} target='_blank' id="registro" className="cta">{t('hero.cta')}</a>
             <a href={t('hero23.link')} target='_blank' id="programacta" className="cta">{t('hero23.program')}</a>
-            <Link to="/patrocinios"  id="patrocinio" className="cta">{t('patrocinios.cta')}</Link>
+            <Link to="/patrocinios" target='_blank'  id="patrocinio" className="cta">{t('patrocinios.cta')}</Link>
         </div>
        
         <div id="circulos">

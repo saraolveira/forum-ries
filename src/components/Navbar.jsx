@@ -56,6 +56,7 @@ const Navbar = () => {
           ))}
         </div>
       </div>
+      <Link to="/comite">Comité  #RIES23</Link>
       <a href="#" onClick={handleDesplegar}>{t('menu.editions')} <FontAwesomeIcon icon={arrow} /></a>
       <div id="desplegable" className={desplegar ? 'open' : ''}>
         <Link to="/ries22">#RIES22</Link>

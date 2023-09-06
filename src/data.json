@@ -1,0 +1,69 @@
+[
+    { 
+        "comite": [
+            {
+                "name": "Beatriz Díaz Lorenzo",
+                "entity": "ZENDAL",
+                "role": "Directora de Comunicación e Imagen",
+                "description": "Directora de Comunicación y Marca del grupo Zendal, grupo biofarmacéutico enfocado en biotecnología y vacunas con 7 empresas bajo su paraguas. Licenciada en Ciencias Económicas por la Universidad de Vigo dónde también estudió el Master de Dirección Comercial y Ventas en la Escuela de negocios IESIDE.",
+                "linkedin": "https://www.linkedin.com/in/beatrizd%C3%ADazlorenzo/",
+                "img": "/comite/beatriz-zendal.png"
+            },
+            {
+                "name": "Miguel Álvarez Iglesias",
+                "entity": "atlanTTic Research Center (Universidade de Vigo)",
+                "role": "Center Manager",
+                "description": "Ingeniero Superior de Telecomunicaciones y Máster en Innovación Industrial y Optimización de Procesos por la Universidad de Vigo. Cuenta con formación específica en gestión de la innovación y transferencia tecnológica, y una dilatada experiencia asumiendo cargos de responsabilidad en la gestión de diversas entidades del ámbito público y privado.",
+                "linkedin": "https://www.linkedin.com/in/miguelalvareziglesias",
+                "img": "/comite/miguel-atlanttic.png"
+            },
+            {
+                "name": "Luis Barros Ríos",
+                "entity": "ATENDO",
+                "role": "CEO",
+                "description": "Todo apuntaba a que sería en los terrenos de juego donde daría mis primeros pasos como psicólogo profesional, pero bastó una clase de Psicología de la Vejez y una charla con el profesor que me desaconsejó dedicarme a este sector para iniciar mi camino profesional en el mundo de loscuidados.",
+                "linkedin": "https://www.linkedin.com/in/luisbarrosrios",
+                "img": "/comite/luis-atendo.png"
+            },
+            {
+                "name": "Beatriz Gil De Araújo De Simón",
+                "entity": "Fundación Biomédica Galicia Sur",
+                "role": "Directora",
+                "description": "",
+                "linkedin": "https://www.linkedin.com/in/beatriz-gil-de-araujo-57177a30/",
+                "img": "/comite/beatriz-fbgs.png"
+            },
+            {
+                "name": "Roberto González Novas",
+                "entity": "DomusVi",
+                "role": "Responsable de Soluciones e Innovación",
+                "description": "Ingeniero de Telecomunicaciones, gran apasionado de la tecnología y en los últimos 10 años centrado en mejorar la calidad de vida de las personas dependientes.",
+                "linkedin": "https://www.linkedin.com/in/roberto-gonzalez-novas-2458931a2/",
+                "img": "/comite/roberto-domusvi.png"
+            },
+            {
+                "name": "María Carmen López Pérez",
+                "entity": "BALIDEA",
+                "role": "Directora de I+D+i",
+                "description": "Enxeñeira Industrial pola Universidade de Vigo e Máster en Innovacion pola EOI de Madrid. Comeza a súa traxectoria profesional como Enxeñeira de Procesos no sector das Telecomunicacións para logo especializarse na xestión da I+D+i, campo no que conta con máis de 15 anos de experiencia. Membro da XD CSG.",
+                "linkedin": "https://www.linkedin.com/in/mcarmenlopezperez/ ",
+                "img": "/comite/carmen-balidea.png"
+            },
+            {
+                "name": "Luis Pérez-Freire",
+                "entity": "Gradiant",
+                "role": "Director General",
+                "description": "Luis Pérez Freire es Doctor Ingeniero en Telecomunicación por la Universidad de Vigo desde 2008. Ha realizado varias estancias de investigación en EE.UU. y Francia y ha participado en numerosos proyectos de I+D+i, tanto en el ámbito nacional como el internacional, muchos de ellos en colaboración con la industria, llevando investigaciones punteras en TIC al mercado.  Desde 2015 Luis desempeña el cargo de director general de Gradiant, el Centro Tecnológico de Telecomunicaciones de Galicia, con un enfoque a la I+D orientada al mercado, y que se ha consolidado como un referente nacional e internacional en los ámbitos tecnológicos de conectividad, ciberseguridad e inteligencia artificial. Luis es miembro de la junta directiva del CSG desde 2022.",
+                "linkedin": "https://www.linkedin.com/in/luis-p%C3%A9rez-freire-1b77822/",
+                "img": "/comite/luis-gradiant.png"
+            },
+            {
+                "name": "Juan Carlos Rodriguez Bernardez",
+                "entity": "Afaga Alzheimer",
+                "role": "Presidente",
+                "description": "",
+                "img": "/comite/juancarlos-afaga.png"
+            }
+        ]
+    }
+]
