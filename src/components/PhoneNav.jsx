@@ -9,13 +9,13 @@ const PhoneNav = () => {
 
     return (<div id="phone-nav">
         <div className="phone-nav-icon">
-            <a href={t('hero.register')} target="_blank"><FontAwesomeIcon icon={faTicket} /></a>
+            <a href={t('hero.register')} target="_blank" rel="noreferrer noopener"><FontAwesomeIcon icon={faTicket} /></a>
         </div>
         <div className="phone-nav-icon">
-            <a href={t('hero23.link')} target="_blank"><FontAwesomeIcon icon={faRectangleList} /></a>
+            <a href={t('hero23.link')} target="_blank" rel="noreferrer noopener"><FontAwesomeIcon icon={faRectangleList} /></a>
         </div>
         <div className="phone-nav-icon">
-            <Link to="/patrocinios" target="_blank"><FontAwesomeIcon icon={faHandHoldingHeart} /></Link>
+            <Link to="/patrocinios" target="_blank" rel="noopener noreferrer"><FontAwesomeIcon icon={faHandHoldingHeart} /></Link>
         </div>
     </div>)
 }
