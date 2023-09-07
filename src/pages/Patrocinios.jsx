@@ -6,7 +6,7 @@ import { useTranslation } from 'react-i18next'
 
 const Patrocinios = () => {
 
-    document.title = "Fórum RIES"
+    document.title = "Patrocinios #RIES23"
     const { t } = useTranslation()
     document.documentElement.style.setProperty('--color1', '#C48B27')
     document.documentElement.style.setProperty('--color2', '#0e1e2f')

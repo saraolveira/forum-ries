@@ -1,12 +1,15 @@
 import Navbar from "../components/Navbar.jsx"
-
 import Footer from "../components/Footer.jsx"
 import MiembroComiteDescripcion from '../components/MiembroComiteDescripcion'
 import datos from '../data.json'
+
 const ComiteOrganizador = () => {
+
+    document.title = "Comité #RIES23"
 
     document.documentElement.style.setProperty('--color1', '#C48B27')
     document.documentElement.style.setProperty('--color2', '#0e1e2f')
+
 
     const miembros  = datos[0].comite
 

@@ -3,6 +3,8 @@ import Programa from "../components/Programa.jsx"
 import Footer from "../components/Footer.jsx"
 
 const ProgramaPage = () => {
+
+    document.title = "Programa #RIES23"
     
     document.documentElement.style.setProperty('--color1', '#C48B27')
     document.documentElement.style.setProperty('--color2', '#0e1e2f')
