@@ -550,6 +550,7 @@ button:hover {
   bottom: 2svh; 
   margin: 0;
   left: 5vw;
+  display: none;
 }
 
 #registro, #patrocinio, #programacta {
@@ -1116,6 +1117,36 @@ h3 {
   transition: all 0.3s ease;
 }
 
+#phone-nav {
+  width: 100vw;
+  height: 7vh;
+  height: 7svh;
+  background-color: #ececec;
+  box-sizing: border-box;
+  position: fixed;
+  bottom: 0;
+  z-index: 10;
+  border-top: 2px solid var(--color2);
+}
+
+#phone-nav {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.phone-nav-icon {
+  width: 30vw;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.5em;
+}
+
+.phone-nav-icon a {
+  color: var(--color1)
+}
+
 #footer {
   width: 100vw;
   height: 25vh;
@@ -1131,6 +1162,7 @@ h3 {
   border-top: 3px solid #fff;
   width: 80vw;
   margin-left: 10vw;
+  padding-bottom: 7vh;
 }
 
 #footer a {
@@ -1464,6 +1496,11 @@ h3 {
   #fixed {
     width: 25vw;
     left: 73vw;
+    display: block;
+  }
+
+  #phone-nav {
+    display: none;
   }
 
   .edicion {
