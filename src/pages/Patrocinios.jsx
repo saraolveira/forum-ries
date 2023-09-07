@@ -1,4 +1,5 @@
 import Navbar from '../components/Navbar.jsx'
+import Patrocinadores from '../components/Patrocinadores.jsx'
 import Footer from '../components/Navbar.jsx'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faCaretRight } from '@fortawesome/free-solid-svg-icons'
@@ -14,6 +15,7 @@ const Patrocinios = () => {
     return (<>
         <Navbar />
         <div className='page'>
+            <Patrocinadores />
             <h2>{t('patrocinios.title')}</h2>
             <p>{t('patrocinios.granito')}</p>
             <div className='patrocinio-links'>
