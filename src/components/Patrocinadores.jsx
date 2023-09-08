@@ -7,6 +7,7 @@ const Patrocinadores = () => {
         <h3>{t('patrocinios.ltype3')}</h3>
         <div className="block-patrocinadores">
             <a href="https://www.gradiant.org/" target="_blank"><img src="/patrocinadores/gradiant.png" alt="Gradiant" /></a>
+            <a href="https://www.plexus.es/" target="_blank"><img src="/patrocinadores/plexus.png" alt="Plexus" /></a>
         </div>
         <h3>{t('patrocinios.ltype5')}</h3>
         <div className="block-patrocinadores">
