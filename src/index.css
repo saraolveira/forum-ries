@@ -245,6 +245,8 @@ button:hover {
   align-items: center;
   gap: 2vw;
   box-sizing: border-box;
+  padding: 1vh 0;
+  padding: 1svh 0;
 }
 
 .block-patrocinadores img {
