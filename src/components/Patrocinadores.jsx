@@ -5,7 +5,9 @@ const Patrocinadores = () => {
 
     return (<div id="patrocinadores">
         <h3>{t('patrocinios.ltype2')}</h3>
+        <div className="block-patrocinadores">
             <a href="https://www.atendo.es/" target="_blank"><img src="/patrocinadores/atendo.png" alt="Atendo" /></a>
+        </div>
         <h3>{t('patrocinios.ltype3')}</h3>
         <div className="block-patrocinadores">
             <a href="https://www.domusvi.es/" target="_blank"><img src="/patrocinadores/domusvi.png" alt="Gradiant" /></a>
