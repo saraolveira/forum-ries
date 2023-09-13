@@ -212,7 +212,7 @@ i18n
                         date: 'November 8th-9th',
                         cta: 'Register',
                         register: 'https://registro.forumries.com/en/',
-                        description: '#RIES is the international reference forum at a national and international level to address the challenges and opportunities of the health ecosystem. Led by the Galician Health Cluster, CSG, it has been created as a meeting forum between the main agents of the public and private health and socio-health sectors at a European level in collaboration with our strategic partners of the #CSG_Community'
+                        description: '#RIES is the international reference forum at a national and international level to address the challenges and opportunities of the health ecosystem. Led by the Galician Health Cluster, CSG, it has been created as a meeting forum between the main agents of the public and private health and care sectors at a European level in collaboration with our strategic partners of the #CSG_Community'
                     },
                     premios: {
                         awards: 'RIES Awards',
