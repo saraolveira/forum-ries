@@ -44,6 +44,7 @@ const Premios22 = () => {
             premio={t('premios.resiliencia')}
             entidad="Hifas da Terra"
             web="https://hifasdaterra.com/"
+            video="https://youtu.be/WNp9HrXaj8U"
         />
 
     </>)
