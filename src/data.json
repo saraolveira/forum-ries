@@ -7,7 +7,8 @@
                 "role": "Directora de Comunicación e Imagen",
                 "description": "Directora de Comunicación y Marca del grupo Zendal, grupo biofarmacéutico enfocado en biotecnología y vacunas con 7 empresas bajo su paraguas. Licenciada en Ciencias Económicas por la Universidad de Vigo dónde también estudió el Master de Dirección Comercial y Ventas en la Escuela de negocios IESIDE.",
                 "linkedin": "https://www.linkedin.com/in/beatrizd%C3%ADazlorenzo/",
-                "img": "/comite/beatriz-zendal.png"
+                "img": "/comite/beatriz-zendal.png",
+                "carta": true
             },
             {
                 "name": "Miguel Álvarez Iglesias",

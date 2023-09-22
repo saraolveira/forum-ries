@@ -32,9 +32,9 @@ const Home = () => {
             <Info />
             <Programa />
             <Comite />
+            <Premios />
             <MailChimpForm />
             <Ediciones />
-            <Premios />
             <Footer />
             <PhoneNav />
         </>

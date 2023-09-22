@@ -16,7 +16,8 @@ i18n
                     menu: {
                         awards: 'Premios RIES',
                         editions: 'Ediciones RIES',
-                        sponsors: 'Patrocinios'
+                        sponsors: 'Patrocinios',
+                        comite: 'Comité #RIES23'
                     },
                     ediciones: {
                         twentythree: 'VIII Fórum RIES 2023',
@@ -47,7 +48,7 @@ i18n
                         awards: 'Premios RIES',
                         twentytwo: 'Premios #RIES22',
                         twentyone: 'Premios #RIES21',
-                        cta: 'Descubre todos los premiados',
+                        cta: 'Participa en los Premios #RIES23 y descubre todos los premiados',
                         innovacion: 'Innovación CSG',
                         impacto: 'Impacto en las personas',
                         conocimiento: 'Conocimiento',
@@ -88,6 +89,23 @@ i18n
                             g23: 'Descubre más info y la galería de EXPORPYMES 2023',
                             g23url: 'https://clustersaude.com/el-cluster-saude-de-galicia-csg-apuesta-por-la-promocion-de-la-internacionalizacion-de-las-empresas-gallegas/',
                             r22: 'Revive EXPORPYMES 2022',
+                        },
+                        carta23: {
+                            carta: 'Carta de la presidenta de #RIES23',
+                            p1: 'Estimados colaboradores,',
+                            p2: 'Alcanzada esta octava edición del Fórum RIES 2023 tras años especialmente complejos, creemos que este evento ha cogido altura, pero es necesario mantener nuestro esfuerzo en el impulso al sector de la salud.',
+                            p3: 'Hoy nadie duda que la prosperidad y el futuro de la sociedad depende en gran medida de nuestro mayor bien: la salud. Una salud cuya fortaleza y bienestar debe sustentarse en avances científicos y tecnológicos que aborden los desafíos actuales y futuros. ',
+                            p4: 'En esta octava edición ponemos el foco en dos realidades, la Longevidad de la población y la salud global desde un enfoque OneHealth, y dos herramientas de enorme impacto, la Biotecnología y la Inteligencia Artificial.',
+                            p5: 'La Longevidad: el envejecimiento de la población es una realidad creciente, y por ello debemos encarar nuevos retos vinculados a ello que requiere de una reformulación del abordaje en términos de mayor humanización, flexibilidad y eficiencia.',
+                            p6: 'La OneHealth: una perspectiva sanitaria y científica que ha incorporado de lleno este concepto que nos habla de una sola salud, al igual que tenemos un único planeta. Hoy, tras un siglo XXI con brotes epidémicos de gran relevancia, nadie duda de la interrelación entre aspectos como el medioambiente, cambio climático, globalización, la salud humana y animal.',
+                            p7: 'La Biotecnología: el COVID nos mostró claramente el camino: investigación y prevención de enfermedades por medio de la biotecnología y las vacunas. La mejor inversión en Sanidad es la prevención y dentro de los sistemas de prevención más potentes están las vacunas, cuyo balance coste/beneficio es inigualable a cualquier otro.',
+                            p8: 'Por último, la Inteligencia Artificial (IA) está transformando la forma en la que se brinda el cuidado de la salud. A su vez, aparecen nuevos desafíos y oportunidades que deben ser abordados desde una perspectiva amplia y con un objetivo principal: promover el bienestar y la seguridad de las personas y el interés público.',
+                            p9: 'Avancemos hacia esa nueva forma de entender la salud, de una manera global. Este es nuestro compromiso con esta edición VIII Fórum RIES 2023, centrado en los Ecosistemas Innovadores de Salud. ',
+                            p10: 'Estoy convencida de que será de gran interés con la aportación de todos los implicados. ',
+                        },
+                        comite: {
+                            comite: 'Comité Organizador #RIES23',
+                            cta: 'Descubre toda la información sobre el Comité Organizador #RIES23'
                         }
                     },
                     hero23: {
@@ -187,7 +205,8 @@ i18n
                     menu: {
                         awards: 'RIES Awards',
                         editions: 'RIES Editions',
-                        sponsors: 'Sponsors'
+                        sponsors: 'Sponsors',
+                        comite: '#RIES23 Comitee'
                     },
                     ediciones: {
                         twentythree: 'VIII RIES Forum 2023',
@@ -218,7 +237,7 @@ i18n
                         awards: 'RIES Awards',
                         twentytwo: '#RIES22 Awards',
                         twentyone: '#RIES21 Awards',
-                        cta: 'Discover all the awarded projects',
+                        cta: 'Take part in the #RIES23 Awards and discover all awarded projects',
                         innovacion: 'Innovation CSG',
                         impacto: 'Impact on people',
                         conocimiento: 'Knowledge',
@@ -260,6 +279,23 @@ i18n
                             g23: 'Discover more info and the EXPORPYMES 2023 gallery',
                             g23url: 'https://clustersaude.com/en/the-galician-health-cluster-csg-commits-to-promoting-the-internazionalitation-of-galician-companies/',
                             r22: 'Relive EXPORPYMES 2022',
+                        },
+                        carta23: {
+                            carta: 'Letter from the president of #RIES23',
+                            p1: 'Dear collaborators,',
+                            p2: 'Having reached this eighth edition of the Forum RIES 2023 after especially complex years, we believe that this event has reached heights, but it is necessary to maintain our efforts to promote the health sector.',
+                            p3: 'Today no one doubts that the prosperity and future of society depends largely on our greatest good: health. A health whose strength and well-being must be supported by scientific and technological advances that address current and future challenges.',
+                            p4: 'In this eighth edition we focus on two realities, the Longevity of the population and global health from a OneHealth approach, and two tools of enormous impact, Biotechnology and Artificial Intelligence.',
+                            p5: 'Longevity: the aging of the population is a growing reality, and therefore we must face new challenges linked to it that require a reformulation of the approach in terms of greater humanization, flexibility and efficiency.',
+                            p6: 'OneHealth: a health and scientific perspective that has fully incorporated this concept that tells us about a single health, just as we have a single planet. Today, after a 21st century with highly relevant epidemic outbreaks, no one doubts the interrelation between aspects such as the environment, climate change, globalization, and human and animal health.',
+                            p7: 'Biotechnology: COVID clearly showed us the way: research and prevention of diseases through biotechnology and vaccines. The best investment in Health is prevention and among the most powerful prevention systems are vaccines, whose cost/benefit balance is unmatched by any other.',
+                            p8: 'Finally, Artificial Intelligence (AI) is transforming the way healthcare is delivered. At the same time, new challenges and opportunities appear that must be addressed from a broad perspective and with one main objective: promoting the well-being and security of people and the public interest.',
+                            p9: "Let's move towards this new way of understanding health, in a global way. This is our commitment to this edition VIII Forum RIES 2023 , focused on Innovative Care Ecosystems.",
+                            p10: 'I am convinced that it will be of great interest with the contribution of all those involved.',
+                        },
+                        comite: {
+                            comite: '#RIES23 Organizing Comitee',
+                            cta: 'Discover all information about the #RIES23 Organizing Comitee'
                         }
                     },
                     hero23: {
@@ -358,7 +394,8 @@ i18n
                     menu: {
                         awards: 'Premios RIES',
                         editions: 'Edicións RIES',
-                        sponsors: 'Patrocinios'
+                        sponsors: 'Patrocinios',
+                        comite: 'Comité #RIES23'
                     },
                     ediciones: {
                         twentythree: 'VIII Fórum RIES 2023',
@@ -389,7 +426,7 @@ i18n
                         awards: 'Premios RIES',
                         twentytwo: 'Premios #RIES22',
                         twentyone: 'Premios #RIES21',
-                        cta: 'Descubre todos os premiados',
+                        cta: 'Participa nos Premios #RIES23 e descubre todos os premiados',
                         innovacion: 'Innovación CSG',
                         impacto: 'Impacto nas persoas',
                         conocimiento: 'Coñecemento',
@@ -430,6 +467,23 @@ i18n
                             g23: 'Descubre máis info e a galería de EXPORPYMES 2023',
                             g23url: 'https://clustersaude.com/gl/o-cluster-saude-de-galicia-csg-aposta-pola-promocion-da-internacionalizacion-das-empresas-galegas/',
                             r22: 'Revive EXPORPYMES 2022',
+                        },
+                        carta23: {
+                            carta: 'Carta da presidenta de #RIES23',
+                            p1: 'Estimados colaboradores,',
+                            p2: 'Chegados a esta oitava edición do Fórum RIES 2023 despois de anos especialmente complexos, cremos que este evento alcanzou cotas, pero é necesario manter o noso esforzo de promoción do sector sanitario.',
+                            p3: 'Hoxe ninguén dubida de que a prosperidade e o futuro da sociedade dependen en gran medida do noso maior ben: a saúde. Unha saúde cuxa fortaleza e benestar deben apoiarse en avances científicos e tecnolóxicos que aborden os retos actuais e futuros.',
+                            p4: 'Nesta oitava edición poñemos o foco en dúas realidades, a Lonxevidade da poboación e a saúde global desde un enfoque OneHealth, e dúas ferramentas de enorme impacto, a Biotecnoloxía e a Intelixencia Artificial.',
+                            p5: 'A Lonxevidade: o envellecemento da poboación é unha realidade en crecemento, polo que debemos afrontar novos retos vinculados a el que requiren unha reformulación do enfoque en termos de maior humanización, flexibilidade e eficiencia.',
+                            p6: 'A OneHealth: unha perspectiva sanitaria e científica que incorporou plenamente este concepto que nos fala dunha única saúde, do mesmo xeito que temos un único planeta. Hoxe, despois dun século XXI con brotes epidémicos de gran relevancia, ninguén dubida da interrelación entre aspectos como o medio ambiente, o cambio climático, a globalización e a saúde humana e animal.',
+                            p7: 'A Biotecnoloxía: o COVID amosounos claramente o camiño: investigación e prevención de enfermidades mediante a biotecnoloxía e as vacinas. O mellor investimento en Sanidade é a prevención e entre os sistemas de prevención máis potentes atópanse as vacinas, cuxo balance custo/beneficio non ten igual ningún outro.',
+                            p8: 'Por último, a Intelixencia Artificial (IA) está a transformar a forma en que se presta a atención sanitaria. Ao mesmo tempo, aparecen novos retos e oportunidades que deben ser abordados dende unha perspectiva ampla e cun obxectivo principal: promover o benestar e a seguridade das persoas e o interese público.',
+                            p9: 'Avancemos cara a esta nova forma de entender a saúde, dun xeito global. Esta é a nosa aposta nesta edición VIII Fórum RIES 2023, centrado nos Ecosistemas Innovadores de Saúde.',
+                            p10: 'Estou convencida de que será de gran interese coa achega de todos os implicados.',
+                        },
+                        comite: {
+                            comite: 'Comité Organizador #RIES23',
+                            cta: 'Descubre toda a información sobre o Comité Organizador #RIES23'
                         }
                     },
                     hero23: {

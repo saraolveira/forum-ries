@@ -9,9 +9,12 @@ const Premios = () => {
 
     return (<div id="premios">
         <h2>{t('premios.awards')}</h2>
+ 
         <Premio3D />
         <SliderPremios />
         <Link to="/premios" id="cta-premios" className="cta">{t('premios.cta')}</Link>
+           
+        
     </div>)
 }
 

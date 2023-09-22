@@ -516,8 +516,8 @@ button:hover {
   gap: 2vh;
   font-family:  'Myriad Pro', sans-serif;
   color:  #fff;
-  padding-top: 7svh;
-  padding-top: 7vh;
+  padding-top: 5svh;
+  padding-top: 5vh;
   text-align: center;
 }
 
@@ -570,6 +570,10 @@ button:hover {
     background-color: transparent;
     border: 3px solid #fff;
     color: #fff
+}
+
+.cta2:hover {
+  color: var(--color2);
 }
 
 .mailchimp-form .cta {
@@ -829,6 +833,8 @@ button:hover {
   width: 100vw;
   min-height: 100vh;
   min-height: 100svh;
+  padding-top: 7svh;
+  padding-top: 7vh;
   font-family: 'Varela Round', sans-serif;
   color: #fff;
 }
@@ -845,6 +851,20 @@ button:hover {
   font-family: 'Varela Round', sans-serif;
   color: #fff;
   text-align: center;
+}
+
+.page ul {
+  width: 70vw;
+  font-family: 'Myriad Pro', sans-serif;
+  color: #fff;
+  font-weight: 300;
+  text-align: justify;
+}
+
+.page li {
+  margin-left: 2em;
+  padding-bottom: 1em;
+  list-style-image: url("/icono-lista.png") ;
 }
 
 h3 {
@@ -925,6 +945,30 @@ h3 {
 
 #premios-section {
   width: 100vw;
+}
+
+.premios-texto {
+  color: #fff;
+  font-family: 'Myriad Pro', sans-serif;
+  color: #fff;
+  font-weight: 300;
+  text-align: justify;
+  padding: 2vh;
+  margin-bottom: 5vh;
+}
+
+.premios-texto .margin-top {
+  margin-top: 1.5em;
+}
+
+.premios-texto ul {
+  margin-top: 1em;
+}
+
+.premios-texto li {
+    margin-left: 2em;
+    padding-bottom: 0.2em;
+    list-style-image: url("/icono-lista.png") ;
 }
 
 #premios-22, #premios-21 {
@@ -1077,9 +1121,10 @@ h3 {
   font-weight: 300;
   text-align: justify;
   margin-top: 0.5em;
+  margin-bottom: 1em;
 }
 
-.miembro-comite a {
+.miembro-comite .lkd {
   color: var(--color1);
   transition: all 0.2s ease;
   margin-left: 90%;
@@ -1088,9 +1133,36 @@ h3 {
   left: 0vw;
 }
 
-#pag-comite  a {
+#pag-comite .lkd {
   position: relative;
   top: -10%;
+}
+
+#cta-carta {
+  font-family: 'Varela Round', sans-serif;
+  text-transform: uppercase;
+  text-decoration: none;
+  font-size: 0.6em;
+  color: var(--color1);
+  cursor: pointer;
+  transition: all .2s ease;
+  text-align: center;
+  background-color: #fff;
+  border-radius: 2em;
+  cursor: pointer;
+  transition: all .2s ease;
+  padding: 1vh 0.5vw;
+  box-sizing: border-box;
+  border: 1px solid #fff;
+  margin-top: 1em;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#cta-carta:hover {
+  color: var(--color1);
+  background-color: transparent;
 }
 
 #comite-page {
@@ -1098,7 +1170,7 @@ h3 {
   margin-top: 14svh;
 }
 
-.miembro-comite a:hover {
+.miembro-comite .lkd:hover {
   color: var(--color2)
 }
 
@@ -1283,7 +1355,7 @@ h3 {
     font-weight: 300;
   }
   
-  .miembro-comite a {
+  .miembro-comite .lkd {
     color: var(--color1);
     transition: all 0.2s ease;
     margin-left: 90%;
@@ -1409,9 +1481,14 @@ h3 {
     position: relative;
     right: 0;
     left: 35vw;
-    top: 15vh;
-    top: 15svh;
+    top: 5vh;
+    top: 5svh;
     padding-bottom: 20vh;
+  }
+
+  .premios-texto {
+    width: 50vw;
+    margin-left: 5vw;
   }
 
   #premios-22, #premios-21 {
@@ -1434,6 +1511,23 @@ h3 {
   
   .block-patrocinadores img {
     max-width: 20vw;
+  }
+
+  #img-carta {
+    position: absolute;
+    top: 20vh;
+    right: 1vw;
+    z-index: 0;
+    width: 31vw;
+  }
+
+  .page p, .page h2 {
+    z-index: 1;
+  }
+
+  .margin-img {
+    width: 50vw !important;
+    margin-right: 20vw;
   }
 }
 
