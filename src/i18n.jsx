@@ -54,7 +54,22 @@ i18n
                         conocimiento: 'Conocimiento',
                         comunidad: 'Comunidad CSG',
                         revelacion: 'Revelación',
-                        resiliencia: 'Resiliencia'
+                        resiliencia: 'Resiliencia',
+                        texto23: {
+                            convocatoria: 'Premios #RIES23 — ¡Convocatoria abierta!',
+                            participa: 'Si eres una empresa con un proyecto innovador en el sector salud o sociosanitario, participa en los premios #RIES23. ¡Una gran oportunidad de dar visibilidad a tu proyecto de innovación!',
+                            innovacion: 'Premio Innovación CSG a las empresas más innovadoras',
+                            impacto: 'Premio Impacto en las personas a las empresas con servicios o productos de mayor impacto en las personas',
+                            conocimiento: 'Premio Conocimiento a las empresas que hayan generado más conocimiento',
+                            comunidad: 'Premio Comunidad CSG a las empresas más comprometidas con la #ComunidadCSG',
+                            revelacion: 'Premio Revelación a las empresas que han destacado recientemente por lograr un impacto significativo',
+                            resiliencia: 'Premio Resiliencia a las empresas que han demostrado capacidad de superar adversidades, adaptarse a situaciones difíciles y recuperarse de ellas de manera ejemplar',
+                            requisitos: 'Requisitos para participar:',
+                            video: 'Explica tu proyecto en un vídeo de  máximo 1’ de duración en formato horizontal 16:9 a mínimo 1920 x 1080.',
+                            presentacion: 'Haz una breve presentación con lo más destacado de tu proyecto',
+                            formulario: 'Completa tus datos de contacto y sube ambos archivos en este formulario:',
+                            cta: 'Participa en los Premios #RIES23'
+                        }
                     },
                     links: {
                         report: 'Memoria',
@@ -243,7 +258,22 @@ i18n
                         conocimiento: 'Knowledge',
                         comunidad: 'CSG Community',
                         revelacion: 'Revelation',
-                        resiliencia: 'Resilience'
+                        resiliencia: 'Resilience',
+                        texto23: {
+                            convocatoria: '#RIES23 Awards — Open to submissions!',
+                            participa: 'If you are a company with an innovative project in the health or care sector, take part in the #RIES23 Awards. A great opportunity to give visibility to your innovatiove project!',
+                            innovacion: 'Innovation CSG Award for the most innovative companies',
+                            impacto: 'Impact on people Award to companies with services or products with the greatest impact on people',
+                            conocimiento: 'Knowledge Award to companies that have generated the most knowledge',
+                            comunidad: 'CSG Community Award for the companies most committed to the #CSG_Community',
+                            revelacion: 'Revelation Award to companies that have recently stood out for achieving a significant impact',
+                            resiliencia: 'Resilience Award to companies that have demonstrated the ability to overcome adversity, adapt to difficult situations and recover from them in an exemplary manner',
+                            requisitos: 'Requirements to participate:',
+                            video: 'Explain your project in a video with 1’ maximun duration in 16:9 horizontal format at a minimum of 1920 x 1080.',
+                            presentacion: 'Make a brief presentation with the highlights of your project',
+                            formulario: 'Complete your contact information and upload both files in this form:',
+                            cta: 'Take part in the #RIES23 Awards'
+                        }
                     },
                     links: {
                         report: 'Report',
@@ -432,7 +462,22 @@ i18n
                         conocimiento: 'Coñecemento',
                         comunidad: 'Comunidade CSG',
                         revelacion: 'Revelación',
-                        resiliencia: 'Resiliencia'
+                        resiliencia: 'Resiliencia',
+                        texto23: {
+                            convocatoria: 'Premios #RIES23 — Convocatoria aberta!',
+                            participa: 'Se eres unha empresa cun proxecto innovador no sector saúde ou sociosanitario, participa nos premios #RIES23. Unha gran oportunidade de dar visibilidade o teu proxecto de innovación!',
+                            innovacion: 'Premio Innovación CSG ás empresas máis innovadoras',
+                            impacto: 'Premio Impacto nas persoas ás empresas con servizos ou produtos de maior impacto nas persoas',
+                            conocimiento: 'Premio Coñecemento ás empresas que xeraran máis coñecemento',
+                            comunidad: 'Premio Comunidade CSG ás empresas máis comprometidas coa #ComunidadeCSG',
+                            revelacion: 'Premio Revelación ás empresas que destacaron recentemento por lograr un impacto significativo',
+                            resiliencia: 'Premio Resiliencia ás empresas que demostraron capacidade de superar adversidades, adaptarse a situacións difíciles e recuperarse delas de maneira exemplar',
+                            requisitos: 'Requisitos para participar:',
+                            video: 'Explica o teu proxecto nun vídeo de  máximo 1’ de duración en formato horizontal 16:9 a mínimo 1920 x 1080.',
+                            presentacion: 'Fai unha breve presentación co máis destacado do teu proxecto',
+                            formulario: 'Completa os teus datos de contacto e sube ambos archivos neste formulario:',
+                            cta: 'Participa nos Premios #RIES23'
+                        }
                     },
                     links: {
                         report: 'Memoria',
