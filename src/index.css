@@ -584,19 +584,13 @@ button:hover {
 #fixed {
   position: fixed;
   box-sizing: border-box;
-  width: 90vw;
   z-index: 5;
-  bottom: 2vh; 
-  bottom: 2svh; 
-  margin: 0;
-  left: 5vw;
   display: none;
 }
 
-#registro, #patrocinio, #programacta {
+/* #registro, #patrocinio, #programacta {
   margin: 1vh;
   margin: 1svh;
-  /* background-color: transparent; */
   background-color: #ececec;
 }
 
@@ -604,7 +598,7 @@ button:hover {
   background-color: var(--color2);
   border-color: var(--color2);
   color: var(--color1);
-}
+} */
 
 #descripcion {
   color: #fff;
@@ -1629,9 +1623,39 @@ h3 {
 
 
   #fixed {
-    width: 25vw;
-    left: 73vw;
-    display: block;
+    width: 100vw;
+    left: 0;
+    bottom: 0;
+    display: flex;
+    justify-content: space-evenly;
+    background-color: #ececec;
+    border-top: 1px solid var(--color2);
+  }
+
+  .cta-fixed {
+    width: 34vw;
+    height: 6vh;
+    height: 6svh;
+    padding-top: 0.5vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1vw;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: var(--color1);
+    background-color: #ececec;
+    cursor: pointer;
+    transition: all .2s ease;
+  }
+
+  #programacta {
+    border-left: 1px solid var(--color2);
+    border-right: 1px solid var(--color2);
+  }
+
+  .cta-fixed:hover {
+    background-color: var(--color2);
   }
 
   #phone-nav {

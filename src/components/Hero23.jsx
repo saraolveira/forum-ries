@@ -2,6 +2,8 @@ import { useState } from 'react'
 import Circulos from "./Circulos.jsx"
 import { useTranslation } from 'react-i18next'
 import { Link } from 'react-router-dom'
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { faHandHoldingHeart, faRectangleList, faTicket } from '@fortawesome/free-solid-svg-icons'
 
 const Hero23 = () => {
     const { t } = useTranslation()
@@ -71,9 +73,9 @@ const Hero23 = () => {
         </div>
 
         <div id="fixed">
-            <a href={t('hero.register')} target='_blank' id="registro" className="cta">{t('hero.cta')}</a>
-            <a href={t('hero23.link')} target='_blank' id="programacta" className="cta">{t('hero23.program')}</a>
-            <Link to="/patrocinios" target='_blank'  id="patrocinio" className="cta">{t('patrocinios.cta')}</Link>
+            <a href={t('hero.register')} target='_blank' id="registro" className="cta-fixed"><FontAwesomeIcon icon={faTicket} />{t('hero.cta')}</a>
+            <a href={t('hero23.link')} target='_blank' id="programacta" className="cta-fixed"><FontAwesomeIcon icon={faRectangleList} />{t('hero23.program')}</a>
+            <Link to="/patrocinios" target='_blank'  id="patrocinio" className="cta-fixed"><FontAwesomeIcon icon={faHandHoldingHeart} />{t('patrocinios.cta')}</Link>
         </div>
        
         <div id="circulos">
