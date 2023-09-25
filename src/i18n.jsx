@@ -68,6 +68,7 @@ i18n
                             video: 'Explica tu proyecto en un vídeo de  máximo 1’ de duración en formato horizontal 16:9 a mínimo 1920 x 1080.',
                             presentacion: 'Haz una breve presentación con lo más destacado de tu proyecto',
                             formulario: 'Completa tus datos de contacto y sube ambos archivos en este formulario:',
+                            limite: 'Fecha límite: 18 de octubre',
                             cta: 'Participa en los Premios #RIES23'
                         }
                     },
@@ -121,6 +122,24 @@ i18n
                         comite: {
                             comite: 'Comité Organizador #RIES23',
                             cta: 'Descubre toda la información sobre el Comité Organizador #RIES23'
+                        },
+                        ponentes: {
+                            ponentes: 'Ponentes #RIES23',
+                            cta: 'Descubre todos los ponentes de #RIES23',
+                            tipos: {
+                                keynote: 'Keynote',
+                                keynotes: 'Keynotes'
+                            },
+                            rol: {
+                                vania: 'Consultora independiente',
+                                nick: 'Profesor'
+                            },
+                            description: {
+                                vania1: 'La Dra. Vânia de la Fuente-Núñez es experta internacional en envejecimiento saludable y edadismo. Actualmente trabaja como consultora independiente, ofreciendo asesoramiento técnico y estratégico a diferentes entidades para ayudar a mejorar la vida de las personas mayores. Su cartera de servicios abarca desde la investigación y la formación hasta el desarrollo y evaluación de estrategias. Es una oradora reconocida, que encabeza esfuerzos para desarrollar políticas y programas que permitan responder mejor al envejecimiento de la población en diferentes países y que trabaja para atraer mayor financiación al área de envejecimiento. ',
+                                vania2: 'Previamente, la Dra. de la Fuente-Núñez trabajó como funcionaria internacional en la Organización Mundial de la Salud durante casi una década, siendo responsable de la Campaña Mundial Contra el Edadismo y coautora del histórico Informe Mundial sobre el Edadismo de las Naciones Unidas. También dirigió el área de formación y capacitación sobre envejecimiento saludable, implementando programas de aprendizaje innovadores y apoyando el desarrollo de políticas y programas en países y regiones de todo el mundo. Además, contribuyó al lanzamiento del Observatorio Mundial de Investigación y Desarrollo en Salud de la OMS y apoyó a la Secretaría del Comité de Ética en Investigación de la OMS durante el brote de ébola de 2014-15.',
+                                vania3: 'Antes de trabajar en la OMS, Vânia trabajó con diferentes ONGs e institutos de investigación en países de ingresos altos y bajos. Vânia es licenciada en medicina y en antropología social y cultural, y completó un Máster en Filosofía, Política y Economía de la Salud gracias a una beca de La Caixa.',
+                                nick: 'Nick Guldemond es profesor de atención sanitaria y salud pública en la Universidad Médica de Gdansk, Polonia, y en el Centro Médico de la Universidad de Leiden, en los Países Bajos, y tiene títulos en medicina e ingeniería eléctrica y un doctorado de la Universidad de Maastricht. Es un experto en el campo de la salud digital, la eSalud y la innovación sanitaria. Es conocido por su trabajo en el avance del uso de la tecnología, particularmente soluciones digitales y basadas en datos, en la atención médica para mejorar la atención al paciente, la salud de la población y los sistemas de atención médica. Fue el director ejecutivo y fundador del Medical Field Lab (principios de 2000), es decir, el primer ejemplo internacional de un "Living Lab" basado en un hospital universitario dedicado a la ciencia, la innovación y el impacto social. Como tal, también fue cofundador de la Iniciativa holandesa de dispositivos médicos innovadores. Nick Guldemond ha ocupado varios puestos académicos y ha participado en muchos proyectos de investigación relacionados con la salud digital y la innovación sanitaria. También ha sido ponente, panelista en numerosos congresos y foros internacionales. Es asesor de muchos gobiernos, la OMS, la Comisión Europea e industrias de todo el mundo.'
+                            }
                         }
                     },
                     hero23: {
@@ -272,6 +291,7 @@ i18n
                             video: 'Explain your project in a video with 1’ maximun duration in 16:9 horizontal format at a minimum of 1920 x 1080.',
                             presentacion: 'Make a brief presentation with the highlights of your project',
                             formulario: 'Complete your contact information and upload both files in this form:',
+                            limite: 'Deadline: October 18th',
                             cta: 'Take part in the #RIES23 Awards'
                         }
                     },
@@ -326,6 +346,24 @@ i18n
                         comite: {
                             comite: '#RIES23 Organizing Comitee',
                             cta: 'Discover all information about the #RIES23 Organizing Comitee'
+                        },
+                        ponentes: {
+                            ponentes: '#RIES23 Speakers',
+                            cta: 'Discover all #RIES23 Speakers',
+                            tipos: {
+                                keynote: 'Keynote Speaker',
+                                keynotes: 'Keynote Speakers'
+                            },
+                            rol: {
+                                vania: 'Independent consultant',
+                                nick: 'Professor'
+                            },
+                            description: {
+                                vania1: 'Dr. Vânia de la Fuente-Núñez is an international expert on healthy aging and aging. She currently works as an independent consultant, offering technical and strategic advice to different entities to help improve the lives of older people. Her portfolio of services ranges from research and training to strategy development and evaluation. She is a renowned speaker, leading efforts to develop policies and programs to better respond to population aging in different countries and working to attract greater funding to the area of ​​aging.',
+                                vania2: 'Previously, Dr. de la Fuente-Núñez worked as an international civil servant at the World Health Organization for almost a decade, being responsible for the Global Campaign Against Ageism and co-author of the landmark United Nations World Ageism Report. She also led the area of ​​education and training on healthy aging, implementing innovative learning programs and supporting policy and program development in countries and regions around the world. Additionally, she contributed to the launch of the WHO Global Health Research and Development Observatory and supported the Secretariat of the WHO Research Ethics Committee during the 2014-15 Ebola outbreak.',
+                                vania3: 'Before working at the WHO, Vânia worked with different NGOs and research institutes in high- and low-income countries. Vânia has a degree in medicine and in social and cultural anthropology, and completed a Masters degree in Philosophy, Politics and Health Economics thanks to a scholarship from La Caixa.',
+                                nick: 'Nick Guldemond is a Professor healthcare and public health at Gdansk Medical University Poland and Leiden University Medical Center in the Netherlands and hold degrees in medicine and electric engineering with a PhD from Maastricht University. He is an expert in the field of digital health, eHealth, and healthcare innovation. He is known for his work in advancing the use of technology, particularly digital and data-driven solutions, in healthcare to improve patient care, population health, and healthcare systems. He was the CEO and founder of the Medical Field Lab (early 2000) i.e. the first international example of a university hospital based ‘living lab’ dedicated to science, innovation and societal impact. As such he was also co-founder of the Dutch Innovative Medical Device Initiative Nick Guldemond has held various academic positions and has been involved in many research projects related to digital health and healthcare innovation. He has also been a speaker, panellist at numerous international conferences and forums. He is an advisor for many governments, WHO, the European Commission and industries across the globe.'
+                            }
                         }
                     },
                     hero23: {
@@ -476,6 +514,7 @@ i18n
                             video: 'Explica o teu proxecto nun vídeo de  máximo 1’ de duración en formato horizontal 16:9 a mínimo 1920 x 1080.',
                             presentacion: 'Fai unha breve presentación co máis destacado do teu proxecto',
                             formulario: 'Completa os teus datos de contacto e sube ambos archivos neste formulario:',
+                            limite: 'Data límite: 18 de outubro',
                             cta: 'Participa nos Premios #RIES23'
                         }
                     },
@@ -529,6 +568,24 @@ i18n
                         comite: {
                             comite: 'Comité Organizador #RIES23',
                             cta: 'Descubre toda a información sobre o Comité Organizador #RIES23'
+                        },
+                        ponentes: {
+                            ponentes: 'Relatores #RIES23',
+                            cta: 'Descubre todos os relatores de #RIES23',
+                            tipos: {
+                                keynote: 'Keynote',
+                                keynotes: 'Keynotes'
+                            },
+                            rol: {
+                                vania: 'Consultora independiente',
+                                nick: 'Professor'
+                            },
+                            description: {
+                                vania1: 'Dr. Vânia de la Fuente-Núñez é unha experta internacional en envellecemento e envellecemento saudable. Actualmente traballa como consultora independente, ofrecendo asesoramento técnico e estratéxico a diferentes entidades para axudar a mellorar a vida das persoas maiores. A súa carteira de servizos abarca desde investigación e formación ata desenvolvemento e avaliación de estratexias. É unha oradora de renome, liderando esforzos para desenvolver políticas e programas para responder mellor ao envellecemento da poboación en diferentes países e traballando para atraer maior financiamento á área do envellecemento.',
+                                vania2: 'Anteriormente, a doutora de la Fuente-Núñez traballou como funcionaria internacional na Organización Mundial da Saúde durante case unha década, sendo responsable da Campaña Global contra o Edadismo e coautora do histórico Informe Mundial sobre Edadismo das Nacións Unidas. Tamén dirixiu a área de educación e formación sobre envellecemento saudable, implementando programas innovadores de aprendizaxe e apoiando o desenvolvemento de políticas e programas en países e rexións de todo o mundo. Ademais, contribuíu ao lanzamento do Observatorio de Investigación e Desenvolvemento en Saúde Mundial da OMS e apoiou á Secretaría do Comité de Ética da Investigación da OMS durante o brote de ébola de 2014-15.',
+                                vania3: 'Antes de traballar na OMS, Vânia traballou con diferentes ONG e institutos de investigación en países de ingresos altos e baixos. Vânia é licenciada en medicina e en antropoloxía social e cultural, e realizou un máster en Filosofía, Política e Economía da Saúde grazas a unha bolsa de La Caixa.',
+                                nick: 'Nick Guldemond é profesor de sanidade e saúde pública na Universidade Médica de Gdansk, Polonia, e no Centro Médico da Universidade de Leiden, nos Países Baixos, e é licenciado en medicina e enxeñaría eléctrica e doutor pola Universidade de Maastricht. É un experto no campo da saúde dixital, a eHealth e a innovación sanitaria. É coñecido polo seu traballo para avanzar no uso da tecnoloxía, especialmente as solucións dixitais e baseadas en datos, na atención sanitaria para mellorar a atención dos pacientes, a saúde da poboación e os sistemas de saúde. Foi o CEO e fundador do Medical Field Lab (principios de 2000), é dicir, o primeiro exemplo internacional de "Living Lab" con sede nun hospital universitario dedicado á ciencia, á innovación e ao impacto social. Como tal, tamén foi cofundador da Iniciativa Holandesa de Dispositivos Médicos Innovadores. Nick Guldemond ocupou varios cargos académicos e estivo involucrado en moitos proxectos de investigación relacionados coa saúde dixital e a innovación sanitaria. Tamén foi relator e panelista en numerosos congresos e foros internacionais. É asesor de moitos gobernos, da OMS, da Comisión Europea e de industrias de todo o mundo.'
+                            }
                         }
                     },
                     hero23: {

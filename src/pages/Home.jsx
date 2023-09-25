@@ -12,6 +12,7 @@ import Hero23 from "../components/Hero23.jsx"
 import Basic from "../components/Basic.jsx"
 import Info from "../components/Info.jsx"
 import Programa from "../components/Programa.jsx"
+import PonentesBlock from "../components/PonentesBlock.jsx"
 import Comite from "../components/Comite.jsx"
 import MailChimpForm from "../components/MailChimpForm.jsx"
 
@@ -31,6 +32,7 @@ const Home = () => {
             {/* <Icono /> */}
             <Info />
             <Programa />
+            <PonentesBlock />
             <Comite />
             <Premios />
             <MailChimpForm />

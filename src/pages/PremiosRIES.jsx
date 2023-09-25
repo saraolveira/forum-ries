@@ -33,6 +33,7 @@ const PremiosRIES = () => {
                         <li>{t('premios.texto23.video')}</li>
                         <li>{t('premios.texto23.presentacion')}</li>
                         <li>{t('premios.texto23.formulario')}</li>
+                        <li>{t('premios.texto23.limite')}</li>
                     </ul>
                     <a href="https://registro.forumries.com/premios-ries23/" target="_blank" className='cta'>{t('premios.texto23.cta')}</a>
                 </div>

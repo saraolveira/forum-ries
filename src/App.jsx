@@ -18,6 +18,7 @@ import ComiteOrganizador from './pages/ComiteOrganizador.jsx'
 import CartaPresidentaRIES23 from './pages/CartaPresidentaRIES23.jsx'
 import ProgramaPage from './pages/Programa.jsx'
 import '@fontsource/varela-round'
+import Ponentes from './pages/Ponentes.jsx'
 
 const App = () => {
 
@@ -42,6 +43,7 @@ const App = () => {
           <Route path="/home" element={<Home />} />
           <Route path="/premios" element={<PremiosRIES />} />
           <Route path="/patrocinios" element={<Patrocinios />} />
+          <Route path="/ponentes" element={<Ponentes />} />
           <Route path="/comite" element={<ComiteOrganizador />} />
           <Route path="/carta-presidenta-ries23" element={<CartaPresidentaRIES23 />} />
           <Route path="/programa" element={<ProgramaPage />} />
