@@ -13,7 +13,7 @@ const MiembroComiteDescripcion = ({name, description, role, linkedin, img, carta
         <p className="miembro-name">{name}</p>
         <p className="miembro-role">{role}</p>
         <p className="miembro-description">{description}</p>
-        {carta && <Link to="carta-presidenta-ries23" id="cta-carta">{t('pages.carta23.carta')}</Link>}
+        {carta && <Link to="../carta-presidenta-ries23" id="cta-carta">{t('pages.carta23.carta')}</Link>}
     </div>)
 }
 

@@ -847,18 +847,24 @@ button:hover {
   text-align: center;
 }
 
+.page p {
+  z-index: 4;
+}
+
 .page ul {
   width: 70vw;
   font-family: 'Myriad Pro', sans-serif;
   color: #fff;
   font-weight: 300;
   text-align: justify;
+  z-index: 4;
 }
 
 .page li {
   margin-left: 2em;
   padding-bottom: 1em;
   list-style-image: url("/icono-lista.png") ;
+  z-index: 4;
 }
 
 h3 {
