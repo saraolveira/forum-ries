@@ -245,8 +245,8 @@ button:hover {
   align-items: center;
   gap: 2vw;
   box-sizing: border-box;
-  padding: 1vh 0;
-  padding: 1svh 0;
+  padding: 2vh 0;
+  padding: 2svh 0;
 }
 
 .block-ponentes {
@@ -267,6 +267,7 @@ button:hover {
 
 .block-patrocinadores img {
   max-width: 30vw;
+  max-height: 20vw;
 }
 
 #tipos-patrocinio {
@@ -1789,8 +1790,13 @@ h3 {
     width: auto !important;
   }
   
+  .block-patrocinadores {
+    padding: 1.5vw 0;
+  }
+
   .block-patrocinadores img {
     max-width: 15vw;
+    max-height: 10vw;
   }
 
 }
