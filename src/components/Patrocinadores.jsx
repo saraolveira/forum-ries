@@ -8,6 +8,7 @@ const Patrocinadores = () => {
         <div className="block-patrocinadores">
             <a href="https://www.atendo.es/" target="_blank"><img src="/patrocinadores/atendo.png" alt="Atendo" /></a>
             <a href="http://www.fundacionprofesornovoasantos.org/es/" target="_blank"><img src="/patrocinadores/fpns.png" alt="Fundación Profesor Novoa Santos" /></a>
+            <a href="https://www.riberasalud.com/" target="_blank"><img src="/patrocinadores/ribera.png" alt="Ribera Salud" /></a>
         </div>
         <h3>{t('patrocinios.ltype3')}</h3>
         <div className="block-patrocinadores">

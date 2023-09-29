@@ -1300,6 +1300,41 @@ h3 {
   color: var(--color1)
 }
 
+.patrocinadores-slide {
+  width: 100%;
+  display: inline-flex;
+  flex-wrap: nowrap;
+  overflow: hidden;
+  position: relative
+}
+
+.patrocinadores-logo-slide {
+  list-style: none;
+  display: flex;
+  align-items: center;
+  animation: infinite-slide 15s linear infinite;
+  padding: 2rem 0;
+}
+
+.patrocinadores-logo-slide li {
+  margin: 0 2.5rem;
+}
+
+.patrocinadores-logo-slide img {
+  max-width: 9rem;
+  max-height: 5rem;
+ 
+}
+
+@keyframes infinite-slide {
+  from {
+    transform: translateX(0);
+  }
+  to {
+    transform: translateX(-100%);
+	}
+}
+
 #footer {
   width: 100vw;
   height: 25vh;
