@@ -1279,6 +1279,16 @@ h3 {
   transition: all 0.3s ease;
 }
 
+.td-icono {
+  width: 1.5em;
+}
+
+.hora-programa {
+  width:4em;
+  color: var(--color1);
+  font-size: 0.8em;
+}
+
 #phone-nav {
   width: 100vw;
   height: 7vh;
