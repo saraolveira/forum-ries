@@ -1087,6 +1087,15 @@ h3 {
   margin-top: 2svh;
 }
 
+.bullet a {
+  color: var(--color2);
+  font-weight: 600;
+}
+
+.bullet a:hover {
+  color: #ffffff;
+}
+
 #teaser div {
   width: 90vw !important;
   height: 50.63vw !important;
