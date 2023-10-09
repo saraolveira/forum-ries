@@ -34,6 +34,7 @@
 body {
   font-size: 16px;
   background: linear-gradient(120deg, var(--color1) 0%, var(--color2) 75%);
+  cursor: default;
 }
 
 nav {
@@ -1132,7 +1133,8 @@ h3 {
 }
 
 .ponentes {
-  margin-top: 0;
+  margin-top: 3vh;
+  margin-bottom: 7vh;
 }
 
 .miembro-comite {
@@ -1179,12 +1181,23 @@ h3 {
   top: -10%;
 }
 
+.ponentes {
+  background-color: #ececec;
+  padding: 1em;
+  border-radius:2em;
+}
+
+.ponente .miembro-name,  .ponente .miembro-role, .ponente .miembro-description{
+  color: var(--color2);
+}
+
 .ponente .linkedin {
   color: var(--color1);
   transition: all 0.2s ease;
   align-self: flex-start;
   text-align: left;
   margin-left: 1em;
+  
 }
 
 .linkedin:hover {
@@ -1833,7 +1846,7 @@ h3 {
   }
 
   .ponente {
-    width: 43vw;
+    width: 42vw;
   }
 
   .ponente img {
@@ -1960,7 +1973,7 @@ h3 {
   }
 
   .ponente {
-    width: 43vw;
+    width: 42vw;
   }
   
 }
