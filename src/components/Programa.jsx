@@ -1,6 +1,6 @@
 import { useTranslation } from "react-i18next"
 
-const Programa = () => {
+const Programa = ({ hide }) => {
     const { t } = useTranslation()
 
     return (
@@ -191,7 +191,7 @@ const Programa = () => {
 
                             <td>{t("program23.p99")}</td>
                         </tr>
-                        <tr>
+                        <tr className="no-bottom">
                             <td className="td-icono">
                                 <img
                                     className="icono-programa"
@@ -201,6 +201,38 @@ const Programa = () => {
                             <td className="hora-programa">15:30 18:30</td>
 
                             <td>{t("program23.p910")}</td>
+                        </tr>
+                        <tr className={`${hide ? "extra-no" : "extra"} `}>
+                            <td className="td-icono"></td>
+                            <td className="hora-programa">15:30 16:30</td>
+
+                            <td>
+                                {t("pages.ponentes.tipos.agoraGradiant")}| Ágora
+                                OneHealth | {t("program23.pitch")}
+                            </td>
+                        </tr>
+                        <tr className={`${hide ? "extra-no" : "extra"} `}>
+                            <td className="td-icono"></td>
+                            <td className="hora-programa">16:30 17:30</td>
+
+                            <td>
+                                {t("pages.ponentes.tipos.agoraPlexus")} |{" "}
+                                {t("pages.ponentes.tipos.agoraDomusVi")} |{" "}
+                                {t("program23.pitch")}
+                            </td>
+                        </tr>
+                        <tr
+                            className={`${
+                                hide ? "extra-no" : "extra extra-last"
+                            } `}
+                        >
+                            <td className="td-icono"></td>
+                            <td className="hora-programa">17:30 18:30</td>
+
+                            <td>
+                                {t("pages.ponentes.tipos.agoraITGALL")} | Ágora
+                                TBC | {t("program23.pitch")}
+                            </td>
                         </tr>
                         <tr>
                             <td className="td-icono">

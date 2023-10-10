@@ -77,6 +77,9 @@ const Ponentes = () => {
                     </div>
 
                     <h3>{t("pages.ponentes.tipos.agoraPlexus")}</h3>
+                    <p className="resumen-programa">
+                        {t("pages.ponentes.resumenes.agoraPlexus")}
+                    </p>
                     <div className="miembros-comite ponentes">
                         <div className="miembro-comite ponente">
                             <img
@@ -193,6 +196,9 @@ const Ponentes = () => {
                     </div>
 
                     <h3>{t("pages.ponentes.tipos.agoraITGALL")}</h3>
+                    <p className="resumen-programa">
+                        {t("pages.ponentes.resumenes.agoraITGALL")}
+                    </p>
                     <div className="miembros-comite ponentes">
                         <div className="miembro-comite ponente">
                             <img
@@ -323,6 +329,9 @@ const Ponentes = () => {
                     </div>
 
                     <h3>{t("pages.ponentes.tipos.agoraGradiant")}</h3>
+                    <p className="resumen-programa">
+                        {t("pages.ponentes.resumenes.agoraGradiant")}
+                    </p>
                     <div className="miembros-comite ponentes">
                         <div className="miembro-comite ponente">
                             <img
@@ -355,6 +364,9 @@ const Ponentes = () => {
                     </div>
 
                     <h3>{t("pages.ponentes.tipos.agoraDomusVi")}</h3>
+                    <p className="resumen-programa">
+                        {t("pages.ponentes.resumenes.agoraDomusVi")}
+                    </p>
                     <div className="miembros-comite ponentes">
                         <div className="miembro-comite ponente">
                             <img
@@ -409,6 +421,9 @@ const Ponentes = () => {
                     </div>
 
                     <h3>{t("pages.ponentes.tipos.mesaBalidea")}</h3>
+                    <p className="resumen-programa">
+                        {t("pages.ponentes.resumenes.mesaBalidea")}
+                    </p>
                     <div className="miembros-comite ponentes">
                         <div className="miembro-comite ponente">
                             <img
@@ -519,6 +534,14 @@ const Ponentes = () => {
                             </p>
                         </div>
                     </div>
+                    <h3>{t("pages.ponentes.tipos.mesaTecnologia")}</h3>
+                    <p className="resumen-programa">
+                        {t("pages.ponentes.resumenes.mesaTecnologia")}
+                    </p>
+                    <h3>{t("pages.ponentes.tipos.mesaZendal")}</h3>
+                    <p className="resumen-programa">
+                        {t("pages.ponentes.resumenes.mesaZendal")}
+                    </p>
                 </div>
             </div>
             <Footer />

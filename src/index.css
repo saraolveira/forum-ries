@@ -232,6 +232,15 @@ button:hover {
   font-size: 1.5em;
 }
 
+#ponentes h3 {
+  margin-top: 5vh;
+}
+
+.resumen-programa {
+  width: 100% !important;
+  text-align: left !important;
+}
+
 .block-patrocinadores {
   width: 90vw;
   background-color: #ececec;
@@ -697,6 +706,11 @@ button:hover {
   flex-wrap: wrap;
   justify-content: center;
   gap: 3vh;
+}
+
+#programa-page .patrocinio-links {
+  margin-bottom: 5vh;
+  margin-top: -10vh;
 }
 
 .edicion-links a, .patrocinio-links a {
@@ -1281,6 +1295,25 @@ h3 {
   border-top: 1px solid var(--color1);
   border-bottom: 1px solid var(--color1);
   padding: 8px;
+
+}
+
+.extra td {
+  border-bottom: 1px solid #ececec;
+  vertical-align: top;
+}
+
+.extra-no {
+  display: none;
+}
+
+.no-bottom td {
+  border-bottom: 1px solid #ececec;
+
+}
+
+.extra-last td {
+  border-bottom: 1px solid var(--color1);
 }
 
 .tabla-programa tr:hover .icono-programa{
