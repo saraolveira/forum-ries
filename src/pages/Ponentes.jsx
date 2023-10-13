@@ -112,6 +112,27 @@ const Ponentes = () => {
                         <div className="miembro-comite ponente">
                             <img
                                 className="comite-img"
+                                src="/ponentes/maria-brion.png"
+                                alt="Maria Brion Martínez"
+                            />
+
+                            <p className="miembro-name">Maria Brion Martínez</p>
+                            <p className="miembro-role speaker">
+                                {t("pages.ponentes.tipos.agoraLead")}
+                            </p>
+                            <p className="miembro-role">
+                                Fundación Pública Galega de Medicina Xenómica
+                            </p>
+                            <p className="miembro-role">
+                                {t("pages.ponentes.rol.maria")}
+                            </p>
+                            <p className="miembro-description">
+                                {t("pages.ponentes.description.maria")}
+                            </p>
+                        </div>
+                        <div className="miembro-comite ponente">
+                            <img
+                                className="comite-img"
                                 src="/ponentes/xurxo-cegarra.png"
                                 alt="Xurxo Cegarra González"
                             />

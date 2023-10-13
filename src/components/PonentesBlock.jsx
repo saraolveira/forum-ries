@@ -83,6 +83,23 @@ const PonentesBlock = () => {
                         {t("pages.ponentes.rol.joseManuel")}
                     </p>
                 </div>
+                <div className="miembro-comite">
+                    <img
+                        className="comite-img"
+                        src="/ponentes/maria-brion.png"
+                        alt="Maria Brion Martínez"
+                    />
+                    <p className="miembro-name">Maria Brion Martínez</p>
+                    <p className="miembro-role speaker">
+                        {t("pages.ponentes.tipos.agoraLead")}
+                    </p>
+                    <p className="miembro-role">
+                        Fundación Pública Galega de Medicina Xenómica
+                    </p>
+                    <p className="miembro-role">
+                        {t("pages.ponentes.rol.maria")}
+                    </p>
+                </div>
 
                 <div className="miembro-comite">
                     <img
@@ -493,7 +510,7 @@ const PonentesBlock = () => {
                 </div>
 
                 {/* proyectos */}
-                <div className="miembro-comite ponente">
+                <div className="miembro-comite">
                     <img
                         className="comite-img"
                         src="/ponentes/silvia-suarez.png"
@@ -511,7 +528,7 @@ const PonentesBlock = () => {
                         {t("pages.ponentes.rol.silvia")}
                     </p>
                 </div>
-                <div className="miembro-comite ponente">
+                <div className="miembro-comite">
                     <img
                         className="comite-img"
                         src="/ponentes/jose-antonio-pena.png"
