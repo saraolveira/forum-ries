@@ -64,19 +64,19 @@ i18n.use(LanguageDetector)
                             convocatoria:
                                 "Premios #RIES23 — ¡Convocatoria abierta!",
                             participa:
-                                "Si eres una empresa con un proyecto innovador en el sector salud o sociosanitario, participa en los premios #RIES23. ¡Una gran oportunidad de dar visibilidad a tu proyecto de innovación!",
+                                "Si eres una entidad con un proyecto innovador en el sector salud o sociosanitario, participa en los premios #RIES23. ¡Una gran oportunidad de dar visibilidad a tu proyecto de innovación!",
                             innovacion:
-                                "Premio Innovación CSG a las empresas más innovadoras",
+                                "Premio Innovación CSG a las entidades más innovadoras",
                             impacto:
-                                "Premio Impacto en las personas a las empresas con servicios o productos de mayor impacto en las personas",
+                                "Premio Impacto en las personas a las entidades con servicios o productos de mayor impacto en las personas",
                             conocimiento:
-                                "Premio Conocimiento a las empresas que hayan generado más conocimiento",
+                                "Premio Conocimiento a las entidades que hayan generado más conocimiento",
                             comunidad:
-                                "Premio Comunidad CSG a las empresas más comprometidas con la #ComunidadCSG",
+                                "Premio Comunidad CSG a las entidades más comprometidas con la #ComunidadCSG",
                             revelacion:
-                                "Premio Revelación a las empresas que han destacado recientemente por lograr un impacto significativo",
+                                "Premio Revelación a las entidades que han destacado recientemente por lograr un impacto significativo",
                             resiliencia:
-                                "Premio Resiliencia a las empresas que han demostrado capacidad de superar adversidades, adaptarse a situaciones difíciles y recuperarse de ellas de manera ejemplar",
+                                "Premio Resiliencia a las entidades que han demostrado capacidad de superar adversidades, adaptarse a situaciones difíciles y recuperarse de ellas de manera ejemplar",
                             requisitos: "Requisitos para participar:",
                             video: "Explica tu proyecto en un vídeo de  máximo 1’ de duración en formato horizontal 16:9 a mínimo 1920 x 1080.",
                             presentacion:
@@ -148,6 +148,8 @@ i18n.use(LanguageDetector)
                                 agoraSpeak: "Ponente Ágora",
                                 mesaM: "Moderador Mesa Redonda",
                                 mesaS: "Pontente Mesa Redonda",
+                                proyecto: "Presentación Proyecto",
+                                proyectos: "Proyectos",
                                 agoraPlexus:
                                     "Ágora Medicina Personalizada, Tecnologías y Datos",
                                 agoraITGALL:
@@ -172,13 +174,23 @@ i18n.use(LanguageDetector)
                                 angel: "Responsable de Transformación Digital",
                                 nieves: "Asistente de coordinación ITGALL",
                                 cristofol: "Project Manager Innovación",
+                                konstantina:
+                                    "Laboratorio de Física Médica e Innovación Digital",
                                 agustin: "Responsable de tecnología",
                                 joseManuelPerez:
                                     "Responsable de Coordinación de Asistencia Técnica",
                                 karen: "Deputy CEO",
+                                ramon: "VP Expansión Nacional",
                                 joseAngel: "Director de Desarrollo de Negocio",
                                 albert: "Director de Datos",
                                 carmen: "Profesora de universidad",
+                                carlos: "Director Técnico CoE Data Intelligence",
+                                abdel: "Director Dimension Lab.",
+                                beatriz:
+                                    "Directora Corporativa de Comunicación e Imagen",
+                                graziella: "Presidenta",
+                                silvia: "Subdirectora General de Programas de fomento de estilos de vida saludables",
+                                joseAntonio: "Fundador y Director Comercial",
                             },
                             description: {
                                 vania1: "La Dra. Vânia de la Fuente-Núñez es experta internacional en envejecimiento saludable y edadismo. Actualmente trabaja como consultora independiente, ofreciendo asesoramiento técnico y estratégico a diferentes entidades para ayudar a mejorar la vida de las personas mayores. Su cartera de servicios abarca desde la investigación y la formación hasta el desarrollo y evaluación de estrategias. Es una oradora reconocida, que encabeza esfuerzos para desarrollar políticas y programas que permitan responder mejor al envejecimiento de la población en diferentes países y que trabaja para atraer mayor financiación al área de envejecimiento. ",
@@ -199,15 +211,27 @@ i18n.use(LanguageDetector)
                                 nieves: "Nieves Freire Barea se ha declinado por la parte más social, estudiando el grado de Trabajo Social en la Universidad de Vigo y un Máster de Mediación en la Universidad de Málaga. Tras casi tres años siendo Coordinadora del Servicio de Ayuda a Domicilio en Atendo se dió cuenta de la importancia de la persona dentro del ecosistema y realizó el Máster del Modelo de Atención Centrada en la Persona especializado en Dependencia y Discapacidad en la Universitat de Vic (Barcelona). Actualmente se encuentro dentro del equipo del Cluster de Salud de Galicia, CSG como INVESTIGO en el servicio de ITGALL como asistente de coordinación.",
                                 cristofol:
                                     "Cristòfol Vidal es un profesional con una amplia experiencia internacional en la gestión de proyectos. Graduado en Administración de Empresas por la Universitat Autònoma de Barcelona y con un máster en Técnicas de Investigación Social Aplicadas en la Universidad de Barcelona, su trayectoria profesional lo ha llevado a trabajar en diversas ciudades, incluyendo México, Barcelona, Londres y su posición actual en el Hospital Universitario de Son Espases en Mallorca, España. Esta experiencia en diferentes entornos culturales le ha proporcionado una visión transversal y adaptativa que le permite pensar out of the box. Cristòfol ha desempeñado roles clave en la gestión de proyectos, incluyendo su trabajo como project and panel manager en Ipsos Mori en Londres. Su competencia en metodologías de investigación como las entrevistas en profundidad, design thinking y grupos focales, lo posiciona como un activo valioso para la evaluación de necesidades y el desarrollo de proyectos. Además, su papel como gestor de proyecto demuestra su capacidad para supervisar y ejecutar proyectos de manera efectiva, asegurando que se alineen con las metas y objetivos de la organización.",
+                                konstantina:
+                                    "Konstantina Tsimpita tiene una licenciatura en Física de la Universidad Aristóteles de Tesalónica y actualmente está cursando su maestría en Ingeniería Biomédica en el Departamento de Medicina. Con una amplia experiencia en gestión de proyectos, trabajó como gerente de proyectos de la UE durante dos años, supervisando y manteniendo operaciones fluidas en varios proyectos relacionados con la tecnología. Su principal foco de investigación se centra en tecnologías inteligentes y la aplicación de metodologías Open Living Lab tanto en el sector médico como en el de software.",
                                 agustin:
                                     "Agustín Cañas Rodríguez es Ingeniero de Telecomunicación (especialidad Telemática) y Máster Universitario en Ingeniería Telemática (especialidad Servicios y Aplicaciones) por la Universidad de Vigo. En sus primeros años de experiencia laboral compaginó sus estudios con trabajos de consultoría TIC, ingeniería e investigación. Durante esta etapa participó en múltiples proyectos regionales y europeos, en la mayoría de los casos centrados en el diseño de sistemas inteligentes aplicados a escenarios de aprendizaje. En esta temática es autor de publicaciones en congresos y revistas de ámbito internacional. Ya en GRADIANT, continuó de forma natural su especialización hasta asumir el liderazgo técnico de la línea de eLearning. Después de cinco años centrado en el sector educativo, a comienzos del año 2019 amplía su foco de acción para asumir la dirección técnica del Área de Sistemas Inteligentes y trabajar en la puesta en valor de soluciones inteligentes de captura y análisis de datos en diversos sectores. Desde esta posición, recientemente ha promocionado a Responsable de Tecnología para definir la estrategia tecnológica y gestionar los activos de un centro tecnológico TIC que en la actualidad cuenta con unos 180 profesionales trabajando en los ámbitos de la inteligencia, la seguridad y la conectividad.",
                                 joseManuelPerez:
                                     "25 años en el sector del cuidado a las personas mayores; Grado de Enfermería con especialidad en geriatría. Distintas responsabilidades en estos 25 años relacionadas siempre con el cuidado a personas y la gestión.",
                                 karen: "Karen es embajadora de la atención social. Su carrera comenzó como una carrera remunerada mientras estudiaba en la universidad y, aunque gratificante, rápidamente se sintió motivada por las presiones del sector. Defensora de la participación y la coproducción, cree que la prueba del impacto es ver la diferencia que supone para las personas. Promotora de un enfoque basado en evidencia y fanática de los datos, forma parte del equipo de liderazgo de IMPACT y trabaja para cerrar la brecha en la implementación de evidencia. Ha trabajado en varios puestos de la mesa de atención social, así como para el Gobierno y como Directora de la Fundación Príncipe de Gales. En su puesto actual como directora ejecutiva adjunta de Scottish Care, continúa dando forma al futuro de la atención social con un enfoque en los derechos humanos, la puesta en servicio, el trabajo justo y la tecnología. Cuando no está trabajando, esta muchacha de Ayrshire se puede encontrar en la playa con su familia. Miembro del tribunal de UWS, guardacostas, FRSA, MIoD y aspirante a lobo de mar salado.",
+                                ramon: "Ramon Ceravalls 34 años, de Barcelona. Licenciado en Ingeniería Industrial Mi experiencia profesional está dividida en 2 etapas: La primera etapa enfocada en el mundo de las Operaciones en el sector de la gran distribución donde tuve la oportunidad de vivir 2 años en Alemania para la implementación de SAP en la gran distribución. También en el sector de la movilidad compartida y sostenible en una start-up americana. La segunda etapa está enfocada en el Desarrollo de Negocio en Qida, empresa de ayuda a domicilio de Impacto Social, donde mi función ha sido la de liderar la expansión nacional a través de la apertura de nuevas delegaciones de Qida tanto en Madrid como en Bilbao. Actualmente estamos también valorando la llegada de Qida a Galicia, donde creemos que un producto como el de Qida, con Impacto Social y tecnología podría ayudar a las personas crónicas y dependientes a vivir más tiempo y con mejor calidad de vida en un entorno tan complejo como el de Galicia.",
                                 joseAngel:
                                     "Licenciado en Ciencias Físicas, especialidad de Electrónica. 25 años de experiencia en el sector TIC, de los cuales 20 han estado relacionados con proyectos de ámbito sanitario. Master MBA en Dirección y Administración de Empresas y Master en Economía de las Telecomunicaciones. Actualmente soy el Director de Desarrollo de Negocio en Balidea, puesto que desempeño desde el año 2015. Previamente mi carrera profesional se desarrolló como Director Gerente en RETEGAL, Director Técnico en Ednon y Consultor en UNISYS",
                                 albert: " Albert King es director de datos de NHS National Services Scotland (NSS). NHS NSS sirve como centro de datos para la economía de la asistencia sanitaria y social en Escocia. A través de una combinación incomparable de conjuntos de datos de atención sanitaria y social, capacidad profesional y su plataforma tecnológica líder (SEER), respalda el desarrollo de conocimientos con socios, incluidos Public Health Scotland, Health Boards y el gobierno local y nacional. Anteriormente, Albert se desempeñó como director de datos en el gobierno escocés, donde dirigió la implementación de la estrategia de inteligencia artificial de Escocia. Cuenta con más de 20 años de experiencia en datos y tecnología de la industria y del sector público.",
                                 carmen: "Nacida en 1963 en Vigo. Es Ingeniera de Telecomunicación (1987) y Doctora ingeniera de Telecomunicación por la Universidad Politécnica de Madrid (1993). Completó su formación con estadías de investigación en diferentes universidades y centros de investigación extranjeros. Centró su investigación en la tecnología del habla en gallego y castellano, la segmentación de audio, el reconocimiento biométrico de personas, y la detección por voz de enfermedades neurodexenerativas. Es catedrática en el área de Teoría de la Señal y Comunicaciones (TSC) de la Universidad de Vigo y responsable del grupo de investigación en Tecnologías Multimedia (GTM). Fue Vicerrectora de Titulaciones y Convergencia europea de la Universidad de Vigo (2006-2010). Fue la coordinadora del programa de doctorado en Tecnologías de la Información y Comunicaciones (DocTIC) de la Universidad de Vigo desde su puesta en marcha en 2012 hasta 2019, y directora del departamento de Teoría de la señal y comunicación desde 2017 a 2019. Dirigió y coordinó numerosos proyectos de investigación y tesis doctorales, y publicó más de 150 artículos en revistas y congresos internacionales. Participa de forma habitual en eventos de formación, fomento y #divulgación relacionadas con la presencia femenina en STEM. Ha participado en proyectos como Cotovía, el primero conversor texto-voz bilingüe en gallego y castellano,  en VOGATEL o FalAI centrados en la recogida de grabaciones de voz en gallego para entrenar sistemas conversacionais, COPERIA, estudio para la detección de COVID persistente mediante análisis acústico de toses y voz, o VISIA, con el que se presente desarrollar un centinela para rastrear el riesgo de suicidio en adolescentes basado en inteligencia artificial. En septiembre de 2014 recibió el Premio de la Xunta de Galicia “Josefa Wonenburger” por su relevante trayectoria en los campos de las ciencias y de la tecnología. Desde 2016 es miembro del plenario y coordinadora de la sección de lengua, literatura y comunicación del Consello da Cultura Galega.",
+                                carlos: "Carlos Alberto Castaño Moraga es Ingeniero de Telecomunicación por la Universidad de Valladolid y doctor en procesado de señales por la Universidad de Las Palmas de Gran Canaria. Además, complementa su formación de negocio con un Executive MBA por IESE Business School, combinando así una gran formación técnica con una visión de negocio. Se unió a Fujitsu en 2014, centrando sus esfuerzos en desarrollar la actividad del CoE de Data Intelligence, centrada en la transformación y digitalización de procesos en organizaciones de diferentes sectores, especialmente en el sector sanitario y organizaciones del sector público.",
+                                abdel: "Soy cardiólogo con especialización en imágenes cardíacas avanzadas y actualmente dirijo el Dimension Lab en el Hospital de la Santa Creu i Sant Pau, Barcelona. Este laboratorio se centra en la planificación virtual avanzada para cirugías mediante tecnologías como el modelado 3D y gemelos digitales, así como en el diseño y fabricación mediante impresión 3D de dispositivos médicos personalizados para brindar medicina precisa y medida a pacientes complejos. Comencé mi trayectoria educativa obteniendo mi título de Medicina con honores en 2008 y luego especializándome en Cardiología, centrándome en imágenes cardíacas multimodales y patologías valvulares y estructurales complejas. En 2019, fundé el modelado cardiovascular en 3D y la impresión, que evolucionó al Dimension Lab, sirviendo a todo el hospital. Actualmente, como candidato a doctorado en la UAB, me enfoco en diseñar dispositivos de oclusión cardíaca personalizados y colaboro en investigaciones sobre inteligencia artificial (IA) para mejorar terapias cardíacas. Lidero un proyecto para integrar IA en nuestro hospital y colaboro con diversas instituciones académicas y líderes de la industria. Además de mis roles clínicos e investigativos, me comprometo activamente con la educación, formando a estudiantes en ingeniería biomédica y especialistas en imágenes cardíacas avanzadas. Mi objetivo es aplicar tecnologías de vanguardia para abordar desafíos clínicos y mejorar la atención al paciente en la práctica clínica.",
+                                beatriz:
+                                    "Licenciada en Ciencias Económicas por la Universidad de Vigo donde estudió el Master de Dirección Comercial y Ventas en la Escuela de negocios IESIDE. Posteriormente se formó en Marketing y Comunicación en el ámbito de comunicación, marketing y el marketing digital en respectivas escuelas de IESE, IESIDE y ESADE así como en la consultora COONIC. En la actualidad es Directora corporativa de comunicación e imagen del grupo del grupo farmacéutico Zendal http://www.zendal.com enfocado en biotecnología y vacunas con 8 empresas bajo su paraguas, dónde con varios años de experiencia en el sector salud dirige el marketing y la reputación corporativa. Miembro de la asociación de Informadores de la Salud (ANIS). Socia de asociaciones de marketing y comunicación, DIRCOM y MARKEA. Desde 2018 “Referente Gallega” por la asociación del mismo nombre y miembro de Executivas de Galicia y de Mujeres en Farma. Ponente de cursos de Marketing y Comunicación en la escuela de negocios y partícipe asidua en eventos y foros varios relacionados con la biotecnología y comunicación",
+                                graziella:
+                                    "Periodista de ciencia y salud especializada en formatos audiovisuales. Comentarista sobre Covid-19 en los programas Al Rojo Vivo y La Sexta Noche en La Sexta. Mentora sobre pandemias, salud y ciencia para la organización internacional Internews. Autora del libro Vacunas, cuando los seres humanos ganamos la guerra invisible (Urano 2021). En el área de documentales ha dirigido y guionizado más de 10 documentales científicos para canales como National Geographic o Documentos TV de TVE. Ha trabajado 13 años en los servicios informativos de Antena 3 Television.. Es Máster Internacional en Medicina Humanitaria. Actual Presidenta de la Asociación Nacional de Informadores de la Salud (ANIS)",
+                                silvia: "Doctora en Farmacia en Química Analítica, Nutrición y Bromatología y Licenciada en Química. Diplomada en Salud Pública y Máster en Economía de la Salud. Desde el año 2008, funcionaria de carrera ocupando diferentes puestos en salud pública y coordinación sociosanitaria. Desde octubre de 2020, Subdirectora General de Programas de Fomento de Estilos de Vida Saludables de la Dirección General de Salud Pública",
+                                joseAntonio:
+                                    "Educado en un ambiente familiar de empresarias emprendedoras nacidas en 1904 y 1928 respectivamente . Formado en el sistema educativo español publico, Grado Medio en Electricidad, Grado superior en Telecomunicaciones , Especialidad Fibra óptica, Estudios de Derecho (en curso).1997 fundo una constructora y promotora inmobiliaria, 2003 a 2015 Apoderado de zona noroeste en Contenur (mejor fabricante de contenedores plásticos del mundo). 2016 fundó Urbano y Accesible S. L empresa Alternativa de mobiliario urbano sostenible y predecesora de Ocean Kube Environment S.L D de 2019 , empresa especializada en Contenedores para la recogida de residuos",
                             },
                             resumenes: {
                                 agoraPlexus:
@@ -380,19 +404,19 @@ i18n.use(LanguageDetector)
                             convocatoria:
                                 "#RIES23 Awards — Open to submissions!",
                             participa:
-                                "If you are a company with an innovative project in the health or care sector, take part in the #RIES23 Awards. A great opportunity to give visibility to your innovatiove project!",
+                                "If you are a entity with an innovative project in the health or care sector, take part in the #RIES23 Awards. A great opportunity to give visibility to your innovatiove project!",
                             innovacion:
-                                "Innovation CSG Award for the most innovative companies",
+                                "Innovation CSG Award for the most innovative entities",
                             impacto:
-                                "Impact on people Award to companies with services or products with the greatest impact on people",
+                                "Impact on people Award to entities with services or products with the greatest impact on people",
                             conocimiento:
-                                "Knowledge Award to companies that have generated the most knowledge",
+                                "Knowledge Award to entities that have generated the most knowledge",
                             comunidad:
-                                "CSG Community Award for the companies most committed to the #CSG_Community",
+                                "CSG Community Award for the entities most committed to the #CSG_Community",
                             revelacion:
-                                "Revelation Award to companies that have recently stood out for achieving a significant impact",
+                                "Revelation Award to entities that have recently stood out for achieving a significant impact",
                             resiliencia:
-                                "Resilience Award to companies that have demonstrated the ability to overcome adversity, adapt to difficult situations and recover from them in an exemplary manner",
+                                "Resilience Award to entities that have demonstrated the ability to overcome adversity, adapt to difficult situations and recover from them in an exemplary manner",
                             requisitos: "Requirements to participate:",
                             video: "Explain your project in a video with 1’ maximun duration in 16:9 horizontal format at a minimum of 1920 x 1080.",
                             presentacion:
@@ -464,6 +488,8 @@ i18n.use(LanguageDetector)
                                 agoraSpeak: "Agora Speaker",
                                 mesaM: "Round Table Moderator",
                                 mesaS: "Round Table Speaker",
+                                proyecto: "Project Presentation",
+                                proyectos: "Projects",
                                 agoraPlexus:
                                     "Agora Personalized Medicine, Technologies and Data",
                                 agoraITGALL:
@@ -489,13 +515,23 @@ i18n.use(LanguageDetector)
                                 angel: "Digital Transformation Manager",
                                 nieves: "ITGALL Coordination Assistant",
                                 cristofol: "Innovation Project Manager",
+                                konstantina:
+                                    "Medical Physics and Digital Innovation Laboratory",
                                 agustin: "Head of Technology",
                                 joseManuelPerez:
                                     "Responsible for Technical Assistance Coordination",
                                 karen: "Deputy CEO",
+                                ramon: "VP National Expansion",
                                 joseAngel: "Business Development Director",
                                 albert: "Chief Data Officer",
                                 carmen: "University Professor",
+                                carlos: "Technical Director CoE Data Intelligence",
+                                abdel: "Director Dimension Lab.",
+                                beatriz:
+                                    "Corporate Director of Communication and Image",
+                                graziella: "President",
+                                silvia: "Deputy Director General of Programs to promote healthy lifestyles",
+                                joseAntonio: "Founder and Commercial Director",
                             },
                             description: {
                                 vania1: "Dr. Vânia de la Fuente-Núñez is an international expert on healthy aging and aging. She currently works as an independent consultant, offering technical and strategic advice to different entities to help improve the lives of older people. Her portfolio of services ranges from research and training to strategy development and evaluation. She is a renowned speaker, leading efforts to develop policies and programs to better respond to population aging in different countries and working to attract greater funding to the area of ​​aging.",
@@ -516,15 +552,27 @@ i18n.use(LanguageDetector)
                                 nieves: "Nieves Freire Barea has chosen the more social side, studying a degree in Social Work at the University of Vigo and a Master's Degree in Mediation at the University of Malaga. After almost three years as Coordinator of the Home Help Service at Atendo, she realized the importance of the person within the ecosystem and completed the Master of the Person-Centered Care Model specialized in Dependency and Disability at the University of Vic (Barcelona). She is currently within the team of the Galician Health Cluster, CSG as a RESEARCHER in the ITGALL service as a coordination assistant.",
                                 cristofol:
                                     "Cristòfol Vidal is a professional with extensive international experience in project management. Graduated in Business Administration from the Autonomous University of Barcelona and with a master's degree in Applied Social Research Techniques from the University of Barcelona, his professional career has taken him to work in various cities, including Mexico, Barcelona, London and his current position at the Son Espases University Hospital in Mallorca, Spain. This experience in different cultural environments has provided him with a transversal and adaptive vision that allows him to think outside the box. Cristòfol has played key roles in project management, including working as project and panel manager at Ipsos Mori in London. His proficiency in research methodologies such as in-depth interviews, design thinking and focus groups positions him as a valuable asset for needs assessment and project development. Additionally, his role as a project manager demonstrates his ability to effectively oversee and execute projects, ensuring they align with the organization's goals and objectives.",
+                                konstantina:
+                                    "Konstantina Tsimpita holds a BSc in Physics from Aristotle University in Thessaloniki and is currently pursuing her MSc in Biomedical Engineering within the Department of Medicine. With a rich background in project management, working as a EU Project Manager for two years, overseeing and sustaining seamless operations in various technology-related projects. Her primary research focus centers on Smart Technologies and the application of Open Living Lab Methodologies in both the Software and Medical sectors.",
                                 agustin:
                                     "Agustín Cañas Rodríguez is a Telecommunications Engineer (Telematics specialty) and has a Master's Degree in Telematics Engineering (Services and Applications specialty) from the University of Vigo. In his first years of work experience he combined his studies with ICT consulting, engineering and research work. During this stage he participated in multiple regional and European projects, in most cases focused on the design of intelligent systems applied to learning scenarios. On this topic he is the author of publications in international conferences and magazines. Already at GRADIANT, he naturally continued his specialization until assuming the technical leadership of the eLearning line. After five years focused on the educational sector, at the beginning of 2019 he expanded his focus of action to assume the technical direction of the Intelligent Systems Area and work on the enhancement of intelligent solutions for data capture and analysis in various sectors. . From this position, he has recently been promoted to Technology Manager to define the technological strategy and manage the assets of an ICT technology center that currently has around 180 professionals working in the fields of intelligence, security and connectivity.",
                                 joseManuelPerez:
                                     "25 years in the elderly care sector; Nursing Degree with a specialty in geriatrics. Different responsibilities in these 25 years always related to caring for people and management.",
                                 karen: "Karen is an ambassador for social care. Her career began as a paid carer whilst studying at university and whilst rewarding, she quickly became motivated by the pressures on the sector. A champion for participation and co-production, she believes that evidence of impact is seeing the difference it makes for people. Promoter of an evidence-based approach and self-confessed data geek, she sits on the Leadership team of IMPACT working to bridge the evidence implementation gap.  She has worked at various seats round the social care table, as well as for Government and as Director of the Prince of Wales Foundation. In her current role as Deputy CEO of Scottish Care, she continues to shape the future of social care with a focus on human rights, commissioning, fair work, and technology. When not working, this Ayrshire lass can be found on the beach with her family. Member of UWS Court, Coastguard, FRSA, MIoD and wannabee salty sea dog.",
+                                ramon: "Ramon Ceravalls 34 years old, from Barcelona. Graduate in Industrial Engineering My professional experience is divided into 2 stages: The first stage focused on the world of Operations in the large distribution sector where I had the opportunity to live 2 years in Germany for the implementation of SAP in large distribution. Also in the shared and sustainable mobility sector in an American start-up. The second stage is focused on Business Development at Qida, a Social Impact home help company, where my role has been to lead national expansion through the opening of new Qida branches in both Madrid and Bilbao. We are currently also evaluating the arrival of Qida to Galicia, where we believe that a product like Qida's, with Social Impact and technology, could help chronic and dependent people live longer and with a better quality of life in an environment as complex as that of Galicia.",
                                 joseAngel:
                                     "Graduate in Physical Sciences, specialty in Electronics. 25 years of experience in the ICT sector, of which 20 have been related to health projects. Master MBA in Business Management and Administration and Master in Telecommunications Economics. I am currently the Business Development Director at Balidea, a position I have held since 2015.Previously my professional career developed as Managing Director at RETEGAL, Technical Director at Ednon and Consultant at UNISYS.",
                                 albert: "Albert King is Chief Data Officer at NHS National Services Scotland (NSS).  NHS NSS serves as the data hub for the health and social care economy in Scotland. Through and unrivalled mix of health and social care datasets, professional capability and it's leading technology platform (SEER) it supports the development of insights with partners, including Public Health Scotland, Health Boards, local and national government.  Previously, Albert served as Chief Data Officer in the Scottish Government where he lead the delivery of Scotland's AI Strategy.  He draws on over 20 years experience in industry and public sector data and technology.",
                                 carmen: " Born in 1963 in Vigo. She is a Telecommunications Engineer (1987) and a PhD in Telecommunications Engineering from the Polytechnic University of Madrid (1993). She completed her training with research stays at different universities and foreign research centers. She focused her research on speech technology in Galician and Spanish, audio segmentation, biometric recognition of people, and voice detection of neurodegenerative diseases. She is a professor in the area of Signal Theory and Communications (TSC) at the University of Vigo and responsible for the Multimedia Technologies (GTM) research group. She was Vice-Rector for Degrees and European Convergence at the University of Vigo (2006-2010). She was the coordinator of the doctoral program in Information and Communications Technologies (DocTIC) at the University of Vigo from its launch in 2012 to 2019, and director of the Department of Signal and Communication Theory from 2017 to 2019.  She directed and coordinated numerous research projects and doctoral theses, and published more than 150 articles in international journals and conferences. She regularly participates in training, promotion and # dissemination events related to the female presence in STEM. She has participated in projects such as Cotovía, the first bilingual text-voice converter in Galician and Spanish, in VOGATEL or FalAI focused on the collection of voice recordings in Galician to train conversational systems, COPERIA, study for the detection of persistent COVID through acoustic analysis of coughs and voice, or VISIA, with which it is presented to develop a sentinel to track the risk of suicide in adolescents based on artificial intelligence. In September 2014 she received the “Josefa Wonenburger” Prize from the Xunta de Galicia for her relevant career in the fields of science and technology. Since 2016 she has been a member of the plenary session and coordinator of the language, literature and communication section of the Consello da Cultura Galega.",
+                                carlos: "Carlos Alberto Castaño Moraga is a Telecommunications Engineer from the University of Valladolid and a doctor in signal processing from the University of Las Palmas de Gran Canaria. In addition, he complements his business training with an Executive MBA from IESE Business School, thus combining great technical training with a business vision. He joined Fujitsu in 2014, focusing his efforts on developing the Data Intelligence CoE activity, focused on the transformation and digitalization of processes in organizations from different sectors, especially in the healthcare sector and public sector organizations.",
+                                abdel: "I am a cardiologist with a specialization in advanced cardiac imaging and I currently direct the Dimension Lab at the Hospital de la Santa Creu i Sant Pau, Barcelona. This lab focuses on advanced virtual planning for surgeries using technologies such as 3D modeling and digital twins, as well as 3D printing design and manufacturing of custom medical devices to deliver precise, tailored medicine to complex patients. I began my educational journey obtaining my Medical degree with honors in 2008 and then specializing in Cardiology, focusing on multimodal cardiac imaging and complex valvular and structural pathologies. In 2019, I founded Cardiovascular 3D Modeling and Printing, which evolved into Dimension Lab, serving the entire hospital. Currently, as a PhD candidate at UAB, I focus on designing personalized cardiac occlusion devices and collaborating on research on artificial intelligence (AI) to improve cardiac therapies. I lead a project to integrate AI into our hospital and collaborate with various academic institutions and industry leaders. In addition to my clinical and research roles, I am actively engaged in education, training students in biomedical engineering and advanced cardiac imaging specialists. My goal is to apply cutting-edge technologies to address clinical challenges and improve patient care in clinical practice.",
+                                beatriz:
+                                    "She graduated in Economic Sciences from the University of Vigo where she studied the Master of Commercial Management and Sales at the IESIDE Business School. She later trained in Marketing and Communication in the field of communication, marketing and digital marketing at the respective schools of IESE, IESIDE and ESADE as well as at the consulting firm COONIC. She is currently Corporate Director of Communication and Image of the Zendal pharmaceutical group http://www.zendal.com focused on biotechnology and vaccines with 8 companies under its umbrella, where with several years of experience in the health sector she directs marketing. and corporate reputation. She is a member of the Association of Health Informants (ANIS). Partner of marketing and communication associations, DIRCOM and MARKEA. Since 2018 she has been a “Galician Reference” for the association of the same name and a member of Executivas de Galicia and de Mujeres en Farma. She lectures on Marketing and Communication courses at the business school and is a regular participant in various events and forums related to biotechnology and communication.",
+                                graziella:
+                                    "Science and health journalist specialized in audiovisual formats. Commentator on Covid-19 on the programs Al Rojo Vivo and La Sexta Noche on La Sexta. Mentor on pandemics, health and science for the international organization Internews. Author of the book Vaccines, when human beings win the invisible war (Uranus 2021). In the area of documentaries, she has directed and scripted more than 10 scientific documentaries for channels such as National Geographic or Documentos TV de TVE. She has worked for 13 years in the news services of Antena 3 Television. She has an International Master's Degree in Humanitarian Medicine. Current President of the National Association of Health Informants (ANIS)",
+                                silvia: "Doctor of Pharmacy in Analytical Chemistry, Nutrition and Bromatology and Graduate in Chemistry. She has a diploma in Public Health and a Master in Health Economics. Since 2008, she has been a career civil servant holding different positions in public health and socio-health coordination. Since October 2020, she has been Deputy Director General of Programs to Promote Healthy Lifestyles of the General Directorate of Public Health.",
+                                joseAntonio:
+                                    "Educated in a family environment of entrepreneurial businesswomen born in 1904 and 1928 respectively. Trained in the public Spanish educational system, Intermediate Degree in Electricity, Higher Degree in Telecommunications, Specialty Fiber Optics, Law Studies (in progress). 1997 founded a construction and real estate developer, 2003 to 2015 Representative of the northwest area in Contenur (best manufacturer of plastic containers in the world). In 2016 he founded Urbano y Accesible S. L, an Alternative company of sustainable urban furniture and predecessor of Ocean Kube Environment S.L. D in 2019, a company specialized in Containers for waste collection.",
                             },
                             resumenes: {
                                 agoraPlexus:
@@ -697,19 +745,19 @@ i18n.use(LanguageDetector)
                             convocatoria:
                                 "Premios #RIES23 — Convocatoria aberta!",
                             participa:
-                                "Se eres unha empresa cun proxecto innovador no sector saúde ou sociosanitario, participa nos premios #RIES23. Unha gran oportunidade de dar visibilidade o teu proxecto de innovación!",
+                                "Se eres unha entidade cun proxecto innovador no sector saúde ou sociosanitario, participa nos premios #RIES23. Unha gran oportunidade de dar visibilidade o teu proxecto de innovación!",
                             innovacion:
-                                "Premio Innovación CSG ás empresas máis innovadoras",
+                                "Premio Innovación CSG ás entidades máis innovadoras",
                             impacto:
-                                "Premio Impacto nas persoas ás empresas con servizos ou produtos de maior impacto nas persoas",
+                                "Premio Impacto nas persoas ás entidades con servizos ou produtos de maior impacto nas persoas",
                             conocimiento:
-                                "Premio Coñecemento ás empresas que xeraran máis coñecemento",
+                                "Premio Coñecemento ás entidades que xeraran máis coñecemento",
                             comunidad:
-                                "Premio Comunidade CSG ás empresas máis comprometidas coa #ComunidadeCSG",
+                                "Premio Comunidade CSG ás entidades máis comprometidas coa #ComunidadeCSG",
                             revelacion:
-                                "Premio Revelación ás empresas que destacaron recentemento por lograr un impacto significativo",
+                                "Premio Revelación ás entidades que destacaron recentemento por lograr un impacto significativo",
                             resiliencia:
-                                "Premio Resiliencia ás empresas que demostraron capacidade de superar adversidades, adaptarse a situacións difíciles e recuperarse delas de maneira exemplar",
+                                "Premio Resiliencia ás entidades que demostraron capacidade de superar adversidades, adaptarse a situacións difíciles e recuperarse delas de maneira exemplar",
                             requisitos: "Requisitos para participar:",
                             video: "Explica o teu proxecto nun vídeo de  máximo 1’ de duración en formato horizontal 16:9 a mínimo 1920 x 1080.",
                             presentacion:
@@ -781,6 +829,8 @@ i18n.use(LanguageDetector)
                                 agoraSpeak: "Relator Ágora",
                                 mesaM: "Moderador Mesa Redonda",
                                 mesaS: "Relator Mesa Redonda",
+                                proyecto: "Presentación Proxecto",
+                                proyectos: "Proxectos",
                                 agoraPlexus:
                                     "Ágora Medicina Personalizada, Tecnoloxías e Datos",
                                 agoraITGALL:
@@ -805,14 +855,24 @@ i18n.use(LanguageDetector)
                                 angel: "Responsable de Transformación Dixital",
                                 nieves: "Asistente de coordinación ITGALL",
                                 cristofol: "Project Manager Innovación",
+                                konstantina:
+                                    "Laboratorio de Física Médica e Innovación Dixital",
                                 agustin: "Responsable de tecnoloxía",
                                 joseManuelPerez:
                                     "Responsable de Coordinación de Asistencia Técnica",
                                 karen: "Deputy CEO",
+                                ramon: "VP Expansión Nacional",
                                 joseAngel:
                                     "Director de Desenvolvemento de Negocio",
                                 albert: "Director de Datos",
                                 carmen: "Profesora de universidade",
+                                carlos: "Director Técnico CoE Data Intelligence",
+                                abdel: "Director Dimension Lab.",
+                                beatriz:
+                                    "Directora Corporativa de Comunicación e Imaxe",
+                                graziella: "Presidenta",
+                                silvia: "Subdirectora Xeral de Programas de fomento de estilos de vida saudables",
+                                joseAntonio: "Fundador e Director Comercial",
                             },
                             description: {
                                 vania1: "Dr. Vânia de la Fuente-Núñez é unha experta internacional en envellecemento e envellecemento saudable. Actualmente traballa como consultora independente, ofrecendo asesoramento técnico e estratéxico a diferentes entidades para axudar a mellorar a vida das persoas maiores. A súa carteira de servizos abarca desde investigación e formación ata desenvolvemento e avaliación de estratexias. É unha oradora de renome, liderando esforzos para desenvolver políticas e programas para responder mellor ao envellecemento da poboación en diferentes países e traballando para atraer maior financiamento á área do envellecemento.",

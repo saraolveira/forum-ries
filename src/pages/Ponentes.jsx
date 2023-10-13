@@ -326,6 +326,35 @@ const Ponentes = () => {
                                 {t("pages.ponentes.description.nick")}
                             </p>
                         </div>
+                        <div className="miembro-comite ponente">
+                            <img
+                                src="../ponentes/konstantina-tsimpita.png"
+                                alt="Konstantina Tsimpita"
+                                className="comite-img"
+                            />
+                            <p className="miembro-name">
+                                Konstantina Tsimpita{" "}
+                                <a
+                                    href="https://www.linkedin.com/in/konstantina-tsimpita-940814187/"
+                                    className="linkedin"
+                                    target="_blank"
+                                >
+                                    <FontAwesomeIcon icon={faLinkedin} />
+                                </a>
+                            </p>
+                            <p className="miembro-role speaker">
+                                {t("pages.ponentes.tipos.agoraSpeak")}
+                            </p>
+                            <p className="miembro-role">
+                                Aristotle University of Thessaloniki
+                            </p>
+                            <p className="miembro-role">
+                                {t("pages.ponentes.rol.konstantina")}
+                            </p>
+                            <p className="miembro-description">
+                                {t("pages.ponentes.description.konstantina")}
+                            </p>
+                        </div>
                     </div>
 
                     <h3>{t("pages.ponentes.tipos.agoraGradiant")}</h3>
@@ -416,6 +445,34 @@ const Ponentes = () => {
                             </p>
                             <p className="miembro-description">
                                 {t("pages.ponentes.description.karen")}
+                            </p>
+                        </div>
+                        <div className="miembro-comite ponente">
+                            <img
+                                className="comite-img"
+                                src="/ponentes/ramon-ceravalls.png"
+                                alt="Ramon Ceravalls"
+                            />
+
+                            <p className="miembro-name">
+                                Ramon Ceravalls{" "}
+                                <a
+                                    href="https://www.linkedin.com/in/ramon-ceravalls-rabassa-1a3098ab"
+                                    target="_blank"
+                                    className="linkedin"
+                                >
+                                    <FontAwesomeIcon icon={faLinkedin} />
+                                </a>
+                            </p>
+                            <p className="miembro-role speaker">
+                                {t("pages.ponentes.tipos.agoraSpeak")}
+                            </p>
+                            <p className="miembro-role">Qida</p>
+                            <p className="miembro-role">
+                                {t("pages.ponentes.rol.ramon")}
+                            </p>
+                            <p className="miembro-description">
+                                {t("pages.ponentes.description.ramon")}
                             </p>
                         </div>
                     </div>
@@ -534,14 +591,191 @@ const Ponentes = () => {
                             </p>
                         </div>
                     </div>
+
                     <h3>{t("pages.ponentes.tipos.mesaTecnologia")}</h3>
                     <p className="resumen-programa">
                         {t("pages.ponentes.resumenes.mesaTecnologia")}
                     </p>
+                    <div className="miembros-comite ponentes">
+                        <div className="miembro-comite ponente">
+                            <img
+                                className="comite-img"
+                                src="/ponentes/carlos-alberto-castaño.png"
+                                alt="Carlos Alberto Castaño Moraga"
+                            />
+
+                            <p className="miembro-name">
+                                Carlos Alberto Castaño Moraga{" "}
+                                <a
+                                    href="https://www.linkedin.com/in/carlos-alberto-casta%C3%B1o-moraga-887a5854/"
+                                    target="_blank"
+                                    className="linkedin"
+                                >
+                                    <FontAwesomeIcon icon={faLinkedin} />
+                                </a>
+                            </p>
+                            <p className="miembro-role speaker">
+                                {t("pages.ponentes.tipos.mesaS")}
+                            </p>
+                            <p className="miembro-role">
+                                Fujitsu Technology Solutions
+                            </p>
+                            <p className="miembro-role">
+                                {t("pages.ponentes.rol.carlos")}
+                            </p>
+                            <p className="miembro-description">
+                                {t("pages.ponentes.description.carlos")}
+                            </p>
+                        </div>
+                        <div className="miembro-comite ponente">
+                            <img
+                                className="comite-img"
+                                src="/ponentes/abdel-hakim.png"
+                                alt="Abdel Hakim Moustafa"
+                            />
+
+                            <p className="miembro-name">
+                                Abdel Hakim Moustafa{" "}
+                                <a
+                                    href="https://www.linkedin.com/in/amoustafamd/"
+                                    target="_blank"
+                                    className="linkedin"
+                                >
+                                    <FontAwesomeIcon icon={faLinkedin} />
+                                </a>
+                            </p>
+                            <p className="miembro-role speaker">
+                                {t("pages.ponentes.tipos.mesaS")}
+                            </p>
+                            <p className="miembro-role">
+                                Hospital de la Santa Creu i Sant Pau
+                            </p>
+                            <p className="miembro-role">
+                                {t("pages.ponentes.rol.abdel")}
+                            </p>
+                            <p className="miembro-description">
+                                {t("pages.ponentes.description.abdel")}
+                            </p>
+                        </div>
+                    </div>
+
                     <h3>{t("pages.ponentes.tipos.mesaZendal")}</h3>
                     <p className="resumen-programa">
                         {t("pages.ponentes.resumenes.mesaZendal")}
                     </p>
+                    <div className="miembros-comite ponentes">
+                        <div className="miembro-comite ponente">
+                            <img
+                                className="comite-img"
+                                src="/ponentes/beatriz-diaz.png"
+                                alt="Beatriz Díaz Lorenzo"
+                            />
+
+                            <p className="miembro-name">
+                                Beatriz Díaz Lorenzo{" "}
+                                <a
+                                    href="https://www.linkedin.com/in/beatrizd%C3%ADazlorenzo/"
+                                    target="_blank"
+                                    className="linkedin"
+                                >
+                                    <FontAwesomeIcon icon={faLinkedin} />
+                                </a>
+                            </p>
+                            <p className="miembro-role speaker">
+                                {t("pages.ponentes.tipos.mesaM")}
+                            </p>
+                            <p className="miembro-role">Zendal</p>
+                            <p className="miembro-role">
+                                {t("pages.ponentes.rol.beatriz")}
+                            </p>
+                            <p className="miembro-description">
+                                {t("pages.ponentes.description.beatriz")}
+                            </p>
+                        </div>
+                        <div className="miembro-comite ponente">
+                            <img
+                                className="comite-img"
+                                src="/ponentes/graziella-almendral.png"
+                                alt="Graziella Almendral Del Rio"
+                            />
+
+                            <p className="miembro-name">
+                                Graziella Almendral Del Rio{" "}
+                                <a
+                                    href="https://www.linkedin.com/in/graziellaalmendral/"
+                                    target="_blank"
+                                    className="linkedin"
+                                >
+                                    <FontAwesomeIcon icon={faLinkedin} />
+                                </a>
+                            </p>
+                            <p className="miembro-role speaker">
+                                {t("pages.ponentes.tipos.mesaS")}
+                            </p>
+                            <p className="miembro-role">ANIS</p>
+                            <p className="miembro-role">
+                                {t("pages.ponentes.rol.graziella")}
+                            </p>
+                            <p className="miembro-description">
+                                {t("pages.ponentes.description.graziella")}
+                            </p>
+                        </div>
+                    </div>
+
+                    <h3>{t("pages.ponentes.tipos.proyectos")}</h3>
+                    <div className="miembros-comite ponentes">
+                        <div className="miembro-comite ponente">
+                            <img
+                                className="comite-img"
+                                src="/ponentes/silvia-suarez.png"
+                                alt="Silvia Suárez Luque"
+                            />
+
+                            <p className="miembro-name">Silvia Suárez Luque </p>
+                            <p className="miembro-role speaker">
+                                {t("pages.ponentes.tipos.proyecto")}
+                            </p>
+                            <p className="miembro-role">
+                                Dirección Xeral de Saúde Pública
+                            </p>
+                            <p className="miembro-role">
+                                {t("pages.ponentes.rol.silvia")}
+                            </p>
+                            <p className="miembro-description">
+                                {t("pages.ponentes.description.silvia")}
+                            </p>
+                        </div>
+                        <div className="miembro-comite ponente">
+                            <img
+                                className="comite-img"
+                                src="/ponentes/jose-antonio-pena.png"
+                                alt="José Antonio Pena Parga"
+                            />
+
+                            <p className="miembro-name">
+                                José Antonio Pena Parga{" "}
+                                <a
+                                    href="https://www.linkedin.com/in/joseantoniopenaparga/"
+                                    target="_blank"
+                                    className="linkedin"
+                                >
+                                    <FontAwesomeIcon icon={faLinkedin} />
+                                </a>
+                            </p>
+                            <p className="miembro-role speaker">
+                                {t("pages.ponentes.tipos.proyecto")}
+                            </p>
+                            <p className="miembro-role">
+                                Ocean Kube Environment
+                            </p>
+                            <p className="miembro-role">
+                                {t("pages.ponentes.rol.joseAntonio")}
+                            </p>
+                            <p className="miembro-description">
+                                {t("pages.ponentes.description.joseAntonio")}
+                            </p>
+                        </div>
+                    </div>
                 </div>
             </div>
             <Footer />

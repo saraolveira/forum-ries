@@ -194,6 +194,28 @@ const PonentesBlock = () => {
                         {t("pages.ponentes.rol.joseAngel")}
                     </p>
                 </div>
+                <div className="miembro-comite">
+                    <img
+                        className="comite-img"
+                        src="/ponentes/beatriz-diaz.png"
+                        alt="Beatriz Díaz Lorenzo"
+                    />
+                    <a
+                        href="https://www.linkedin.com/in/beatrizd%C3%ADazlorenzo/"
+                        target="_blank"
+                        className="lkd"
+                    >
+                        <FontAwesomeIcon icon={faLinkedin} />
+                    </a>
+                    <p className="miembro-name">Beatriz Díaz Lorenzo</p>
+                    <p className="miembro-role speaker">
+                        {t("pages.ponentes.tipos.mesaM")}
+                    </p>
+                    <p className="miembro-role">Zendal</p>
+                    <p className="miembro-role">
+                        {t("pages.ponentes.rol.beatriz")}
+                    </p>
+                </div>
 
                 {/* agora speaker */}
                 <div className="miembro-comite">
@@ -289,6 +311,31 @@ const PonentesBlock = () => {
                 <div className="miembro-comite">
                     <img
                         className="comite-img"
+                        src="/ponentes/konstantina-tsimpita.png"
+                        alt="Konstantina Tsimpita"
+                    />
+                    <a
+                        href="https://www.linkedin.com/in/konstantina-tsimpita-940814187/"
+                        target="_blank"
+                        className="lkd"
+                    >
+                        <FontAwesomeIcon icon={faLinkedin} />
+                    </a>
+                    <p className="miembro-name">Konstantina Tsimpita</p>
+                    <p className="miembro-role speaker">
+                        {t("pages.ponentes.tipos.agoraSpeak")}
+                    </p>
+                    <p className="miembro-role">
+                        Aristotle University of Thessaloniki
+                    </p>
+                    <p className="miembro-role">
+                        {t("pages.ponentes.rol.konstantina")}
+                    </p>
+                </div>
+
+                <div className="miembro-comite">
+                    <img
+                        className="comite-img"
                         src="/ponentes/karen-hedge.png"
                         alt="Karen Hedge"
                     />
@@ -306,6 +353,28 @@ const PonentesBlock = () => {
                     <p className="miembro-role">Scottish Care </p>
                     <p className="miembro-role">
                         {t("pages.ponentes.rol.karen")}
+                    </p>
+                </div>
+                <div className="miembro-comite">
+                    <img
+                        className="comite-img"
+                        src="/ponentes/ramon-ceravalls.png"
+                        alt="Ramon Ceravalls"
+                    />
+                    <a
+                        href="https://www.linkedin.com/in/ramon-ceravalls-rabassa-1a3098ab"
+                        target="_blank"
+                        className="lkd"
+                    >
+                        <FontAwesomeIcon icon={faLinkedin} />
+                    </a>
+                    <p className="miembro-name">Ramon Ceravalls</p>
+                    <p className="miembro-role speaker">
+                        {t("pages.ponentes.tipos.agoraSpeak")}
+                    </p>
+                    <p className="miembro-role">QIDA</p>
+                    <p className="miembro-role">
+                        {t("pages.ponentes.rol.ramon")}
                     </p>
                 </div>
 
@@ -350,6 +419,119 @@ const PonentesBlock = () => {
                     </p>
                     <p className="miembro-role">
                         {t("pages.ponentes.rol.carmen")}
+                    </p>
+                </div>
+                <div className="miembro-comite">
+                    <img
+                        className="comite-img"
+                        src="/ponentes/carlos-alberto-castaño.png"
+                        alt="Carlos Alberto Castaño Moraga"
+                    />
+                    <a
+                        href="https://www.linkedin.com/in/carlos-alberto-casta%C3%B1o-moraga-887a5854/"
+                        target="_blank"
+                        className="lkd"
+                    >
+                        <FontAwesomeIcon icon={faLinkedin} />
+                    </a>
+                    <p className="miembro-name">
+                        Carlos Alberto Castaño Moraga
+                    </p>
+                    <p className="miembro-role speaker">
+                        {t("pages.ponentes.tipos.mesaS")}
+                    </p>
+                    <p className="miembro-role">Fujitsu Technology Solutions</p>
+                    <p className="miembro-role">
+                        {t("pages.ponentes.rol.carlos")}
+                    </p>
+                </div>
+                <div className="miembro-comite">
+                    <img
+                        className="comite-img"
+                        src="/ponentes/abdel-hakim.png"
+                        alt="Abdel Hakim Moustafa"
+                    />
+                    <a
+                        href="https://www.linkedin.com/in/amoustafamd/"
+                        target="_blank"
+                        className="lkd"
+                    >
+                        <FontAwesomeIcon icon={faLinkedin} />
+                    </a>
+                    <p className="miembro-name">Abdel Hakim Moustafa</p>
+                    <p className="miembro-role speaker">
+                        {t("pages.ponentes.tipos.mesaS")}
+                    </p>
+                    <p className="miembro-role">
+                        Hospital de la Santa Creu i Sant Pau
+                    </p>
+                    <p className="miembro-role">
+                        {t("pages.ponentes.rol.abdel")}
+                    </p>
+                </div>
+                <div className="miembro-comite">
+                    <img
+                        className="comite-img"
+                        src="/ponentes/graziella-almendral.png"
+                        alt="Graziella Almendral Del Rio"
+                    />
+                    <a
+                        href="https://www.linkedin.com/in/graziellaalmendral/"
+                        target="_blank"
+                        className="lkd"
+                    >
+                        <FontAwesomeIcon icon={faLinkedin} />
+                    </a>
+                    <p className="miembro-name">Graziella Almendral Del Rio</p>
+                    <p className="miembro-role speaker">
+                        {t("pages.ponentes.tipos.mesaS")}
+                    </p>
+                    <p className="miembro-role">Anis</p>
+                    <p className="miembro-role">
+                        {t("pages.ponentes.rol.graziella")}
+                    </p>
+                </div>
+
+                {/* proyectos */}
+                <div className="miembro-comite ponente">
+                    <img
+                        className="comite-img"
+                        src="/ponentes/silvia-suarez.png"
+                        alt="Silvia Suárez Luque"
+                    />
+
+                    <p className="miembro-name">Silvia Suárez Luque </p>
+                    <p className="miembro-role speaker">
+                        {t("pages.ponentes.tipos.proyecto")}
+                    </p>
+                    <p className="miembro-role">
+                        Dirección Xeral de Saúde Pública
+                    </p>
+                    <p className="miembro-role">
+                        {t("pages.ponentes.rol.silvia")}
+                    </p>
+                </div>
+                <div className="miembro-comite ponente">
+                    <img
+                        className="comite-img"
+                        src="/ponentes/jose-antonio-pena.png"
+                        alt="José Antonio Pena Parga"
+                    />
+                    <a
+                        href="https://www.linkedin.com/in/joseantoniopenaparga/"
+                        target="_blank"
+                        className="lkd"
+                    >
+                        <FontAwesomeIcon icon={faLinkedin} />
+                    </a>
+
+                    <p className="miembro-name">José Antonio Pena Parga </p>
+                    <p className="miembro-role speaker">
+                        {t("pages.ponentes.tipos.proyecto")}
+                    </p>
+                    <p className="miembro-role">Ocean Kube Environment</p>
+                    <p className="miembro-role">
+                        {t("pages.ponentes.rol.joseAntonio")}
                     </p>
                 </div>
             </div>
