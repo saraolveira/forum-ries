@@ -508,6 +508,45 @@ const PonentesBlock = () => {
                         {t("pages.ponentes.rol.graziella")}
                     </p>
                 </div>
+                <div className="miembro-comite">
+                    <img
+                        className="comite-img"
+                        src="/ponentes/manuel-rodriguez.png"
+                        alt="Manuel Rodríguez Fernández"
+                    />
+                    <a
+                        href="https://www.linkedin.com/in/manuel-pm4gov/"
+                        target="_blank"
+                        className="lkd"
+                    >
+                        <FontAwesomeIcon icon={faLinkedin} />
+                    </a>
+                    <p className="miembro-name">Manuel Rodríguez Fernández</p>
+                    <p className="miembro-role speaker">
+                        {t("pages.ponentes.tipos.mesaS")}
+                    </p>
+                    <p className="miembro-role">PM4GOV</p>
+                    <p className="miembro-role">
+                        {t("pages.ponentes.rol.manuel")}
+                    </p>
+                </div>
+                <div className="miembro-comite">
+                    <img
+                        className="comite-img"
+                        src="/ponentes/jose-antonio-lopez.png"
+                        alt="José Antonio López Guerrero"
+                    />
+                    <p className="miembro-name">José Antonio López Guerrero</p>
+                    <p className="miembro-role speaker">
+                        {t("pages.ponentes.tipos.mesaS")}
+                    </p>
+                    <p className="miembro-role">
+                        Universidad Autónoma de Madrid
+                    </p>
+                    <p className="miembro-role">
+                        {t("pages.ponentes.rol.joseAntonioLopez")}
+                    </p>
+                </div>
 
                 {/* proyectos */}
                 <div className="miembro-comite">

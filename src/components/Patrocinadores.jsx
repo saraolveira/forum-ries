@@ -27,6 +27,12 @@ const Patrocinadores = () => {
                 <a href="https://www.riberasalud.com/" target="_blank">
                     <img src="/patrocinadores/ribera.png" alt="Ribera Salud" />
                 </a>
+                <a href="https://www.fundacionbiomedica.org/" target="_blank">
+                    <img
+                        src="/patrocinadores/fbgs.png"
+                        alt="Fundación Biomédica Galicia Sur"
+                    />
+                </a>
             </div>
             <h3>{t("patrocinios.ltype3")}</h3>
             <div className="block-patrocinadores">
@@ -51,6 +57,9 @@ const Patrocinadores = () => {
                 <a href="https://galaria.sergas.gal/" target="_blank">
                     <img src="/patrocinadores/galaria.png" alt="Galaria" />
                 </a>
+                <a href="https://qida.es/" target="_blank">
+                    <img src="/patrocinadores/qida.png" alt="Qida" />
+                </a>
             </div>
             <h3>{t("patrocinios.ltype5")}</h3>
             <div className="block-patrocinadores">
@@ -65,6 +74,19 @@ const Patrocinadores = () => {
                 </a>
                 <a href="https://galaria.sergas.gal/" target="_blank">
                     <img src="/patrocinadores/galaria.png" alt="Galaria" />
+                </a>
+                <a href="https://atlanttic.uvigo.es/" target="_blank">
+                    <img src="/patrocinadores/atlanttic.png" alt="atlanTTic" />
+                </a>
+            </div>
+
+            <h3>{t("patrocinios.ltype10")}</h3>
+            <div className="block-patrocinadores">
+                <a href="https://afaga.com/" target="_blank">
+                    <img
+                        src="/patrocinadores/afaga.png"
+                        alt="AFAGA Alzhéimer"
+                    />
                 </a>
             </div>
         </div>

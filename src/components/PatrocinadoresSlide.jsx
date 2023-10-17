@@ -29,6 +29,12 @@ const PatrocinadoresSlide = () => {
                     </li>
                     <li>
                         <img
+                            src="/patrocinadores/negativos/fbgs.png"
+                            alt="Fundación Biomédica Galicia Sur"
+                        />
+                    </li>
+                    <li>
+                        <img
                             src="/patrocinadores/negativos/domusvi.png"
                             alt="DomusVi"
                         />
@@ -65,8 +71,26 @@ const PatrocinadoresSlide = () => {
                     </li>
                     <li>
                         <img
+                            src="/patrocinadores/negativos/qida.png"
+                            alt="Qida"
+                        />
+                    </li>
+                    <li>
+                        <img
                             src="/patrocinadores/negativos/pm4gov.png"
                             alt="PM4GOV"
+                        />
+                    </li>
+                    <li>
+                        <img
+                            src="/patrocinadores/negativos/atlanttic.png"
+                            alt="atlanTTic"
+                        />
+                    </li>
+                    <li>
+                        <img
+                            src="/patrocinadores/negativos/afaga.png"
+                            alt="AFAGA Alzhéimer"
                         />
                     </li>
                 </ul>
@@ -97,6 +121,12 @@ const PatrocinadoresSlide = () => {
                     </li>
                     <li>
                         <img
+                            src="/patrocinadores/negativos/fbgs.png"
+                            alt="Fundación Biomédica Galicia Sur"
+                        />
+                    </li>
+                    <li>
+                        <img
                             src="/patrocinadores/negativos/domusvi.png"
                             alt="DomusVi"
                         />
@@ -133,8 +163,26 @@ const PatrocinadoresSlide = () => {
                     </li>
                     <li>
                         <img
+                            src="/patrocinadores/negativos/qida.png"
+                            alt="Qida"
+                        />
+                    </li>
+                    <li>
+                        <img
                             src="/patrocinadores/negativos/pm4gov.png"
                             alt="PM4GOV"
+                        />
+                    </li>
+                    <li>
+                        <img
+                            src="/patrocinadores/negativos/atlanttic.png"
+                            alt="atlanTTic"
+                        />
+                    </li>
+                    <li>
+                        <img
+                            src="/patrocinadores/negativos/afaga.png"
+                            alt="AFAGA Alzhéimer"
                         />
                     </li>
                 </ul>

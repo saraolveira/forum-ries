@@ -1377,7 +1377,7 @@ h3 {
   list-style: none;
   display: flex;
   align-items: center;
-  animation: infinite-slide 15s linear infinite;
+  animation: infinite-slide 20s linear infinite;
   padding: 2rem 0;
 }
 

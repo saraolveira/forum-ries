@@ -678,6 +678,34 @@ const Ponentes = () => {
                                 {t("pages.ponentes.description.abdel")}
                             </p>
                         </div>
+                        <div className="miembro-comite ponente">
+                            <img
+                                className="comite-img"
+                                src="/ponentes/manuel-rodriguez.png"
+                                alt="Manuel Rodríguez Fernández"
+                            />
+
+                            <p className="miembro-name">
+                                Manuel Rodríguez Fernández{" "}
+                                <a
+                                    href="https://www.linkedin.com/in/manuel-pm4gov/"
+                                    target="_blank"
+                                    className="linkedin"
+                                >
+                                    <FontAwesomeIcon icon={faLinkedin} />
+                                </a>
+                            </p>
+                            <p className="miembro-role speaker">
+                                {t("pages.ponentes.tipos.mesaS")}
+                            </p>
+                            <p className="miembro-role">PM4GOV</p>
+                            <p className="miembro-role">
+                                {t("pages.ponentes.rol.manuel")}
+                            </p>
+                            <p className="miembro-description">
+                                {t("pages.ponentes.description.manuel")}
+                            </p>
+                        </div>
                     </div>
 
                     <h3>{t("pages.ponentes.tipos.mesaZendal")}</h3>
@@ -739,6 +767,31 @@ const Ponentes = () => {
                             </p>
                             <p className="miembro-description">
                                 {t("pages.ponentes.description.graziella")}
+                            </p>
+                        </div>
+                        <div className="miembro-comite ponente">
+                            <img
+                                className="comite-img"
+                                src="/ponentes/jose-antonio-lopez.png"
+                                alt="José Antonio López Guerrero"
+                            />
+
+                            <p className="miembro-name">
+                                José Antonio López Guerrero
+                            </p>
+                            <p className="miembro-role speaker">
+                                {t("pages.ponentes.tipos.mesaS")}
+                            </p>
+                            <p className="miembro-role">
+                                Universidad Autónoma de Madrid
+                            </p>
+                            <p className="miembro-role">
+                                {t("pages.ponentes.rol.joseAntonioLopez")}
+                            </p>
+                            <p className="miembro-description">
+                                {t(
+                                    "pages.ponentes.description.joseAntonioLopez"
+                                )}
                             </p>
                         </div>
                     </div>

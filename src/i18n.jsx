@@ -192,6 +192,9 @@ i18n.use(LanguageDetector)
                                 graziella: "Presidenta",
                                 silvia: "Subdirectora General de Programas de fomento de estilos de vida saludables",
                                 joseAntonio: "Fundador y Director Comercial",
+                                manuel: "CEO",
+                                joseAntonioLopez:
+                                    "Catedrático de microbiología y director del grupo de Neurovirología UAM",
                             },
                             description: {
                                 vania1: "La Dra. Vânia de la Fuente-Núñez es experta internacional en envejecimiento saludable y edadismo. Actualmente trabaja como consultora independiente, ofreciendo asesoramiento técnico y estratégico a diferentes entidades para ayudar a mejorar la vida de las personas mayores. Su cartera de servicios abarca desde la investigación y la formación hasta el desarrollo y evaluación de estrategias. Es una oradora reconocida, que encabeza esfuerzos para desarrollar políticas y programas que permitan responder mejor al envejecimiento de la población en diferentes países y que trabaja para atraer mayor financiación al área de envejecimiento. ",
@@ -234,6 +237,9 @@ i18n.use(LanguageDetector)
                                 silvia: "Doctora en Farmacia en Química Analítica, Nutrición y Bromatología y Licenciada en Química. Diplomada en Salud Pública y Máster en Economía de la Salud. Desde el año 2008, funcionaria de carrera ocupando diferentes puestos en salud pública y coordinación sociosanitaria. Desde octubre de 2020, Subdirectora General de Programas de Fomento de Estilos de Vida Saludables de la Dirección General de Salud Pública",
                                 joseAntonio:
                                     "Educado en un ambiente familiar de empresarias emprendedoras nacidas en 1904 y 1928 respectivamente . Formado en el sistema educativo español publico, Grado Medio en Electricidad, Grado superior en Telecomunicaciones , Especialidad Fibra óptica, Estudios de Derecho (en curso).1997 fundo una constructora y promotora inmobiliaria, 2003 a 2015 Apoderado de zona noroeste en Contenur (mejor fabricante de contenedores plásticos del mundo). 2016 fundó Urbano y Accesible S. L empresa Alternativa de mobiliario urbano sostenible y predecesora de Ocean Kube Environment S.L D de 2019 , empresa especializada en Contenedores para la recogida de residuos",
+                                manuel: "Consultor con más de 15 años de experiencia en proyectos de salud digital. Tras formar parte del equipo de sanidad pública en everis y posteriormente en Deloitte, desde 2022 forma parte de PM4GOV, empresa especializada en la gestión de proyectos TIC en el ámbito de la salud digital. Actualmente PM4GOV trabaja con el Ministerio de Sanidad y varios servicios de salud autonómicos en la definición y ejecución de estrategias y proyectos TIC.",
+                                joseAntonioLopez:
+                                    "José Antonio López Guerrero, JAL, (Madrid 1962) es investigador, catedrático de microbiología de la Universidad Autónoma de Madrid y director del departamento de Cultura Científica del Centro de Biología Molecular Severo Ochoa. Tras un primer Postdoc en el Centro de Investigaciones Biológicas, se trasladó al Centro Alemán de Investigaciones Oncológicas (Heidelberg, 1993-1996). En la actualidad dirige el grupo de NeuroVirología de la UAM. Dirige, presenta o colabora en programas de Radio Nacional (Entre Probetas, El LAB de JAL o Marca España), TVE (La Hora de la 1 (TVE), prensa (El Cultural). Autor de más de una docena de libros y más de 300 artículos tanto científicos como de divulgación. Más información en www.uam.es/ja.lopez.",
                             },
                             resumenes: {
                                 agoraPlexus:
@@ -310,6 +316,7 @@ i18n.use(LanguageDetector)
                         ltype7: "PROYECTO",
                         ltype8: "GOLD",
                         ltype9: "SILVER",
+                        ltype10: "Socio colaborador",
                     },
                     info: {
                         booking:
@@ -535,6 +542,9 @@ i18n.use(LanguageDetector)
                                 graziella: "President",
                                 silvia: "Deputy Director General of Programs to promote healthy lifestyles",
                                 joseAntonio: "Founder and Commercial Director",
+                                manuel: "CEO",
+                                joseAntonioLopez:
+                                    "Professor of microbiology and director of the UAM Neurovirology group",
                             },
                             description: {
                                 vania1: "Dr. Vânia de la Fuente-Núñez is an international expert on healthy aging and aging. She currently works as an independent consultant, offering technical and strategic advice to different entities to help improve the lives of older people. Her portfolio of services ranges from research and training to strategy development and evaluation. She is a renowned speaker, leading efforts to develop policies and programs to better respond to population aging in different countries and working to attract greater funding to the area of ​​aging.",
@@ -577,6 +587,9 @@ i18n.use(LanguageDetector)
                                 silvia: "Doctor of Pharmacy in Analytical Chemistry, Nutrition and Bromatology and Graduate in Chemistry. She has a diploma in Public Health and a Master in Health Economics. Since 2008, she has been a career civil servant holding different positions in public health and socio-health coordination. Since October 2020, she has been Deputy Director General of Programs to Promote Healthy Lifestyles of the General Directorate of Public Health.",
                                 joseAntonio:
                                     "Educated in a family environment of entrepreneurial businesswomen born in 1904 and 1928 respectively. Trained in the public Spanish educational system, Intermediate Degree in Electricity, Higher Degree in Telecommunications, Specialty Fiber Optics, Law Studies (in progress). 1997 founded a construction and real estate developer, 2003 to 2015 Representative of the northwest area in Contenur (best manufacturer of plastic containers in the world). In 2016 he founded Urbano y Accesible S. L, an Alternative company of sustainable urban furniture and predecessor of Ocean Kube Environment S.L. D in 2019, a company specialized in Containers for waste collection.",
+                                manuel: "Consultant with over 15 years of experience in digital health projects. After being part of the public health team at everis and later at Deloitte, since 2022 he has been part of PM4GOV, a company specialized in managing ICT projects in the field of digital health. Currently PM4GOV works with the Ministry of Health and several regional health services in the definition and execution of ICT strategies and projects.",
+                                joseAntonioLopez:
+                                    "José Antonio López Guerrero, JAL, (Madrid 1962) is a researcher, professor of microbiology at the Autonomous University of Madrid and director of the Department of Scientific Culture at the Severo Ochoa Molecular Biology Center. After a first Postdoc at the Biological Research Center, He moved to the German Cancer Research Center (Heidelberg, 1993-1996). He currently directs the NeuroVirology group at the UAM. He directs, presents or collaborates in National Radio programs (Entre Probetas, El LAB de JAL or Marca España). , TVE (La Hora de la 1 (TVE), press (El Cultural). Author of more than a dozen books and more than 300 articles, both scientific and popular. More information at www.uam.es/ja.lopez.",
                             },
                             resumenes: {
                                 agoraPlexus:
@@ -653,6 +666,7 @@ i18n.use(LanguageDetector)
                         ltype7: "PROJECT PRESENTATION",
                         ltype8: "GOLD",
                         ltype9: "SILVER",
+                        ltype10: "#RIES23 Partnership",
                     },
                     info: {
                         booking: "Book a room at the #RIES23 hotel",
@@ -878,6 +892,9 @@ i18n.use(LanguageDetector)
                                 graziella: "Presidenta",
                                 silvia: "Subdirectora Xeral de Programas de fomento de estilos de vida saudables",
                                 joseAntonio: "Fundador e Director Comercial",
+                                manuel: "CEO",
+                                joseAntonioLopez:
+                                    "Catedrático de microbioloxía e director do grupo de Neuroviroloxía UAM",
                             },
                             description: {
                                 vania1: "Dr. Vânia de la Fuente-Núñez é unha experta internacional en envellecemento e envellecemento saudable. Actualmente traballa como consultora independente, ofrecendo asesoramento técnico e estratéxico a diferentes entidades para axudar a mellorar a vida das persoas maiores. A súa carteira de servizos abarca desde investigación e formación ata desenvolvemento e avaliación de estratexias. É unha oradora de renome, liderando esforzos para desenvolver políticas e programas para responder mellor ao envellecemento da poboación en diferentes países e traballando para atraer maior financiamento á área do envellecemento.",
@@ -960,6 +977,7 @@ i18n.use(LanguageDetector)
                         ltype7: "PROXECTO",
                         ltype8: "GOLD",
                         ltype9: "SILVER",
+                        ltype10: "Socio colaborador",
                     },
                     info: {
                         booking: "Reserva unha habitación no hotel de #RIES23",
