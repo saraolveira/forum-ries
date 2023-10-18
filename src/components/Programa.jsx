@@ -207,8 +207,9 @@ const Programa = ({ hide }) => {
                             <td className="hora-programa">15:30 16:30</td>
 
                             <td>
-                                {t("pages.ponentes.tipos.agoraGradiant")}| Ágora
-                                OneHealth | {t("program23.pitch")}
+                                {t("pages.ponentes.tipos.agoraGradiant")}|{" "}
+                                {t("pages.ponentes.tipos.agoraFerrovial")} |{" "}
+                                {t("program23.pitch")}
                             </td>
                         </tr>
                         <tr className={`${hide ? "extra-no" : "extra"} `}>

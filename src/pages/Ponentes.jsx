@@ -498,6 +498,11 @@ const Ponentes = () => {
                         </div>
                     </div>
 
+                    <h3>{t("pages.ponentes.tipos.agoraFerrovial")}</h3>
+                    <p className="resumen-programa">
+                        {t("pages.ponentes.resumenes.agoraFerrovial")}
+                    </p>
+
                     <h3>{t("pages.ponentes.tipos.mesaBalidea")}</h3>
                     <p className="resumen-programa">
                         {t("pages.ponentes.resumenes.mesaBalidea")}

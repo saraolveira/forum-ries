@@ -156,6 +156,8 @@ i18n.use(LanguageDetector)
                                     "Ágora Living Labs in Care. Cómo homogeneizar a nivel europeo la validación de soluciones digitales en cuidados a través de los Living Labs",
                                 agoraGradiant:
                                     "Ágora Transformando la Atención Socio-Sanitaria: El Papel de los Espacios de Datos Europeo",
+                                agoraFerrovial:
+                                    "Ágora El proceso de la descarbonización en el sector: centros sanitarios Neutros en Carbono",
                                 agoraDomusVi:
                                     "Ágora Tecnología Social para una Longevidad Activa",
                                 mesaBalidea:
@@ -248,6 +250,8 @@ i18n.use(LanguageDetector)
                                     "Un Living Lab es un ecosistema de innovación abierta en entornos reales de la vida. Un concepto de actualidad donde existe un campo muy amplio de recursos en los que queda mucho recorrido por aprender y progresar dentro del ecosistema de cuidados. En este Ágora se pretende facilitar la colaboración y el intercambio de conocimientos entre las diferentes partes del ecosistema para promover la homogeneización de la validación de soluciones digitales en cuidados. Para ello, debemos tratar diferentes temas donde hay que avanzar y crecer. Entre ellos tenemos: la estandarización europea, la búsqueda de financiación y cooperación, la ética y privacidad, la co-creación con los ciudadanos, los desafíos y oportunidades futuras, la red de colaboración y las mejores prácticas que ya existen. En este Ágora también habrá un debate abierto sobre cómo los Living Labs pueden aportar valor al mundo empresarial y emprendedor, para generar sinergias con Start-ups, aceleradoras, PYMES y grandes empresas tecnológicas.",
                                 agoraGradiant:
                                     "El sector sanitario está muy regulado y los datos sanitarios se consideran merecedores de una protección especial. Por ello, se espera en este ágora evaluar la utilidad del modelo europeo de Espacio de Datos Europeo de Salud, las principales problemáticas asociadas a su puesta en marcha y las ventajas que dicho modelo puede aportar para la mejora de los cuidados socio-sanitarios, la personalización de los planes de tratamiento, la investigación médica y/o el desarrollo de medicamentos.",
+                                agoraFerrovial:
+                                    "La temática del ágora hila con la reciente Estrategia de Economía Circular que el Sergas ha lanzado, y que incluye planes de reducción de CO2 y mejora de la Eficiencia Energética, así como la adecuación de los centros sanitarios para evitar pérdidas energéticas. En la Mesa del Ágora nos gustaría que se trataran las diferentes formas de poder alcanzar estos objetivos mediante modelos de inversión directa, financiados con colaboración público- privada, o a través de mecanismos de Compra Pública Innovadora.",
                                 agoraDomusVi:
                                     "Como sociedad tenemos que implicarnos y decidir qué tipo de longevidad queremos. El objetivo no es sólo vivir más, sino vivir mejor y que cada persona pueda elegir en base a sus preferencias cómo afrontar la longevidad. Como sociedad tenemos que ser capaces de dar respuesta a los grandes retos que este nuevo paradigma representa.",
                                 mesaBalidea:
@@ -505,6 +509,8 @@ i18n.use(LanguageDetector)
                                     "Agora Living Labs in Care. How to homogenize the validation of digital solutions in care through living labs across Europe",
                                 agoraGradiant:
                                     "Agora Transforming Health and Care Attention: The Role of European Data Spaces",
+                                agoraFerrovial:
+                                    "Agora The decarbonization process in the sector: Carbon Neutral healthcare centers",
                                 agoraDomusVi:
                                     "Agora Technology for an Active Longevity",
                                 mesaBalidea:
@@ -598,6 +604,8 @@ i18n.use(LanguageDetector)
                                     "A Living Lab is an open innovation ecosystem in real life environments. A current concept where there is a very wide field of resources in which there is still a long way to go to learn and progress within the care ecosystem. This Agora aims to facilitate collaboration and exchange of knowledge between the different parts of the ecosystem to promote the homogenization of the validation of digital solutions in care. To do this, we must address different issues where we must advance and grow. Among them we have: European standardization, the search for funding and cooperation, ethics and privacy, co-creation with citizens, future challenges and opportunities, the collaboration network and the best practices that already exist. In this Agora there will also be an open debate on how Living Labs can add value to the business and entrepreneurial world, to generate synergies with Start-ups, accelerators, SMEs and large technology companies.",
                                 agoraGradiant:
                                     "The healthcare sector is highly regulated and healthcare data is considered worthy of special protection. Therefore, it is expected in this agora to evaluate the usefulness of the European model of the European Health Data Space, the main problems associated with its implementation and the advantages that this model can provide for the improvement of socio-health care, the personalization of treatment plans, medical research and/or drug development.",
+                                agoraFerrovial:
+                                    "The theme of the agora is related to the recent Circular Economy Strategy that Sergas has launched, and which includes plans to reduce CO2 and improve Energy Efficiency, as well as the adaptation of health centers to avoid energy losses. At the Agora Table we would like to discuss the different ways of achieving these objectives through direct investment models, financed with public-private collaboration, or through Innovative Public Procurement mechanisms.",
                                 agoraDomusVi:
                                     "As a society we have to get involved and decide what type of longevity we want. The goal is not only to live longer, but to live better and for each person to be able to choose how to face longevity based on their preferences. As a society we have to be able to respond to the great challenges that this new paradigm represents.",
                                 mesaBalidea:
@@ -855,6 +863,8 @@ i18n.use(LanguageDetector)
                                     "Ágora Living Labs in Care. Cómo homoxeneizar a nivel europeo a validación de solucións dixitais en coidados a través dos Living Labs.",
                                 agoraGradiant:
                                     "Ágora Transformando a Atención Socio-Sanitaria: O Papel dos Espazos de Datos Europeo",
+                                agoraFerrovial:
+                                    "Ágora O proceso da descarbonización no sector: centros sanitarios Neutros en Carbono",
                                 agoraDomusVi:
                                     "Ágora Tecnoloxía Social para unha Lonxevidade Activa",
                                 mesaBalidea:
