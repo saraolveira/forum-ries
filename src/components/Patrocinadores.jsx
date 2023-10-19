@@ -33,6 +33,12 @@ const Patrocinadores = () => {
                         alt="Fundación Biomédica Galicia Sur"
                     />
                 </a>
+                <a href="https://www.iisgaliciasur.es/" target="_blank">
+                    <img
+                        src="/patrocinadores/iisgs.png"
+                        alt="Instituto de Investigación Sanitaria Galicia Sur"
+                    />
+                </a>
             </div>
             <h3>{t("patrocinios.ltype3")}</h3>
             <div className="block-patrocinadores">
@@ -77,6 +83,22 @@ const Patrocinadores = () => {
                 </a>
                 <a href="https://atlanttic.uvigo.es/" target="_blank">
                     <img src="/patrocinadores/atlanttic.png" alt="atlanTTic" />
+                </a>
+            </div>
+
+            <h3>{t("patrocinios.ltype7")}</h3>
+            <div className="block-patrocinadores">
+                <a href="https://www.longevita.es/" target="_blank">
+                    <img src="/patrocinadores/longevita.png" alt="Longevita" />
+                </a>
+                <a
+                    href="https://developer.amazon.com/en-US/alexa/seniorliving"
+                    target="_blank"
+                >
+                    <img
+                        src="/patrocinadores/asp-sl.png"
+                        alt="Alexa Smart Properties Senior Living"
+                    />
                 </a>
             </div>
 

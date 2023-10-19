@@ -35,6 +35,12 @@ const PatrocinadoresSlide = () => {
                     </li>
                     <li>
                         <img
+                            src="/patrocinadores/negativos/iisgs.png"
+                            alt="Instituto de Investigación Sanitaria Galicia Sur"
+                        />
+                    </li>
+                    <li>
+                        <img
                             src="/patrocinadores/negativos/domusvi.png"
                             alt="DomusVi"
                         />
@@ -85,6 +91,18 @@ const PatrocinadoresSlide = () => {
                         <img
                             src="/patrocinadores/negativos/atlanttic.png"
                             alt="atlanTTic"
+                        />
+                    </li>
+                    <li>
+                        <img
+                            src="/patrocinadores/negativos/longevita.png"
+                            alt="Longevita"
+                        />
+                    </li>
+                    <li>
+                        <img
+                            src="/patrocinadores/negativos/asp-sl.png"
+                            alt="Alexa Smart Properties Senior Living"
                         />
                     </li>
                     <li>
