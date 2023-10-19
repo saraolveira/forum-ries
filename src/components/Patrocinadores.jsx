@@ -91,15 +91,6 @@ const Patrocinadores = () => {
                 <a href="https://www.longevita.es/" target="_blank">
                     <img src="/patrocinadores/longevita.png" alt="Longevita" />
                 </a>
-                <a
-                    href="https://developer.amazon.com/en-US/alexa/seniorliving"
-                    target="_blank"
-                >
-                    <img
-                        src="/patrocinadores/asp-sl.png"
-                        alt="Alexa Smart Properties Senior Living"
-                    />
-                </a>
             </div>
 
             <h3>{t("patrocinios.ltype10")}</h3>
