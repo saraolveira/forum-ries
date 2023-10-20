@@ -18,7 +18,7 @@ const PatrocinadoresSlide = () => {
                     </li>
                     <li>
                         <img
-                            src="/patrocinadores/negativos/atendo.png"
+                            src="/patrocinadores/negativos/fujitsu.png"
                             alt="Fujitsu"
                         />
                     </li>
@@ -78,7 +78,7 @@ const PatrocinadoresSlide = () => {
                     </li>
                     <li>
                         <img
-                            src="/patrocinadores/negativos/usc.jpg"
+                            src="/patrocinadores/negativos/usc.png"
                             alt="Universidade de Santiago de Compostela"
                         />
                     </li>
@@ -211,7 +211,7 @@ const PatrocinadoresSlide = () => {
                     </li>
                     <li>
                         <img
-                            src="/patrocinadores/negativos/atendo.png"
+                            src="/patrocinadores/negativos/fujitsu.png"
                             alt="Fujitsu"
                         />
                     </li>
@@ -271,7 +271,7 @@ const PatrocinadoresSlide = () => {
                     </li>
                     <li>
                         <img
-                            src="/patrocinadores/negativos/usc.jpg"
+                            src="/patrocinadores/negativos/usc.png"
                             alt="Universidade de Santiago de Compostela"
                         />
                     </li>
