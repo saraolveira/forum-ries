@@ -255,8 +255,8 @@ button:hover {
   align-items: center;
   gap: 2vw;
   box-sizing: border-box;
-  padding: 2vh 0;
-  padding: 2svh 0;
+  padding: 2vh;
+  padding: 2svh;
 }
 
 .block-ponentes {
@@ -1377,7 +1377,7 @@ h3 {
   list-style: none;
   display: flex;
   align-items: center;
-  animation: infinite-slide 20s linear infinite;
+  animation: infinite-slide 40s linear infinite;
   padding: 2rem 0;
 }
 
@@ -1891,7 +1891,7 @@ h3 {
   }
   
   .block-patrocinadores {
-    padding: 1.5vw 0;
+    padding: 1.5vw;
   }
 
   .block-patrocinadores img {
