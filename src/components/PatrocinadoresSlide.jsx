@@ -173,6 +173,18 @@ const PatrocinadoresSlide = () => {
                         />
                     </li>
                     <li>
+                        <img
+                            src="/patrocinadores/negativos/big.png"
+                            alt="BiG Formación"
+                        />
+                    </li>
+                    <li>
+                        <img
+                            src="/patrocinadores/negativos/xoia.png"
+                            alt="Xoia"
+                        />
+                    </li>
+                    <li>
                         <a href="https://adocdv.com/" target="_blank">
                             <img
                                 src="/patrocinadores/negativos/adoc.png"
@@ -363,6 +375,18 @@ const PatrocinadoresSlide = () => {
                         <img
                             src="/patrocinadores/negativos/ocean-kube.png"
                             alt="Ocean Kube"
+                        />
+                    </li>
+                    <li>
+                        <img
+                            src="/patrocinadores/negativos/big.png"
+                            alt="BiG Formación"
+                        />
+                    </li>
+                    <li>
+                        <img
+                            src="/patrocinadores/negativos/xoia.png"
+                            alt="Xoia"
                         />
                     </li>
                     <li>

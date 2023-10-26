@@ -164,6 +164,12 @@ const Patrocinadores = () => {
                         alt="Ocean Kube"
                     />
                 </a>
+                <a href="https://www.bigformacion.es/" target="_blank">
+                    <img src="/patrocinadores/big.png" alt="BiG Formación" />
+                </a>
+                <a href="https://xoia.es/" target="_blank">
+                    <img src="/patrocinadores/xoia.png" alt="Xoia" />
+                </a>
             </div>
 
             <h3>{t("patrocinios.ltype8")}</h3>

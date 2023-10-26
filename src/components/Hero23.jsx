@@ -195,6 +195,10 @@ const Hero23 = () => {
                             alt="logo #ClustersSaludEspaña"
                         />
                         <img
+                            src="/colab/czfv.png"
+                            alt="logo Consorcio Zona Franca Vigo"
+                        />
+                        <img
                             src="/colab/concello.png"
                             alt="logo Concello de Vigo"
                         />

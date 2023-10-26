@@ -187,6 +187,50 @@ const PonentesBlock = () => {
                         {t("pages.ponentes.rol.joseManuelPerez")}
                     </p>
                 </div>
+                <div className="miembro-comite">
+                    <img
+                        className="comite-img"
+                        src="/ponentes/jose-david-zafrilla.png"
+                        alt="José David Zafrilla Martinez"
+                    />
+                    <a
+                        href="https://www.linkedin.com/company/ribera-salud-s-a-/"
+                        target="_blank"
+                        className="lkd"
+                    >
+                        <FontAwesomeIcon icon={faLinkedin} />
+                    </a>
+                    <p className="miembro-name">José David Zafrilla Martinez</p>
+                    <p className="miembro-role speaker">
+                        {t("pages.ponentes.tipos.agoraLead")}
+                    </p>
+                    <p className="miembro-role">Grupo Ribera Salud</p>
+                    <p className="miembro-role">
+                        {t("pages.ponentes.rol.joseDavid")}
+                    </p>
+                </div>
+                <div className="miembro-comite">
+                    <img
+                        className="comite-img"
+                        src="/ponentes/pablo-alvarez.png"
+                        alt="Pablo Alvarez Alvarez"
+                    />
+                    <a
+                        href="https://www.linkedin.com/in/pabloalvareza"
+                        target="_blank"
+                        className="lkd"
+                    >
+                        <FontAwesomeIcon icon={faLinkedin} />
+                    </a>
+                    <p className="miembro-name">Pablo Alvarez Alvarez</p>
+                    <p className="miembro-role speaker">
+                        {t("pages.ponentes.tipos.agoraLead")}
+                    </p>
+                    <p className="miembro-role">Ferrovial</p>
+                    <p className="miembro-role">
+                        {t("pages.ponentes.rol.joseDavid")}
+                    </p>
+                </div>
 
                 {/* round table moderator */}
                 <div className="miembro-comite">
@@ -209,6 +253,22 @@ const PonentesBlock = () => {
                     <p className="miembro-role">Balidea</p>
                     <p className="miembro-role">
                         {t("pages.ponentes.rol.joseAngel")}
+                    </p>
+                </div>
+                <div className="miembro-comite">
+                    <img
+                        className="comite-img"
+                        src="/ponentes/patricia-fernandez.png"
+                        alt="Patricia Fernández Liz"
+                    />
+
+                    <p className="miembro-name">Patricia Fernández Liz</p>
+                    <p className="miembro-role speaker">
+                        {t("pages.ponentes.tipos.mesaM")}
+                    </p>
+                    <p className="miembro-role">Axencia Galega de Innovación</p>
+                    <p className="miembro-role">
+                        {t("pages.ponentes.rol.patricia")}
                     </p>
                 </div>
                 <div className="miembro-comite">
@@ -349,7 +409,6 @@ const PonentesBlock = () => {
                         {t("pages.ponentes.rol.konstantina")}
                     </p>
                 </div>
-
                 <div className="miembro-comite">
                     <img
                         className="comite-img"
@@ -392,6 +451,147 @@ const PonentesBlock = () => {
                     <p className="miembro-role">QIDA</p>
                     <p className="miembro-role">
                         {t("pages.ponentes.rol.ramon")}
+                    </p>
+                </div>
+                <div className="miembro-comite">
+                    <img
+                        className="comite-img"
+                        src="/ponentes/roberto-carlos-agis.png"
+                        alt="Roberto Carlos Agís Balboa"
+                    />
+                    <a
+                        href="https://linkedin.com/in/robertocarlosagisbalboa"
+                        target="_blank"
+                        className="lkd"
+                    >
+                        <FontAwesomeIcon icon={faLinkedin} />
+                    </a>
+                    <p className="miembro-name">Roberto Carlos Agís Balboa</p>
+                    <p className="miembro-role speaker">
+                        {t("pages.ponentes.tipos.agoraSpeak")}
+                    </p>
+                    <p className="miembro-role">
+                        NeuroEpigenetics Lab - Grupo de Investigación
+                        Traslacional en Enfermedades Neurológicas (ITEN) del
+                        IDIS
+                    </p>
+                    <p className="miembro-role">
+                        {t("pages.ponentes.rol.robertoCarlos")}
+                    </p>
+                </div>
+                <div className="miembro-comite">
+                    <img
+                        className="comite-img"
+                        src="/ponentes/cesar-veiga.png"
+                        alt="Cesar Veiga"
+                    />
+                    <p className="miembro-name">Cesar Veiga</p>
+                    <p className="miembro-role speaker">
+                        {t("pages.ponentes.tipos.agoraSpeak")}
+                    </p>
+                    <p className="miembro-role">
+                        IISGS-Fundación Biomédica Galicia Sur
+                    </p>
+                    <p className="miembro-role">
+                        {t("pages.ponentes.rol.cesar")}
+                    </p>
+                </div>
+                <div className="miembro-comite">
+                    <img
+                        className="comite-img"
+                        src="/ponentes/javier-ventosa.png"
+                        alt="Jose Javier Ventosa Rial"
+                    />
+                    <a
+                        href="https://linkedin.com/in/javier-ventosa-rial-b200884a"
+                        target="_blank"
+                        className="lkd"
+                    >
+                        <FontAwesomeIcon icon={faLinkedin} />
+                    </a>
+                    <p className="miembro-name">Jose Javier Ventosa Rial</p>
+                    <p className="miembro-role speaker">
+                        {t("pages.ponentes.tipos.agoraSpeak")}
+                    </p>
+                    <p className="miembro-role">
+                        Conselleria de Politica Social e Xuventude, Xunta de
+                        Galicia
+                    </p>
+                    <p className="miembro-role">
+                        {t("pages.ponentes.rol.javier")}
+                    </p>
+                </div>
+                <div className="miembro-comite">
+                    <img
+                        className="comite-img"
+                        src="/ponentes/joao-castro.png"
+                        alt="João Castro Gomes"
+                    />
+                    <a
+                        href="https://www.linkedin.com/in/joaogomes91/"
+                        target="_blank"
+                        className="lkd"
+                    >
+                        <FontAwesomeIcon icon={faLinkedin} />
+                    </a>
+                    <p className="miembro-name">João Castro Gomes</p>
+                    <p className="miembro-role speaker">
+                        {t("pages.ponentes.tipos.agoraSpeak")}
+                    </p>
+                    <p className="miembro-role">Promptly Health</p>
+                    <p className="miembro-role">
+                        {t("pages.ponentes.rol.joao")}
+                    </p>
+                </div>
+                <div className="miembro-comite">
+                    <img
+                        className="comite-img"
+                        src="/ponentes/carlos-catalan.png"
+                        alt="Carlos Catalán Oliver"
+                    />
+                    <p className="miembro-name">Carlos Catalán Oliver</p>
+                    <p className="miembro-role speaker">
+                        {t("pages.ponentes.tipos.agoraSpeak")}
+                    </p>
+                    <p className="miembro-role">Grupo Ribera Salud</p>
+                    <p className="miembro-role">
+                        {t("pages.ponentes.rol.carlosCatalan")}
+                    </p>
+                </div>
+                <div className="miembro-comite">
+                    <img
+                        className="comite-img"
+                        src="/ponentes/francisco-javier-cobas.png"
+                        alt="Francisco Javier Cobas Gamallo"
+                    />
+
+                    <p className="miembro-name">
+                        Francisco Javier Cobas Gamallo
+                    </p>
+                    <p className="miembro-role speaker">
+                        {t("pages.ponentes.tipos.agoraSpeak")}
+                    </p>
+                    <p className="miembro-role">
+                        Hospital Universitario La Paz
+                    </p>
+                    <p className="miembro-role">
+                        {t("pages.ponentes.rol.franciscoJavier")}
+                    </p>
+                </div>
+
+                <div className="miembro-comite">
+                    <img
+                        className="comite-img"
+                        src="/ponentes/miguel-angel-navas.png"
+                        alt="Miguel Angel Navas Martín"
+                    />
+                    <p className="miembro-name">Miguel Angel Navas Martín</p>
+                    <p className="miembro-role speaker">
+                        {t("pages.ponentes.tipos.agoraSpeak")}
+                    </p>
+                    <p className="miembro-role">Ingeniería ABConsultores</p>
+                    <p className="miembro-role">
+                        {t("pages.ponentes.rol.name")}
                     </p>
                 </div>
 
@@ -547,7 +747,97 @@ const PonentesBlock = () => {
                         {t("pages.ponentes.rol.joseAntonioLopez")}
                     </p>
                 </div>
-
+                <div className="miembro-comite">
+                    <img
+                        className="comite-img"
+                        src="/ponentes/benigno-roson.png"
+                        alt="Benigno Rosón"
+                    />
+                    <p className="miembro-name">Benigno Rosón</p>
+                    <p className="miembro-role speaker">
+                        {t("pages.ponentes.tipos.mesaS")}
+                    </p>
+                    <p className="miembro-role">Xunta de Galicia</p>
+                    <p className="miembro-role">
+                        {t("pages.ponentes.rol.name")}
+                    </p>
+                </div>
+                <div className="miembro-comite">
+                    <img
+                        className="comite-img"
+                        src="/ponentes/david-pisano.png"
+                        alt="David G Pisano"
+                    />
+                    <a
+                        href="https://es.linkedin.com/in/david-g-pisano"
+                        target="_blank"
+                        className="lkd"
+                    >
+                        <FontAwesomeIcon icon={faLinkedin} />
+                    </a>
+                    <p className="miembro-name">David G Pisano</p>
+                    <p className="miembro-role speaker">
+                        {t("pages.ponentes.tipos.mesaS")}
+                    </p>
+                    <p className="miembro-role">GENOMCORE - Telefónica</p>
+                    <p className="miembro-role">
+                        {t("pages.ponentes.rol.david")}
+                    </p>
+                </div>
+                <div className="miembro-comite">
+                    <img
+                        className="comite-img"
+                        src="/ponentes/manuel-bosch.png"
+                        alt="Manuel Bosch Arcos"
+                    />
+                    <a
+                        href="https://www.linkedin.com/in/manubosch/"
+                        target="_blank"
+                        className="lkd"
+                    >
+                        <FontAwesomeIcon icon={faLinkedin} />
+                    </a>
+                    <p className="miembro-name">Manuel Bosch Arcos</p>
+                    <p className="miembro-role speaker">
+                        {t("pages.ponentes.tipos.mesaS")}
+                    </p>
+                    <p className="miembro-role">Grupo Ribera Salud</p>
+                    <p className="miembro-role">
+                        {t("pages.ponentes.rol.manuelBosch")}
+                    </p>
+                </div>
+                <div className="miembro-comite">
+                    <img
+                        className="comite-img"
+                        src="/ponentes/bruno-gonzalez.png"
+                        alt="Bruno González Zorn"
+                    />
+                    <p className="miembro-name">Bruno González Zorn</p>
+                    <p className="miembro-role speaker">
+                        {t("pages.ponentes.tipos.mesaS")}
+                    </p>
+                    <p className="miembro-role">
+                        Universidad Complutense de Madrid
+                    </p>
+                    <p className="miembro-role">
+                        {t("pages.ponentes.rol.bruno")}
+                    </p>
+                </div>
+                <div className="miembro-comite">
+                    <img
+                        className="comite-img"
+                        src="/ponentes/joaquim-magalhaes.png"
+                        alt="Joaquim Magalhães"
+                    />
+                    <p className="miembro-name">Joaquim Magalhães</p>
+                    <p className="miembro-role speaker">
+                        {t("pages.ponentes.tipos.mesaS")}
+                    </p>
+                    <p className="miembro-role">Health Cluster Portugal</p>
+                    <p className="miembro-role">
+                        {t("pages.ponentes.rol.joaquim")}
+                    </p>
+                </div>
                 {/* proyectos */}
                 <div className="miembro-comite">
                     <img

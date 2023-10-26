@@ -207,7 +207,7 @@ const Programa = ({ hide }) => {
                             <td className="hora-programa">15:30 16:30</td>
 
                             <td>
-                                {t("pages.ponentes.tipos.agoraGradiant")}|{" "}
+                                {t("pages.ponentes.tipos.agoraGradiant")} |{" "}
                                 {t("pages.ponentes.tipos.agoraFerrovial")} |{" "}
                                 {t("program23.pitch")}
                             </td>
@@ -231,8 +231,9 @@ const Programa = ({ hide }) => {
                             <td className="hora-programa">17:30 18:30</td>
 
                             <td>
-                                {t("pages.ponentes.tipos.agoraITGALL")} | Ágora
-                                TBC | {t("program23.pitch")}
+                                {t("pages.ponentes.tipos.agoraITGALL")} |{" "}
+                                {t("pages.ponentes.tipos.agoraRibera")} |{" "}
+                                {t("program23.pitch")}
                             </td>
                         </tr>
                         <tr>
