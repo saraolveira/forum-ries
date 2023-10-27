@@ -46,6 +46,12 @@ const Ponentes = () => {
                                 <br />
                                 {t("pages.ponentes.description.vania3")}
                             </p>
+                            <p className="miembro-name">
+                                {t("pages.ponentes.tipos.keynoteVania")}
+                            </p>
+                            <p className="miembro-description">
+                                {t("pages.ponentes.resumenes.keynoteVania")}
+                            </p>
                         </div>
                         <div className="miembro-comite ponente">
                             <img
@@ -72,6 +78,12 @@ const Ponentes = () => {
                             </p>
                             <p className="miembro-description">
                                 {t("pages.ponentes.description.nick")}
+                            </p>
+                            <p className="miembro-name">
+                                {t("pages.ponentes.tipos.keynoteNick")}
+                            </p>
+                            <p className="miembro-description">
+                                {t("pages.ponentes.resumenes.keynoteNick")}
                             </p>
                         </div>
                     </div>
@@ -439,6 +451,27 @@ const Ponentes = () => {
                                 {t("pages.ponentes.description.joao")}
                             </p>
                         </div>
+                        <div className="miembro-comite ponente">
+                            <img
+                                className="comite-img"
+                                src="/ponentes/jorge-prado.png"
+                                alt="Jorge Prado Casal"
+                            />
+                            <p className="miembro-name">Jorge Prado Casal</p>
+                            <p className="miembro-role speaker">
+                                {t("pages.ponentes.tipos.agoraSpeak")}
+                            </p>
+                            <p className="miembro-role">
+                                Conselleria de Sanidade / Servizo Galego de
+                                Saúde
+                            </p>
+                            <p className="miembro-role">
+                                {t("pages.ponentes.rol.jorge")}
+                            </p>
+                            <p className="miembro-description">
+                                {t("pages.ponentes.description.jorge")}
+                            </p>
+                        </div>
                     </div>
 
                     <h3>{t("pages.ponentes.tipos.agoraDomusVi")}</h3>
@@ -739,10 +772,10 @@ const Ponentes = () => {
                                 Ingeniería ABConsultores
                             </p>
                             <p className="miembro-role">
-                                {t("pages.ponentes.rol.name")}
+                                {t("pages.ponentes.rol.miguelAngel")}
                             </p>
                             <p className="miembro-description">
-                                {t("pages.ponentes.description.name")}
+                                {t("pages.ponentes.description.miguelAngel")}
                             </p>
                         </div>
                     </div>
@@ -872,10 +905,10 @@ const Ponentes = () => {
                             </p>
                             <p className="miembro-role">Xunta de Galicia</p>
                             <p className="miembro-role">
-                                {t("pages.ponentes.rol.name")}
+                                {t("pages.ponentes.rol.benigno")}
                             </p>
                             <p className="miembro-description">
-                                {t("pages.ponentes.description.name")}
+                                {t("pages.ponentes.description.benigno")}
                             </p>
                         </div>
                     </div>
@@ -1206,6 +1239,12 @@ const Ponentes = () => {
                             <p className="miembro-description">
                                 {t("pages.ponentes.description.silvia")}
                             </p>
+                            <p className="miembro-name">
+                                {t("pages.ponentes.tipos.proyectoXoia")}
+                            </p>
+                            <p className="miembro-description">
+                                {t("pages.ponentes.resumenes.proyectoXoia")}
+                            </p>
                         </div>
                         <div className="miembro-comite ponente">
                             <img
@@ -1235,6 +1274,37 @@ const Ponentes = () => {
                             </p>
                             <p className="miembro-description">
                                 {t("pages.ponentes.description.joseAntonio")}
+                            </p>
+                            <p className="miembro-name">
+                                {t("pages.ponentes.tipos.proyectoOcean")}
+                            </p>
+                            <p className="miembro-description">
+                                {t("pages.ponentes.resumenes.proyectoOcean")}
+                            </p>
+                        </div>
+                        <div className="miembro-comite ponente">
+                            <img
+                                className="comite-img"
+                                src="/ponentes/ricardo-boedo.png"
+                                alt="Ricardo Boedo Facal"
+                            />
+
+                            <p className="miembro-name">Ricardo Boedo Facal</p>
+                            <p className="miembro-role speaker">
+                                {t("pages.ponentes.tipos.proyecto")}
+                            </p>
+                            <p className="miembro-role">GSK</p>
+                            <p className="miembro-role">
+                                {t("pages.ponentes.rol.ricardo")}
+                            </p>
+                            <p className="miembro-description">
+                                {t("pages.ponentes.description.ricardo")}
+                            </p>
+                            <p className="miembro-name">
+                                {t("pages.ponentes.tipos.proyectoGSK")}
+                            </p>
+                            <p className="miembro-description">
+                                {t("pages.ponentes.resumenes.proyectoGSK")}
                             </p>
                         </div>
                     </div>

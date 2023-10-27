@@ -120,6 +120,12 @@ const PatrocinadoresSlide = () => {
                     </li>
                     <li>
                         <img
+                            src="/patrocinadores/negativos/promptly.png"
+                            alt="Promptly Health"
+                        />
+                    </li>
+                    <li>
+                        <img
                             src="/patrocinadores/negativos/balidea.png"
                             alt="Balidea"
                         />
@@ -158,6 +164,12 @@ const PatrocinadoresSlide = () => {
                         <img
                             src="/patrocinadores/negativos/pm4gov.png"
                             alt="PM4GOV"
+                        />
+                    </li>
+                    <li>
+                        <img
+                            src="/patrocinadores/negativos/gsk.png"
+                            alt="gsk"
                         />
                     </li>
                     <li>
@@ -325,6 +337,12 @@ const PatrocinadoresSlide = () => {
                     </li>
                     <li>
                         <img
+                            src="/patrocinadores/negativos/promptly.png"
+                            alt="Promptly Health"
+                        />
+                    </li>
+                    <li>
+                        <img
                             src="/patrocinadores/negativos/balidea.png"
                             alt="Balidea"
                         />
@@ -363,6 +381,12 @@ const PatrocinadoresSlide = () => {
                         <img
                             src="/patrocinadores/negativos/pm4gov.png"
                             alt="PM4GOV"
+                        />
+                    </li>
+                    <li>
+                        <img
+                            src="/patrocinadores/negativos/gsk.png"
+                            alt="GSK"
                         />
                     </li>
                     <li>

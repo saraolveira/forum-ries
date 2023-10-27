@@ -591,7 +591,25 @@ const PonentesBlock = () => {
                     </p>
                     <p className="miembro-role">Ingeniería ABConsultores</p>
                     <p className="miembro-role">
-                        {t("pages.ponentes.rol.name")}
+                        {t("pages.ponentes.rol.miguel")}
+                    </p>
+                </div>
+
+                <div className="miembro-comite">
+                    <img
+                        className="comite-img"
+                        src="/ponentes/jorge-prado.png"
+                        alt="Jorge Prado Casal"
+                    />
+                    <p className="miembro-name">Jorge Prado Casal</p>
+                    <p className="miembro-role speaker">
+                        {t("pages.ponentes.tipos.agoraSpeak")}
+                    </p>
+                    <p className="miembro-role">
+                        Conselleria de Sanidade / Servizo Galego de Saúde
+                    </p>
+                    <p className="miembro-role">
+                        {t("pages.ponentes.rol.jorge")}
                     </p>
                 </div>
 
@@ -759,7 +777,7 @@ const PonentesBlock = () => {
                     </p>
                     <p className="miembro-role">Xunta de Galicia</p>
                     <p className="miembro-role">
-                        {t("pages.ponentes.rol.name")}
+                        {t("pages.ponentes.rol.benigno")}
                     </p>
                 </div>
                 <div className="miembro-comite">
@@ -878,6 +896,22 @@ const PonentesBlock = () => {
                     <p className="miembro-role">Ocean Kube Environment</p>
                     <p className="miembro-role">
                         {t("pages.ponentes.rol.joseAntonio")}
+                    </p>
+                </div>
+                <div className="miembro-comite">
+                    <img
+                        className="comite-img"
+                        src="/ponentes/ricardo-boedo.png"
+                        alt="Ricardo Boedo Facal"
+                    />
+
+                    <p className="miembro-name">Ricardo Boedo Facal</p>
+                    <p className="miembro-role speaker">
+                        {t("pages.ponentes.tipos.proyecto")}
+                    </p>
+                    <p className="miembro-role">GSK</p>
+                    <p className="miembro-role">
+                        {t("pages.ponentes.rol.ricardo")}
                     </p>
                 </div>
             </div>

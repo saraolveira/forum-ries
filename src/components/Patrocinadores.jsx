@@ -106,6 +106,12 @@ const Patrocinadores = () => {
                 <a href="https://www.plexus.es/" target="_blank">
                     <img src="/patrocinadores/plexus.png" alt="Plexus" />
                 </a>
+                <a href="https://promptlyhealth.com/en" target="_blank">
+                    <img
+                        src="/patrocinadores/promptly.png"
+                        alt="Promptly Health"
+                    />
+                </a>
             </div>
             <h3>{t("patrocinios.ltype4")}</h3>
             <div className="block-patrocinadores">
@@ -155,6 +161,9 @@ const Patrocinadores = () => {
 
             <h3>{t("patrocinios.ltype7")}</h3>
             <div className="block-patrocinadores">
+                <a href="https://es.gsk.com/es-es/home/" target="_blank">
+                    <img src="/patrocinadores/gsk.png" alt="GSK" />
+                </a>
                 <a href="https://www.longevita.es/" target="_blank">
                     <img src="/patrocinadores/longevita.png" alt="Longevita" />
                 </a>

@@ -1181,6 +1181,10 @@ h3 {
   width: auto !important;
 }
 
+.miembro-name {
+  width: auto !important;
+}
+
 .miembro-comite .lkd {
   color: var(--color1);
   transition: all 0.2s ease;
