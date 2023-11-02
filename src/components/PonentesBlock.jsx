@@ -228,7 +228,7 @@ const PonentesBlock = () => {
                     </p>
                     <p className="miembro-role">Ferrovial</p>
                     <p className="miembro-role">
-                        {t("pages.ponentes.rol.joseDavid")}
+                        {t("pages.ponentes.rol.pablo")}
                     </p>
                 </div>
 
@@ -805,17 +805,17 @@ const PonentesBlock = () => {
                 <div className="miembro-comite">
                     <img
                         className="comite-img"
-                        src="/ponentes/manuel-bosch.png"
-                        alt="Manuel Bosch Arcos"
+                        src="/ponentes/david-dapena.png"
+                        alt="David Dapena Ortiz"
                     />
                     <a
-                        href="https://www.linkedin.com/in/manubosch/"
+                        href="https://www.linkedin.com/in/david-dapena-ortiz-a3407613/"
                         target="_blank"
                         className="lkd"
                     >
                         <FontAwesomeIcon icon={faLinkedin} />
                     </a>
-                    <p className="miembro-name">Manuel Bosch Arcos</p>
+                    <p className="miembro-name">David Dapena Ortiz</p>
                     <p className="miembro-role speaker">
                         {t("pages.ponentes.tipos.mesaS")}
                     </p>

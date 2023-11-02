@@ -724,10 +724,10 @@ const Ponentes = () => {
                             </p>
                             <p className="miembro-role">Ferrovial</p>
                             <p className="miembro-role">
-                                {t("pages.ponentes.rol.joseDavid")}
+                                {t("pages.ponentes.rol.pablo")}
                             </p>
                             <p className="miembro-description">
-                                {t("pages.ponentes.description.joseDavid")}
+                                {t("pages.ponentes.description.pablo")}
                             </p>
                         </div>
                         <div className="miembro-comite ponente">
@@ -1062,14 +1062,14 @@ const Ponentes = () => {
                         <div className="miembro-comite ponente">
                             <img
                                 className="comite-img"
-                                src="/ponentes/manuel-bosch.png"
-                                alt="Manuel Bosch Arcos"
+                                src="/ponentes/david-dapena.png"
+                                alt="David Dapena Ortiz"
                             />
 
                             <p className="miembro-name">
-                                Manuel Bosch Arcos{" "}
+                                David Dapena Ortiz{" "}
                                 <a
-                                    href="https://www.linkedin.com/in/manubosch/"
+                                    href="https://www.linkedin.com/in/david-dapena-ortiz-a3407613/"
                                     target="_blank"
                                     className="linkedin"
                                 >
