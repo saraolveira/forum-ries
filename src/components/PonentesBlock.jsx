@@ -561,6 +561,36 @@ const PonentesBlock = () => {
                 <div className="miembro-comite">
                     <img
                         className="comite-img"
+                        src="/ponentes/antonio-pose.png"
+                        alt="Antonio Pose Reino"
+                    />
+                    <p className="miembro-name">Antonio Pose Reino</p>
+                    <p className="miembro-role speaker">
+                        {t("pages.ponentes.tipos.agoraSpeak")}
+                    </p>
+                    <p className="miembro-role">Servizo Galego de Saúde</p>
+                    <p className="miembro-role">
+                        {t("pages.ponentes.rol.antonio")}
+                    </p>
+                </div>
+                <div className="miembro-comite">
+                    <img
+                        className="comite-img"
+                        src="/ponentes/jorge-aboal.png"
+                        alt="Jorge Aboal Viñas"
+                    />
+                    <p className="miembro-name">Jorge Aboal Viñas</p>
+                    <p className="miembro-role speaker">
+                        {t("pages.ponentes.tipos.agoraSpeak")}
+                    </p>
+                    <p className="miembro-role">Xunta de Galicia</p>
+                    <p className="miembro-role">
+                        {t("pages.ponentes.rol.jorgeAboal")}
+                    </p>
+                </div>
+                <div className="miembro-comite">
+                    <img
+                        className="comite-img"
                         src="/ponentes/francisco-javier-cobas.png"
                         alt="Francisco Javier Cobas Gamallo"
                     />
@@ -912,6 +942,70 @@ const PonentesBlock = () => {
                     <p className="miembro-role">GSK</p>
                     <p className="miembro-role">
                         {t("pages.ponentes.rol.ricardo")}
+                    </p>
+                </div>
+                <div className="miembro-comite">
+                    <img
+                        className="comite-img"
+                        src="/ponentes/luis-barros.png"
+                        alt="Luis Barros Ríos"
+                    />
+                    <a
+                        href="https://www.linkedin.com/in/luisbarrosrios/"
+                        target="_blank"
+                        className="lkd"
+                    >
+                        <FontAwesomeIcon icon={faLinkedin} />
+                    </a>
+
+                    <p className="miembro-name">Luis Barros Ríos</p>
+                    <p className="miembro-role speaker">
+                        {t("pages.ponentes.tipos.proyecto")}
+                    </p>
+                    <p className="miembro-role">Atendo</p>
+                    <p className="miembro-role">
+                        {t("pages.ponentes.rol.luis")}
+                    </p>
+                </div>
+
+                <div className="miembro-comite">
+                    <img
+                        className="comite-img"
+                        src="/ponentes/albert-creixell.png"
+                        alt="Albert Creixell Pons"
+                    />
+                    <a
+                        href="https://www.linkedin.com/in/acreixell/"
+                        target="_blank"
+                        className="lkd"
+                    >
+                        <FontAwesomeIcon icon={faLinkedin} />
+                    </a>
+
+                    <p className="miembro-name">Albert Creixell Pons</p>
+                    <p className="miembro-role speaker">
+                        {t("pages.ponentes.tipos.proyecto")}
+                    </p>
+                    <p className="miembro-role">Amazon</p>
+                    <p className="miembro-role">
+                        {t("pages.ponentes.rol.albertCreixell")}
+                    </p>
+                </div>
+
+                <div className="miembro-comite">
+                    <img
+                        className="comite-img"
+                        src="/ponentes/andrea-lopez.png"
+                        alt="Andrea López Sánchez"
+                    />
+
+                    <p className="miembro-name">Andrea López Sánchez</p>
+                    <p className="miembro-role speaker">
+                        {t("pages.ponentes.tipos.proyecto")}
+                    </p>
+                    <p className="miembro-role">IKEA</p>
+                    <p className="miembro-role">
+                        {t("pages.ponentes.rol.andrea")}
                     </p>
                 </div>
             </div>

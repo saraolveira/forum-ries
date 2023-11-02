@@ -251,7 +251,8 @@ const Ponentes = () => {
                                 </a>
                             </p>
                             <p className="miembro-role speaker">
-                                {t("pages.ponentes.tipos.agoraLead")}
+                                {t("pages.ponentes.tipos.agoraLead")} &{" "}
+                                {t("pages.ponentes.tipos.proyecto")}
                             </p>
                             <p className="miembro-role">Atendo</p>
                             <p className="miembro-role">
@@ -693,6 +694,44 @@ const Ponentes = () => {
                             </p>
                             <p className="miembro-description">
                                 {t("pages.ponentes.description.carlosCatalan")}
+                            </p>
+                        </div>
+                        <div className="miembro-comite ponente">
+                            <img
+                                className="comite-img"
+                                src="/ponentes/antonio-pose.png"
+                                alt="Antonio Pose Reino"
+                            />
+                            <p className="miembro-name">Antonio Pose Reino</p>
+                            <p className="miembro-role speaker">
+                                {t("pages.ponentes.tipos.agoraSpeak")}
+                            </p>
+                            <p className="miembro-role">
+                                Servizo Galego de Saúde
+                            </p>
+                            <p className="miembro-role">
+                                {t("pages.ponentes.rol.antonio")}
+                            </p>
+                            <p className="miembro-description">
+                                {t("pages.ponentes.description.antonio")}
+                            </p>
+                        </div>
+                        <div className="miembro-comite ponente">
+                            <img
+                                className="comite-img"
+                                src="/ponentes/jorge-aboal.png"
+                                alt="Jorge Aboal Viñas"
+                            />
+                            <p className="miembro-name">Jorge Aboal Viñas</p>
+                            <p className="miembro-role speaker">
+                                {t("pages.ponentes.tipos.agoraSpeak")}
+                            </p>
+                            <p className="miembro-role">Xunta de Galicia</p>
+                            <p className="miembro-role">
+                                {t("pages.ponentes.rol.jorgeAboal")}
+                            </p>
+                            <p className="miembro-description">
+                                {t("pages.ponentes.description.jorgeAboal")}
                             </p>
                         </div>
                     </div>
@@ -1305,6 +1344,151 @@ const Ponentes = () => {
                             </p>
                             <p className="miembro-description">
                                 {t("pages.ponentes.resumenes.proyectoGSK")}
+                            </p>
+                        </div>
+                        <div className="miembro-comite ponente">
+                            <img
+                                className="comite-img"
+                                src="/ponentes/angel-rodriguez.png"
+                                alt="Ángel Rodríguez Cerdeira"
+                            />
+
+                            <p className="miembro-name">
+                                Ángel Rodríguez Cerdeira
+                                <a
+                                    href="https://www.linkedin.com/in/angel-rodriguez-cerdeira/"
+                                    target="_blank"
+                                    className="linkedin"
+                                >
+                                    <FontAwesomeIcon icon={faLinkedin} />
+                                </a>
+                            </p>
+                            <p className="miembro-role speaker">
+                                {t("pages.ponentes.tipos.proyecto")}
+                            </p>
+                            <p className="miembro-role">Longevita</p>
+                            <p className="miembro-role">
+                                {t("pages.ponentes.rol.angel")}
+                            </p>
+                            <p className="miembro-description">
+                                {t("pages.ponentes.description.angel")}
+                                <br />
+                                {t("pages.ponentes.description.angel2")}
+                                <br />
+                                {t("pages.ponentes.description.angel3")}
+                                <br />
+                                {t("pages.ponentes.description.angel4")}
+                                <br />
+                                {t("pages.ponentes.description.angel5")}
+                            </p>
+                            <p className="miembro-name">
+                                {t(
+                                    "pages.ponentes.tipos.proyectoLongevitaAtendo"
+                                )}
+                            </p>
+                            <p className="miembro-description">
+                                {t(
+                                    "pages.ponentes.resumenes.proyectoLongevitaAtendo"
+                                )}
+                            </p>
+                        </div>
+                        <div className="miembro-comite ponente">
+                            <img
+                                className="comite-img"
+                                src="/ponentes/luis-barros.png"
+                                alt="Luis Barros Ríos"
+                            />
+
+                            <p className="miembro-name">
+                                Luis Barros Ríos{" "}
+                                <a
+                                    href="https://www.linkedin.com/in/luisbarrosrios/"
+                                    target="_blank"
+                                    className="linkedin"
+                                >
+                                    <FontAwesomeIcon icon={faLinkedin} />
+                                </a>
+                            </p>
+                            <p className="miembro-role speaker">
+                                {t("pages.ponentes.tipos.proyecto")}
+                            </p>
+                            <p className="miembro-role">Atendo</p>
+                            <p className="miembro-role">
+                                {t("pages.ponentes.rol.luis")}
+                            </p>
+                            <p className="miembro-description">
+                                {t("pages.ponentes.description.luis")}
+                            </p>
+                            <p className="miembro-name">
+                                {t(
+                                    "pages.ponentes.tipos.proyectoLongevitaAtendo"
+                                )}
+                            </p>
+                            <p className="miembro-description">
+                                {t(
+                                    "pages.ponentes.resumenes.proyectoLongevitaAtendo"
+                                )}
+                            </p>
+                        </div>
+
+                        <div className="miembro-comite ponente">
+                            <img
+                                className="comite-img"
+                                src="/ponentes/albert-creixell.png"
+                                alt="Albert Creixell Pons"
+                            />
+
+                            <p className="miembro-name">
+                                Albert Creixell Pons{" "}
+                                <a
+                                    href="https://www.linkedin.com/in/acreixell/"
+                                    target="_blank"
+                                    className="linkedin"
+                                >
+                                    <FontAwesomeIcon icon={faLinkedin} />
+                                </a>
+                            </p>
+                            <p className="miembro-role speaker">
+                                {t("pages.ponentes.tipos.proyecto")}
+                            </p>
+                            <p className="miembro-role">Amazon</p>
+                            <p className="miembro-role">
+                                {t("pages.ponentes.rol.albertCreixell")}
+                            </p>
+                            <p className="miembro-description">
+                                {t("pages.ponentes.description.albertCreixell")}
+                            </p>
+                            <p className="miembro-name">
+                                {t("pages.ponentes.tipos.proyectoAmazon")}
+                            </p>
+                            <p className="miembro-description">
+                                {t("pages.ponentes.resumenes.proyectoAmazon")}
+                            </p>
+                        </div>
+
+                        <div className="miembro-comite ponente">
+                            <img
+                                className="comite-img"
+                                src="/ponentes/andrea-lopez.png"
+                                alt="Andrea López Sánchez"
+                            />
+
+                            <p className="miembro-name">Andrea López Sánchez</p>
+                            <p className="miembro-role speaker">
+                                {t("pages.ponentes.tipos.proyecto")}
+                            </p>
+                            <p className="miembro-role">IKEA</p>
+                            <p className="miembro-role">
+                                {t("pages.ponentes.rol.andrea")}
+                            </p>
+                            <p className="miembro-description">
+                                {t("pages.ponentes.description.andrea")}
+                            </p>
+                            <p className="miembro-name">
+                                {t("pages.ponentes.tipos.proyectoIKEA")}
+                            </p>
+                            <p className="miembro-description">
+                                {t("pages.ponentes.resumenes.proyectoIKEA")}
                             </p>
                         </div>
                     </div>
