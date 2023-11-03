@@ -183,6 +183,19 @@ const Patrocinadores = () => {
                 <a href="https://adocdv.com/" target="_blank">
                     <img src="/patrocinadores/adoc.png" alt="ADOC" />
                 </a>
+                <a href="https://serviciomovil.com/" target="_blank">
+                    <img
+                        src="/patrocinadores/servicio-movil.png"
+                        alt="Servicio Móvil"
+                    />
+                </a>
+            </div>
+
+            <h3>{t("patrocinios.ltype9")}</h3>
+            <div className="block-patrocinadores">
+                <a href="https://ednon.com/" target="_blank">
+                    <img src="/patrocinadores/ednon.png" alt="EDNON" />
+                </a>
             </div>
 
             <h3>{t("patrocinios.ltype10")}</h3>

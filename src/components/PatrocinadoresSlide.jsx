@@ -191,12 +191,22 @@ const PatrocinadoresSlide = () => {
                         />
                     </li>
                     <li>
-                        <a href="https://adocdv.com/" target="_blank">
-                            <img
-                                src="/patrocinadores/negativos/adoc.png"
-                                alt="ADOC"
-                            />
-                        </a>
+                        <img
+                            src="/patrocinadores/negativos/adoc.png"
+                            alt="ADOC"
+                        />
+                    </li>
+                    <li>
+                        <img
+                            src="/patrocinadores/negativos/servicio-movil.png"
+                            alt="Servicio Móvil"
+                        />
+                    </li>
+                    <li>
+                        <img
+                            src="/patrocinadores/negativos/ednon.png"
+                            alt="EDNON"
+                        />
                     </li>
                     <li>
                         <img
@@ -205,12 +215,10 @@ const PatrocinadoresSlide = () => {
                         />
                     </li>
                     <li>
-                        <a href="https://www.unirisco.com/" target="_blank">
-                            <img
-                                src="/patrocinadores/negativos/unirisco.png"
-                                alt="Unirisco"
-                            />
-                        </a>
+                        <img
+                            src="/patrocinadores/negativos/unirisco.png"
+                            alt="Unirisco"
+                        />
                     </li>
                 </ul>
 
@@ -402,12 +410,22 @@ const PatrocinadoresSlide = () => {
                         />
                     </li>
                     <li>
-                        <a href="https://adocdv.com/" target="_blank">
-                            <img
-                                src="/patrocinadores/negativos/adoc.png"
-                                alt="ADOC"
-                            />
-                        </a>
+                        <img
+                            src="/patrocinadores/negativos/adoc.png"
+                            alt="ADOC"
+                        />
+                    </li>
+                    <li>
+                        <img
+                            src="/patrocinadores/negativos/servicio-movil.png"
+                            alt="Servicio Móvil"
+                        />
+                    </li>
+                    <li>
+                        <img
+                            src="/patrocinadores/negativos/ednon.png"
+                            alt="EDNON"
+                        />
                     </li>
                     <li>
                         <img
@@ -416,12 +434,10 @@ const PatrocinadoresSlide = () => {
                         />
                     </li>
                     <li>
-                        <a href="https://www.unirisco.com/" target="_blank">
-                            <img
-                                src="/patrocinadores/negativos/unirisco.png"
-                                alt="Unirisco"
-                            />
-                        </a>
+                        <img
+                            src="/patrocinadores/negativos/unirisco.png"
+                            alt="Unirisco"
+                        />
                     </li>
                 </ul>
             </div>
