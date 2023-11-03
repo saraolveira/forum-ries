@@ -586,6 +586,7 @@ i18n.use(LanguageDetector)
                         },
                         comite: {
                             comite: "#RIES23 Organizing Comitee",
+                            honorifico: "#RIES23 Honorific Comitee",
                             cta: "Discover all information about the #RIES23 Organizing Comitee",
                         },
                         ponentes: {
@@ -1036,6 +1037,7 @@ i18n.use(LanguageDetector)
                         },
                         comite: {
                             comite: "Comité Organizador #RIES23",
+                            honorifico: "Comité Honorifico #RIES23",
                             cta: "Descubre toda a información sobre o Comité Organizador #RIES23",
                         },
                         ponentes: {

@@ -13,6 +13,7 @@ import Info from "../components/Info.jsx"
 import Programa from "../components/Programa.jsx"
 import PonentesBlock from "../components/PonentesBlock.jsx"
 import Comite from "../components/Comite.jsx"
+import ComiteHonor from "../components/ComiteHonor.jsx"
 import MailChimpForm from "../components/MailChimpForm.jsx"
 import PatrocinadoresSlide from "../components/PatrocinadoresSlide.jsx"
 
@@ -34,6 +35,7 @@ const Home = () => {
             <PatrocinadoresSlide />
             <Programa hide={hide} />
             <PonentesBlock />
+            <ComiteHonor />
             <Comite />
             <Premios />
             <MailChimpForm />

@@ -1,5 +1,5 @@
 [
-    { 
+    {
         "comite": [
             {
                 "name": "Beatriz Díaz Lorenzo",
@@ -64,6 +64,44 @@
                 "role": "Presidente",
                 "description": "",
                 "img": "/comite/juancarlos-afaga.png"
+            }
+        ],
+        "honorifico": [
+            {
+                "name": "África González Fernández",
+                "img": "/ponentes/africa-gonzalez.png"
+            },
+            {
+                "name": "Antonio Acevedo Prado",
+                "img": "/ponentes/antonio-acevedo.png"
+            },
+            {
+                "name": "Patricia Argerey Vilar",
+                "img": "/ponentes/patricia-argerey.png"
+            },
+            {
+                "name": "Ángel Carracedo",
+                "img": "/ponentes/angel-carracedo.png"
+            },
+            {
+                "name": "Vânia de la Fuente-Núñez",
+                "img": "/ponentes/vania-de-la-fuente.png"
+            },
+            {
+                "name": "Julio Garcia Comesaña",
+                "img": "/ponentes/julio-garcia.png"
+            },
+            {
+                "name": "Nick Guldemond",
+                "img": "/ponentes/nick-guldemond.png"
+            },
+            {
+                "name": "Marcos Ortega Hortas",
+                "img": "/ponentes/marcos-ortega.png"
+            },
+            {
+                "name": "Antonio Pose Reino ",
+                "img": "/ponentes/antonio-pose.png"
             }
         ]
     }
