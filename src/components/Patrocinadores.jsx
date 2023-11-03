@@ -75,7 +75,7 @@ const Patrocinadores = () => {
                 </a>
                 <a href="https://www.usc.gal/es" target="_blank">
                     <img
-                        src="/patrocinadores/usc.jpg"
+                        src="/patrocinadores/usc.png"
                         alt="Universidade de Santiago de Compostela"
                     />
                 </a>
