@@ -860,6 +860,13 @@ const PonentesBlock = () => {
                         src="/ponentes/bruno-gonzalez.png"
                         alt="Bruno González Zorn"
                     />
+                    <a
+                        href="https://www.linkedin.com/in/bruno-gonzalez-zorn-21214a/"
+                        target="_blank"
+                        className="lkd"
+                    >
+                        <FontAwesomeIcon icon={faLinkedin} />
+                    </a>
                     <p className="miembro-name">Bruno González Zorn</p>
                     <p className="miembro-role speaker">
                         {t("pages.ponentes.tipos.mesaS")}
