@@ -58,6 +58,12 @@ const Navbar = () => {
                     <Link to="/ponentes">{t("links.speakers")}</Link>
                     <Link to="/patrocinios">{t("menu.sponsors")}</Link>
                     <Link to="/premios">{t("menu.awards")}</Link>
+                    <a
+                        href="https://feitizo.pic-time.com/lzSumY5tZZ57T"
+                        target="_blank"
+                    >
+                        Galeria
+                    </a>
                     <div id="language-selector">
                         {Object.keys(lngs).map((lng) => (
                             <button
