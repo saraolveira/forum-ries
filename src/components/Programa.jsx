@@ -209,7 +209,7 @@ const Programa = ({ hide }) => {
                             <td>
                                 {t("pages.ponentes.tipos.agoraGradiant")} |{" "}
                                 {t("pages.ponentes.tipos.agoraFerrovial")} |{" "}
-                                {t("program23.pitch")}
+                                {t("pages.ponentes.tipos.proyectoXoia")}
                             </td>
                         </tr>
                         <tr className={`${hide ? "extra-no" : "extra"} `}>
@@ -219,7 +219,8 @@ const Programa = ({ hide }) => {
                             <td>
                                 {t("pages.ponentes.tipos.agoraPlexus")} |{" "}
                                 {t("pages.ponentes.tipos.agoraDomusVi")} |{" "}
-                                {t("program23.pitch")}
+                                {t("pages.ponentes.tipos.proyectoGSK")}  |{" "}
+                                {t("pages.ponentes.tipos.proyectoOcean")}
                             </td>
                         </tr>
                         <tr
@@ -233,7 +234,7 @@ const Programa = ({ hide }) => {
                             <td>
                                 {t("pages.ponentes.tipos.agoraITGALL")} |{" "}
                                 {t("pages.ponentes.tipos.agoraRibera")} |{" "}
-                                {t("program23.pitch")}
+                                {t("pages.ponentes.tipos.proyectoLongevitaAtendo")}
                             </td>
                         </tr>
                         <tr>

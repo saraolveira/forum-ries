@@ -19,6 +19,7 @@ const ProgramaPage = () => {
                 <Programa />
 
                 <div className="patrocinio-links">
+                    <a href="/Programa_RIES23.pdf" target="_blank">{t("pages.ponentes.programa")}</a>
                     <Link to="/ponentes">{t("pages.ponentes.cta")}</Link>
                 </div>
             </div>

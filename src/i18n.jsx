@@ -141,6 +141,7 @@ i18n.use(LanguageDetector)
                         ponentes: {
                             ponentes: "Ponentes #RIES23",
                             cta: "Descubre todos los ponentes de #RIES23",
+                            programa: "Descarga el programa completo",
                             tipos: {
                                 keynote: "Keynote",
                                 keynotes: "Keynotes",
@@ -189,7 +190,7 @@ i18n.use(LanguageDetector)
                                 joseManuel: "Socio director",
                                 maria: "Coordinador de la Estrategia de Medicina Personalizada de Galicia",
                                 mariona: "Jefa de Sección Terapia Celular",
-                                marcos: "Cordinador del Nodo de IA de la UDC",
+                                marcos: "Coordinador del Nodo de IA de la UDC",
                                 angel: "Responsable de Transformación Digital",
                                 nieves: "Asistente de coordinación ITGALL",
                                 cristofol: "Project Manager Innovación",
@@ -439,7 +440,7 @@ i18n.use(LanguageDetector)
                         day8: "Jornada 8 de noviembre",
                         hour8: "16:00 - 02:00 (+1 DÍA) CET",
                         p81: "Presentación de resultados de Senior Eco-Nect (#SEN) (en Museo Verbum - Casa de las Palabras)",
-                        p82: "Inauguración de #RIES23 e intervención de Hermandades #RIES23",
+                        p82: "Inauguración #RIES23 con el Conselleiro de Sanidade (Señor Conselleiro Julio García Comesaña) y la Presidenta del CSG (Rocío Mosquera)",
                         p83: "Entrega de Premios #RIES23 y buenas prácticas #SEN",
                         p84: "Cierre de premios y paso a cena",
                         p85: "Cena de gala",
@@ -592,6 +593,7 @@ i18n.use(LanguageDetector)
                         ponentes: {
                             ponentes: "#RIES23 Speakers",
                             cta: "Discover all #RIES23 Speakers",
+                            programa: "Download the full program",
                             tipos: {
                                 keynote: "Keynote Speaker",
                                 keynotes: "Keynote Speakers",
@@ -889,7 +891,7 @@ i18n.use(LanguageDetector)
                         day8: "November 8th Session",
                         hour8: "16:00 - 02:00 (+1 DAY) CET",
                         p81: "Presentation of Senior Eco-Nect (#SEN) results (at Museo Verbum - Casa de las Palabras)",
-                        p82: "Opening #RIES23 and statement from the #RIES23 Twinnings",
+                        p82: "Opening #RIES23",
                         p83: "#RIES23 awards and #SEN good practices ceremony",
                         p84: "Closing of awards and on to dinner",
                         p85: "Gala dinner",
@@ -1043,6 +1045,7 @@ i18n.use(LanguageDetector)
                         ponentes: {
                             ponentes: "Relatores #RIES23",
                             cta: "Descubre todos os relatores de #RIES23",
+                            programa: "Descarga o programa completo",
                             tipos: {
                                 keynote: "Keynote",
                                 keynotes: "Keynotes",
@@ -1203,7 +1206,7 @@ i18n.use(LanguageDetector)
                         day8: "Xornada 8 de novembro",
                         hour8: "16:00 - 02:00 (+1 DÍA) CET",
                         p81: "Presentación de resultados de Senior Eco-Nect (#SEN) (en Museo Verbum - Casa das Palabras)",
-                        p82: "Inauguración de #RIES23 e intervención de Irmandades #RIES23",
+                        p82: "Inauguración #RIES23 co Conselleiro de Sanidade (Señor Conselleiro Julio García Comesaña) e la Presidenta do CSG (Rocío Mosquera)",
                         p83: "Entrega de Premios #RIES23 e boas prácticas #SEN",
                         p84: "Fin de premios e paso a cea",
                         p85: "Cea de gala",
