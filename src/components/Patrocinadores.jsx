@@ -106,12 +106,6 @@ const Patrocinadores = () => {
                 <a href="https://www.plexus.es/" target="_blank">
                     <img src="/patrocinadores/plexus.png" alt="Plexus" />
                 </a>
-                <a href="https://promptlyhealth.com/en" target="_blank">
-                    <img
-                        src="/patrocinadores/promptly.png"
-                        alt="Promptly Health"
-                    />
-                </a>
             </div>
             <h3>{t("patrocinios.ltype4")}</h3>
             <div className="block-patrocinadores">
@@ -122,6 +116,12 @@ const Patrocinadores = () => {
                     <img
                         src="/patrocinadores/insati.png"
                         alt="Insati Innovation"
+                    />
+                </a>
+                <a href="https://promptlyhealth.com/en" target="_blank">
+                    <img
+                        src="/patrocinadores/promptly.png"
+                        alt="Promptly Health"
                     />
                 </a>
                 <a href="https://qida.es/" target="_blank">

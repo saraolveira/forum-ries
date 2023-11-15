@@ -51,6 +51,7 @@ i18n.use(LanguageDetector)
                     },
                     premios: {
                         awards: "Premios RIES",
+                        twentythree: "Premios #RIES23",
                         twentytwo: "Premios #RIES22",
                         twentyone: "Premios #RIES21",
                         cta: "Participa en los Premios #RIES23 y descubre todos los premiados",
@@ -502,6 +503,7 @@ i18n.use(LanguageDetector)
                     },
                     premios: {
                         awards: "RIES Awards",
+                        twentythree: "#RIES23 Awards",
                         twentytwo: "#RIES22 Awards",
                         twentyone: "#RIES21 Awards",
                         cta: "Take part in the #RIES23 Awards and discover all awarded projects",
@@ -954,6 +956,7 @@ i18n.use(LanguageDetector)
                     },
                     premios: {
                         awards: "Premios RIES",
+                        twentythree: "Premios #RIES23",
                         twentytwo: "Premios #RIES22",
                         twentyone: "Premios #RIES21",
                         cta: "Participa nos Premios #RIES23 e descubre todos os premiados",

@@ -1003,7 +1003,7 @@ h3 {
     list-style-image: url("/icono-lista.png") ;
 }
 
-#premios-22, #premios-21 {
+#premios-22, #premios-21, #premios-23 {
   width:100vw;
   display: flex;
   flex-wrap: wrap;
@@ -1645,7 +1645,7 @@ h3 {
     margin-left: 5vw;
   }
 
-  #premios-22, #premios-21 {
+  #premios-22, #premios-21, #premios-23 {
     width: 65vw;
   }
 
@@ -1987,7 +1987,7 @@ h3 {
     width: 20vh;
   }
 
-  #premios-22, #premios-21 {
+  #premios-22, #premios-21, #premios-23 {
     justify-content: center;
     gap: 3vw;
   }

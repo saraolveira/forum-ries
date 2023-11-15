@@ -118,12 +118,7 @@ const PatrocinadoresSlide = () => {
                             alt="Plexus"
                         />
                     </li>
-                    <li>
-                        <img
-                            src="/patrocinadores/negativos/promptly.png"
-                            alt="Promptly Health"
-                        />
-                    </li>
+
                     <li>
                         <img
                             src="/patrocinadores/negativos/balidea.png"
@@ -140,6 +135,12 @@ const PatrocinadoresSlide = () => {
                         <img
                             src="/patrocinadores/negativos/insati.png"
                             alt="Insati Innovation"
+                        />
+                    </li>
+                    <li>
+                        <img
+                            src="/patrocinadores/negativos/promptly.png"
+                            alt="Promptly Health"
                         />
                     </li>
                     <li>
@@ -339,12 +340,6 @@ const PatrocinadoresSlide = () => {
                     </li>
                     <li>
                         <img
-                            src="/patrocinadores/negativos/promptly.png"
-                            alt="Promptly Health"
-                        />
-                    </li>
-                    <li>
-                        <img
                             src="/patrocinadores/negativos/balidea.png"
                             alt="Balidea"
                         />
@@ -359,6 +354,12 @@ const PatrocinadoresSlide = () => {
                         <img
                             src="/patrocinadores/negativos/insati.png"
                             alt="Insati Innovation"
+                        />
+                    </li>
+                    <li>
+                        <img
+                            src="/patrocinadores/negativos/promptly.png"
+                            alt="Promptly Health"
                         />
                     </li>
                     <li>
